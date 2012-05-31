@@ -57,3 +57,24 @@ end
 # See https://github.com/cucumber/cucumber-rails/blob/master/features/choose_javascript_database_strategy.feature
 Cucumber::Rails::Database.javascript_strategy = :truncation
 
+###########################################################################adding
+=begin
+require 'capybara'
+require 'capybara/cucumber'
+require 'rspec'
+require 'selenium/webdriver'
+
+caps = Selenium::WebDriver::Remote::Capabilities.firefox
+caps.version = "8"
+caps.platform = :WINDOWS
+
+Capybara.default_driver = :selenium
+Capybara.register_driver :selenium do |app|
+Capybara::Selenium::Driver.new(app,
+                                 :browser => :remote,
+                                 :url => "http://www.baidu.com",
+                                 :desired_capabilities => caps)
+end
+
+http://blog.testingbot.com/2012/02/19/selenium-cucumber-capybara
+=end
