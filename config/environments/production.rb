@@ -30,7 +30,7 @@ AutomationRails::Application.configure do
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
-  # See everything in the log (default is :info)
+  # See everything in the log (default is :info.yml)
   # config.log_level = :debug
 
   # Prepend all log lines with the following tags
