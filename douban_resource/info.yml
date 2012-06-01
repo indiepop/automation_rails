@@ -1,2 +1,2 @@
-username: josh.yang@gmail.com
-password: yz
+default: {账  号: 'josh.yangzhuo@gmail.com',密  码: 'zy'}
+server : 'www.douban.com'
