@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\douban_core\initialization.rb" afterPath="$PROJECT_DIR$/douban_core/Initialization.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/douban_core/Initialization.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/douban_core/Initialization.rb" afterPath="$PROJECT_DIR$/douban_core/Initialization.rb" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +73,7 @@
       <file leaf-file-name="Initialization.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/douban_core/Initialization.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="0.7247098">
+            <state line="22" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.69320065">
               <folding />
             </state>
           </provider>
@@ -861,7 +860,11 @@
       <created>1338536321473</created>
       <updated>1338536321473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0601">
+      <created>1338536687220</created>
+      <updated>1338536687220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1052,7 +1055,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/douban_core/Initialization.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="0.7247098">
+        <state line="22" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.69320065">
           <folding />
         </state>
       </provider>
