@@ -1,7 +1,22 @@
+
+
+require 'pathname'
+$:.unshift(Pathname.new(File.dirname(__FILE__)).parent.realpath)
+
+
+
+
+require "douban_core/requirement_list"
+require "douban_core/SeleniumUtils"
+
+
+include WCF::Components
+include WCF::Utils
+
 class Initialization
   def self.start
-    $browser = SeleniumUtils.for :firefox, :profile => "max"
-    $browser.maximize_window
-    $browser.navigate.to $config['server']
+    $browser = SeleniumUtils.for :ie
+#    $browser.maximize_window
+    $browser.navigate.to $info['server']
   end
 end
