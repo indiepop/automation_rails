@@ -78,3 +78,4 @@ end
 
 http://blog.testingbot.com/2012/02/19/selenium-cucumber-capybara
 =end
+
