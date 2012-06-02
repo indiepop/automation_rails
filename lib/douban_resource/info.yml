@@ -1,0 +1,2 @@
+default: {username: 'myindiepop@126.com',password: 'joshtesting'}
+server : 'www.douban.com'

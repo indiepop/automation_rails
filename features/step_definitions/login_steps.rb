@@ -1,20 +1,22 @@
-Given /^Open '(.+)' page using (\w+) credential$/ do |site,credentials|
-  Given "opened '#{site}' page using credential:", table(%{
-    | User     | #{$info[credentials]['form_email']}     |
-    | Password | #{$info[credentials]['form_password']} |
-  })
-end
+require "douban_core/Initialization"
 
-Given /^opened '(.+)' page using credential:/ do |site,credentials|
-  # open the browser if it's not exist
+Given /^I Open main page using (#{USING_CREDENTIAL})$/ do  |table|
+
   unless $browser
     Initialization.start
   end
-  credentials.rows_hash.each do |key,value|
-    And "I type '#{value}' in '#{key}' field"
+
+  login = $browser.is_element_present(logout='//div[@class="top-nav-info"]/a[3]')
+  if login
+    $browser.find_element(:xpath,logout).click
   end
-#  When "I click 'Login' button"
-#  Then "'Welcome' screen should be displayed"
-#  Given "opened '#{screen}' screen"
+
+  table.rows_hash.each do |key,value|
+    step "I type '#{value}' in '#{key}' field"
+  end
+
+
 end
+
+
 

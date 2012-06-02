@@ -1,4 +1,3 @@
-require "douban_core/base_classes/Container"
 module WCF
   module Components
 
