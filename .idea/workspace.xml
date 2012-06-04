@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/douban_features/support/env.rb" />
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\features\douban_demo\find_the_group.feature" afterPath="$PROJECT_DIR$/douban_features/douban_demo/demo.feature" />
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\features\step_definitions\common\click_steps.rb" afterPath="$PROJECT_DIR$/douban_features/step_definitions/common/click_steps.rb" />
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\features\step_definitions\common\fill_steps.rb" afterPath="$PROJECT_DIR$/douban_features/step_definitions/common/fill_steps.rb" />
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\features\step_definitions\login_steps.rb" afterPath="$PROJECT_DIR$/douban_features/step_definitions/login_steps.rb" />
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\features\support\get_feature_env.rb" afterPath="$PROJECT_DIR$/douban_features/support/get_feature_env.rb" />
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\features\support\transforms.rb" afterPath="$PROJECT_DIR$/douban_features/support/transforms.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
     </list>
@@ -62,7 +55,7 @@
       <file leaf-file-name="env.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="119" selection-start="660" selection-end="660" vertical-scroll-proportion="-0.8208955">
+            <state line="65" column="79" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.54116356">
               <folding />
             </state>
           </provider>
@@ -685,14 +678,18 @@
       <created>1338636960500</created>
       <updated>1338636960500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0604|success">
+      <created>1338776530474</created>
+      <updated>1338776530474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -861,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="119" selection-start="660" selection-end="660" vertical-scroll-proportion="-0.8208955">
+        <state line="65" column="79" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.54116356">
           <folding />
         </state>
       </provider>
