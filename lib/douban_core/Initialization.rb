@@ -7,7 +7,7 @@ include WCF::Utils
 
 class Initialization
   def self.start
-    $browser = SeleniumUtils.for :ie
+    $browser = SeleniumUtils.for $info['browser'].to_sym
     $browser.maximize_window
     $browser.navigate.to $info['server']
   end

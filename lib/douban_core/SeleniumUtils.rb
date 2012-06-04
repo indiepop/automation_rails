@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'selenium-webdriver'
+require 'selenium/webdriver'
 
 
 module WCF
@@ -7,6 +7,7 @@ module WCF
 
     # Additional tools that can be useful dealing with Selenium::SeleniumDriver.
     # @author Oleksii Matiiasevych, lastperson@gmail.com
+    # example: SeleniumUtils.for :ff,opts={:timeout=>60000}}
     class SeleniumUtils < Selenium::WebDriver::Driver
 
       def self.for(browser, opts = {})

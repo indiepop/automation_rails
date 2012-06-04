@@ -1,76 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="0602">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/common/click_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/transforms.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Action.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/BorderBox.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Button.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Calendar.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Chart.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/CheckBox.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Collapsible.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/CollapsibleTreeElement.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/ColumnTopology.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/ColumnTopologyGroupNode.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/ColumnTopologyNode.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Cylinder.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Dialog.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/ExtDialog.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/FlowGauge.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/GridWcfTable.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/GridWcfTableRow.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/HorizontalBar.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Icon.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/InlineTextEditor.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Input.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Inventory.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/LegacyTextarea.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/LegacyTrees.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Link.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/MessageButton.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Metric.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/MetricIndicator.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/MetricList.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Panel.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Popup.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/PopupMenu.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/PrmPopupContainer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/RadioBox.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/SearchField.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Select.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Spinner.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Tab.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Text.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/TileBox.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Tree.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/TreeElement.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/TreeWcfTable.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/TreeWcfTableElement.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/Upload.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/VerticalBar.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/AlarmSummaryView.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/CalendarForm.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/Customizer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/Grid.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/GridRow.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/HeaderText.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/MenuBox.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/RadioBox.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/Table.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/douban_core/components/legacy/TabledText.rb" />
+    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/douban_demo/find_the_group.feature" afterPath="$PROJECT_DIR$/features/douban_demo/find_the_group.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/login_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/get_feature_env.rb" afterPath="$PROJECT_DIR$/features/support/get_feature_env.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/douban_core/Initialization.rb" afterPath="$PROJECT_DIR$/lib/douban_core/Initialization.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/douban_core/components/DwrContainer.rb" afterPath="$PROJECT_DIR$/lib/douban_core/components/DwrContainer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/douban_core/components/DwrElement.rb" afterPath="$PROJECT_DIR$/lib/douban_core/components/DwrElement.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/douban_core/requirement_list.rb" afterPath="$PROJECT_DIR$/lib/douban_core/requirement_list.rb" />
-      <change type="MOVED" beforePath="G:\rubywork\rubymine_work\automation_rails\douban_resource\info.yml" afterPath="$PROJECT_DIR$/lib/douban_resource/info.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/douban_core/SeleniumUtils.rb" afterPath="$PROJECT_DIR$/lib/douban_core/SeleniumUtils.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/douban_resource/info.yml" afterPath="$PROJECT_DIR$/lib/douban_resource/info.yml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,28 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="find_the_group.feature" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/douban_demo/find_the_group.feature">
+      <file leaf-file-name="login_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="49" selection-start="127" selection-end="127" vertical-scroll-proportion="0.164859">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Element.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/douban_core/base_classes/Element.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fill_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/common/fill_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="94" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+            <state line="17" column="73" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="click_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/common/click_steps.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="106" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,7 +60,7 @@
       <file leaf-file-name="Initialization.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/douban_core/Initialization.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="22" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,25 +69,25 @@
       <file leaf-file-name="SeleniumUtils.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/douban_core/SeleniumUtils.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="68" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0">
+            <state line="10" column="48" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Link.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Link.rb">
+      <file leaf-file-name="driver.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://G:/Ruby192/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.21.2/lib/selenium/webdriver/common/driver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="50" selection-start="401" selection-end="401" vertical-scroll-proportion="0.033391915">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Screen.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Screen.rb">
+      <file leaf-file-name="hash.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/hash.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="468" column="9" selection-start="16894" selection-end="16908" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,22 +107,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/douban_core/base_classes/Container.rb" />
-        <option value="$PROJECT_DIR$/douban_core/requirement_list.rb" />
-        <option value="$PROJECT_DIR$/douban_core/SeleniumUtils.rb" />
         <option value="$PROJECT_DIR$/douban_core/Init.rb" />
         <option value="$PROJECT_DIR$/douban_core/base_classes/Element.rb" />
         <option value="$PROJECT_DIR$/douban_core/components/DwrElement.rb" />
         <option value="$PROJECT_DIR$/douban_core/Initialization.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/lib/douban_core/Initialization.rb" />
         <option value="$PROJECT_DIR$/features/support/get_feature_env.rb" />
         <option value="$PROJECT_DIR$/features/douban_demo/find_the_group.feature" />
         <option value="$PROJECT_DIR$/features/support/transforms.rb" />
-        <option value="$PROJECT_DIR$/lib/douban_resource/info.yml" />
-        <option value="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
         <option value="$PROJECT_DIR$/lib/douban_core/requirement_list.rb" />
         <option value="$PROJECT_DIR$/lib/douban_core/components/DwrElement.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/common/click_steps.rb" />
+        <option value="$PROJECT_DIR$/lib/douban_core/components/Button.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
+        <option value="$PROJECT_DIR$/lib/douban_core/Initialization.rb" />
+        <option value="$PROJECT_DIR$/lib/douban_resource/info.yml" />
+        <option value="$PROJECT_DIR$/lib/douban_core/SeleniumUtils.rb" />
       </list>
     </option>
   </component>
@@ -238,6 +158,26 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,28 +257,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="douban_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="douban_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,37 +360,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -800,12 +698,12 @@
       <method />
     </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.find_group" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Production: automation_rails" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.db:create" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.cucumber:all" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:create" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.cucumber:all" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.find_group" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Production: automation_rails" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
       <item index="6" class="java.lang.String" itemvalue="Rake.test" />
       <item index="7" class="java.lang.String" itemvalue="Rake.spec" />
     </list>
@@ -855,22 +753,26 @@
       <created>1338616576328</created>
       <updated>1338616576328</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0602|success">
+      <created>1338636960500</created>
+      <updated>1338636960500</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="764" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31574675" sideWeight="0.79375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33441558" sideWeight="0.48701298" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.512987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -919,7 +821,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="0602" />
+    <option name="LAST_COMMIT_MESSAGE" value="0602|success" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -935,115 +837,90 @@
     <MESSAGE value="0531" />
     <MESSAGE value="0601" />
     <MESSAGE value="0602" />
+    <MESSAGE value="0602|success" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/Ruby192/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.21.2/lib/selenium/webdriver/common/search_context.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="10" selection-start="1208" selection-end="1208" vertical-scroll-proportion="2.0638978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/get_feature_env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/CucumberUtils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/CheckBox.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/common/fill_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="94" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Link.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/requirement_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/DwrContainer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Screen.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/common/click_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="106" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/SeleniumUtils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="68" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/Initialization.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/douban_core/base_classes/Element.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="22" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_core/base_classes/Object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/douban_core/components/DwrElement.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="686" selection-end="686" vertical-scroll-proportion="0.6785714">
-          <folding />
-        </state>
+        <state line="4" column="27" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/douban_demo/find_the_group.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/common/click_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="127" selection-end="127" vertical-scroll-proportion="0.164859">
+        <state line="10" column="42" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://G:/Ruby192/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.21.2/lib/selenium-webdriver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Button.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="128" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Icon.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.13181019" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_resource/info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="84" selection-end="84" vertical-scroll-proportion="0.033391915" />
+      </provider>
+    </entry>
+    <entry file="file://G:/Ruby192/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.21.2/lib/selenium/webdriver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="159" selection-end="159" vertical-scroll-proportion="0.03417266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="73" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_core/requirement_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="70" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_core/Initialization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/douban_core/SeleniumUtils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/hash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="468" column="9" selection-start="16894" selection-end="16908" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://G:/Ruby192/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.21.2/lib/selenium/webdriver/common/driver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="401" selection-end="401" vertical-scroll-proportion="0.033391915">
           <folding />
         </state>
       </provider>
