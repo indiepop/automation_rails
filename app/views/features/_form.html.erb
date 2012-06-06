@@ -13,15 +13,16 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.select :name,@feature_name  %>
+    <%= f.select :name,@feature_name ,:prompt=> "Please select a Feature ..."  %>
   </div>
   <div class="field">
-    <%= f.label :type %><br />
+    <%= f.label :sort %><br />
     <%#= f.select :type, FeatureType.all.collect{|p|[p.name,p.id]},{:prompt => 'Please select types ...'} %>
     <%=
-        @feature_types=FeatureType.order(:id).all
-        f.collection_select(:type,@feature_types,:id,:name,:prompt=>'Please select types ...')
+        @sorts=Sort.order(:id).all
+        f.collection_select(:sort,@sorts,:id,:name,:prompt=>'Please select types ...')
     %>
+
   </div>
   <div class="field">
     <%= f.label :description %><br />

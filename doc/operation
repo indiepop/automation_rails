@@ -1,0 +1,3 @@
+rails -g scaffold feature name:text sort:string description:text author:string remark:text
+
+rails -g model feature_type name

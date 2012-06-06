@@ -26,7 +26,7 @@ class FeaturesController < ApplicationController
   def new
     @feature = Feature.new
     all_features= Dir.glob "**/*.feature"
-    db_features= Feature.select("name").all
+    db_features= Feature.select("name").all.reverse
     @feature_name= all_features - db_features
     respond_to do |format|
       format.html # new.html.erb

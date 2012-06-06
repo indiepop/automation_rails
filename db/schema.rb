@@ -17,18 +17,18 @@ ActiveRecord::Schema.define(:version => 20120606061912) do
     t.string "name"
   end
 
-  create_table "feature_types", :force => true do |t|
-    t.string "name"
-  end
-
   create_table "features", :force => true do |t|
     t.text     "name"
-    t.integer  "type"
+    t.integer  "sort"
     t.text     "description"
     t.integer  "author"
     t.text     "remark"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "sorts", :force => true do |t|
+    t.string "name"
   end
 
 end
