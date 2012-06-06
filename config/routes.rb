@@ -1,4 +1,6 @@
 AutomationRails::Application.routes.draw do
+  resources :features
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -47,8 +49,8 @@ AutomationRails::Application.routes.draw do
   #   end
 
   # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  # just remember to delete public/No_index.html.
+   root :to => 'features#index'
 
   # See how all your routes lay out with "rake routes"
 
