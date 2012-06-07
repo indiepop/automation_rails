@@ -13,14 +13,18 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.select :name,@feature_name ,:prompt=> "Please select a Feature ..."  %>
+    <% if @edit_told   %>
+        <%= f.select :name,@edit_told %>
+        <% else %>
+    <%= f.select :name,@feature_name.to_a ,:prompt=> @prompt  %>
+        <% end %>
   </div>
   <div class="field">
     <%= f.label :sort %><br />
     <%#= f.select :type, FeatureType.all.collect{|p|[p.name,p.id]},{:prompt => 'Please select types ...'} %>
     <%=
-        @sorts=Sort.order(:id).all
-        f.collection_select(:sort,@sorts,:id,:name,:prompt=>'Please select types ...')
+        @sorts=Sort.order(:sort_id).all
+        f.collection_select(:sort,@sorts,:sort_id,:name,:prompt=>'Please select types ...')
     %>
 
   </div>
@@ -30,10 +34,10 @@
   </div>
   <div class="field">
     <%= f.label :author %><br />
-    <%#= f.select :author,Author.all.collect{|p|[p.name,p.id]},{:prompt => 'Please select author ...'} %>
+    <%#= f.select :author,Author.all.collect{|p|[p.name,p.id]}, {:prompt => 'Please select author ...'} %>
     <%=
-        @authors=Author.order(:id).all
-        f.collection_select(:author,@authors,:id,:name,:prompt=>'Please select an author ...')
+        @authors=Author.order(:author_id).all
+        f.collection_select(:author,@authors,:author_id,:name,:prompt=>'Please select an author ...')
     %>
   </div>
   <div class="field">

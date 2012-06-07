@@ -7,7 +7,7 @@
 
 <p>
   <b>Sort:</b>
-  <%= @feature.sort %>
+  <%=  Sort.where('sort_id' => @feature.sort).first.name %>
 </p>
 
 <p>
@@ -17,7 +17,7 @@
 
 <p>
   <b>Author:</b>
-  <%= @feature.author %>
+  <%=Author.where('author_id' => @feature.author).first.name %>
 </p>
 
 <p>

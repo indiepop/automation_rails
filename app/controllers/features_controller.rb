@@ -26,8 +26,11 @@ class FeaturesController < ApplicationController
   def new
     @feature = Feature.new
     all_features= Dir.glob "**/*.feature"
-    db_features= Feature.select("name").all.reverse
-    @feature_name= all_features - db_features
+    db_features = Array.new
+    Feature.find_each{|t| db_features<<t.name}          #get the to the array from db with names
+        @feature_name= all_features - db_features
+    @feature_name.empty?  ? @prompt= "Sorry ,there is no feature need to be created ..."  :  @prompt= "Please select a Feature ..."        # 判断是否有需要添加的feature
+
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @feature }
@@ -37,6 +40,7 @@ class FeaturesController < ApplicationController
   # GET /features/1/edit
   def edit
     @feature = Feature.find(params[:id])
+    @edit_told= [Feature.find(params[:id]).name]
   end
 
   # POST /features
@@ -81,5 +85,8 @@ class FeaturesController < ApplicationController
       format.html { redirect_to features_url }
       format.json { head :no_content }
     end
+  end
+  def execute
+      `cucumber`
   end
 end

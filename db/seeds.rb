@@ -9,5 +9,5 @@
 Sort.delete_all
 Author.delete_all
 
-sorts=Sort.create([{name:'demo'},{name:'function'}])
-authors=Author.create([{name:'Josh Yang'}])
+sorts=Sort.create([{sort_id:1,name:'demo'},{sort_id:2,name:'function'}])
+authors=Author.create([{author_id:1,name:'Josh Yang'}])
