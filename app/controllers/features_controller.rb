@@ -1,6 +1,10 @@
 class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
+  @@appear=false
+  before_filter :appear_sub,:only => [:execute]
+  after_filter :disappear_sub ,:only => [:index]
+
   def index
     @features = Feature.all
 
@@ -87,6 +91,22 @@ class FeaturesController < ApplicationController
     end
   end
   def execute
-      `cucumber`
+      @feature = Feature.find(params[:id])
+      `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
+       redirect_to features_path
+       #render :template => "features/index"
   end
+  def report
+    @feature = Feature.find(params[:id])
+    `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
+     send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
+  end
+private
+  def appear_sub
+    $appear= true
+  end
+  def disappear_sub
+    $appear= false
+  end
+
 end

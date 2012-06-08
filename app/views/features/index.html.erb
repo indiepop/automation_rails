@@ -1,6 +1,6 @@
 <h1>Listing features</h1>
 
-<table>
+<table style="width: 1000px">
   <tr>
     <th>Name</th>
     <th>Sort</th>
@@ -23,11 +23,17 @@
     <td><%= link_to 'Edit', edit_feature_path(feature) %></td>
     <td><%= link_to 'Destroy', feature, confirm: 'Are you sure?', method: :delete %></td>
     <td><%= button_to 'Execute', execute_feature_path(feature), method: :get %></td>
-    <td><%= button_to 'Execute With Report', feature, method: :get %></td>
+    <td><%= button_to 'Execute With Report', report_feature_path(feature), method: :get %></td>
+  <% end %>
+<% if $appear %>
+    <td><%= link_to "Back",:back %></td>
   </tr>
-<% end %>
 </table>
-
 <br />
+    <div style="width:1000px;border: green 1px solid;background: #ffcc00;">
+<%= render 'execute' %></div>
+<br/>
+<% else %>
+    <%= link_to 'New Feature', new_feature_path %>
+<% end %>
 
-<%= link_to 'New Feature', new_feature_path %>

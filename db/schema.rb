@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20120606061912) do
 
-  create_table "authors", :id => false, :force => true do |t|
+  create_table "authors", :force => true do |t|
     t.integer "author_id"
     t.string  "name"
   end
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(:version => 20120606061912) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "sorts", :id => false, :force => true do |t|
+  create_table "sorts", :force => true do |t|
     t.integer "sort_id"
     t.string  "name"
   end
