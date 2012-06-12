@@ -7,7 +7,6 @@ Before do
 end
 
 
-=begin
 at_exit do
   # Be sure to close the browser if it's still open
   if $browser
@@ -15,4 +14,3 @@ at_exit do
     $browser = nil
   end
 end
-=end

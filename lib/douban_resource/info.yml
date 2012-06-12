@@ -1,3 +1,3 @@
 default: {username: 'myindiepop@126.com', password: 'joshtesting'}
 server : 'http://www.douban.com'
-browser: 'ie'
+browser: 'chrome'
