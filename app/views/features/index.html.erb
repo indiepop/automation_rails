@@ -26,6 +26,7 @@
     <td><%= button_to 'Execute With Report', report_feature_path(feature), method: :get %></td>
   <% end %>
 <% if $appear %>
+    <td><%= link_to "Save",:back %></td>
     <td><%= link_to "Back",:back %></td>
   </tr>
 </table>

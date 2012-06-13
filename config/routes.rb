@@ -2,6 +2,7 @@ AutomationRails::Application.routes.draw do
   resources :features    do
   get :execute, :on => :member
   get :report, :on=>:member
+  get :save, :on=>:member
   end
 
   # The priority is based upon order of creation:

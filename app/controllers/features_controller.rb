@@ -101,6 +101,10 @@ class FeaturesController < ApplicationController
     `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
      send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
   end
+  def save
+    @feature = Feature.find(params[:id])
+    send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
+  end
 private
   def appear_sub
     $appear= true
