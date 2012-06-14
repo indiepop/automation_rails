@@ -37,3 +37,17 @@
 <%= link_to_unless $appear,'New Feature', new_feature_path %>
 <%end%>
 
+<div id="divMsg">Hello World!</div>
+<input id="btnShow" type="button" value="显示" />
+<input id="btnHide" type="button" value="隐藏" /><br />
+<input id="btnChange" type="button" value="修改内容为 Hello World, too!" />
+
+<script type="text/javascript" >
+    $("#btnShow").bind("click", function(event) { $("#divMsg").show(); });
+    $("#btnHide").bind("click", function(event) { $("#divMsg").hide(); });
+    $("#btnChange").bind("click", function(event) { $("#divMsg").html("Hello World, too!"); });
+</script>
+
+
+
+
