@@ -24,17 +24,16 @@
     <td><%= link_to 'Destroy', feature, confirm: 'Are you sure?', method: :delete %></td>
     <td><%= button_to 'Execute', execute_feature_path(feature), method: :get %></td>
     <td><%= button_to 'Execute With Report', report_feature_path(feature), method: :get %></td>
-  <% end %>
-<% if $appear %>
-    <td><%= link_to "Save",:back %></td>
-    <td><%= link_to "Back",:back %></td>
+    <td><%= link_to_if $appear,"Save",save_feature_path(feature), method: :get %></td>
+    <td><%= link_to_if $appear,"Back",:back %></td>
   </tr>
+  <% end %>
 </table>
-<br />
-    <div style="width:1000px;border: green 1px solid;background: #ffcc00;">
-<%= render 'execute' %></div>
-<br/>
+<% if $appear %>
+<div style="width:1000px;border: green 1px solid;background: #ffcc00;">
+<%= render 'execute' %>
+</div>
 <% else %>
-    <%= link_to 'New Feature', new_feature_path %>
-<% end %>
+<%= link_to_unless $appear,'New Feature', new_feature_path %>
+<%end%>
 

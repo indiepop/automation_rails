@@ -1,9 +1,9 @@
 class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
-  $appear=false
-  before_filter :appear_sub,:only => [:execute]
-  after_filter :disappear_sub ,:only => [:index]
+ $appear=false
+ before_filter :appear_sub,:only => [:execute]
+ after_filter :disappear_sub ,:only => [:index]
 
   def index
     @features = Feature.all
