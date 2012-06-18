@@ -6,6 +6,13 @@ Before do
   $info = YAML.load_file("#{$root}/lib/douban_resource/info.yml")
 end
 
+After do
+  # Be sure to close the browser if it's still open
+  if $browser
+    $browser.close
+    $browser = nil
+  end
+end
 
 at_exit do
   # Be sure to close the browser if it's still open
