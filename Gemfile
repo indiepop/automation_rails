@@ -46,5 +46,6 @@ group :cucumber do
   gem 'rspec-rails', '>= 2.0.0.beta.10'
   gem 'spork'
   gem 'launchy'    # So you can do Then show me the page
+  gem 'factory_girl'
 end
 
