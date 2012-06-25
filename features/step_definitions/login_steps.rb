@@ -12,7 +12,9 @@ Given /^I Open main page using (#{USING_CREDENTIAL})$/ do  |table|
   end                                                                    #if already login, then click out.
 
   table.rows_hash.each do |key,value|
-   And "I type '#{value}' in '#{key}' field "
+  steps %{
+And I type '#{value}' in '#{key}' field
+}
   end                                                                    #set the username and password
     $browser.find_element(:xpath => "//input[@class='bn-submit']").click
 end

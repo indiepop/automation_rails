@@ -38,7 +38,7 @@ production:
   database: automation_rails_production
   pool: 5
   username: root
-  password:
+  password: '1'
   host: localhost
 
 cucumber:

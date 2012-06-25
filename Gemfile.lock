@@ -61,7 +61,11 @@ GEM
     erubis (2.7.0)
     execjs (1.3.2)
       multi_json (~> 1.0)
+    factory_girl (3.4.2)
+      activesupport (>= 3.0.0)
     ffi (1.0.11)
+    gherkin (2.10.0)
+      json (>= 1.4.6)
     gherkin (2.10.0-x86-mingw32)
       json (>= 1.4.6)
     hike (1.2.1)
@@ -81,7 +85,9 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.18)
     multi_json (1.3.5)
+    mysql2 (0.3.11)
     mysql2 (0.3.11-x86-mingw32)
+    nokogiri (1.5.2)
     nokogiri (1.5.2-x86-mingw32)
     polyglot (0.3.3)
     rack (1.4.1)
@@ -160,6 +166,7 @@ DEPENDENCIES
   cucumber
   cucumber-rails
   database_cleaner
+  factory_girl
   jquery-rails
   launchy
   mysql2
