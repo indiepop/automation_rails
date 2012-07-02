@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/libmysql.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/operation" afterPath="$PROJECT_DIR$/doc/operation" />
     </list>
     <ignored path="automation_rails.iws" />
@@ -105,7 +102,7 @@
           <file leaf-file-name="operation" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/doc/operation">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="60" column="87" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.516184">
+                <state line="97" column="47" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.9063032">
                   <folding />
                 </state>
               </provider>
@@ -1072,7 +1069,11 @@
       <created>1341218973796</created>
       <updated>1341218973796</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="0702|very successful!">
+      <created>1341220359886</created>
+      <updated>1341220359886</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1290,7 +1291,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/operation">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="87" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.516184">
+        <state line="97" column="47" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.9063032">
           <folding />
         </state>
       </provider>
