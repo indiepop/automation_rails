@@ -2,8 +2,6 @@
 #$:.unshift(Pathname.new(File.dirname(__FILE__)).parent.realpath)
 
 
-include WCF::Components
-include WCF::Utils
 
 class Initialization
   def self.start
