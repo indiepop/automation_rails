@@ -102,3 +102,12 @@ rails -g scaffold feature name:text sort:string description:text author:string r
 rails -g model feature_type name
 
 ...
+
+
+TODO:
+1.Database insert (factory girl? ActiveRecord?)
+2.APP @marks
+3.Email Report
+4.To expand the lib    *
+5.Jquery in APP(user experience)
+6.User management
