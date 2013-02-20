@@ -1,4 +1,4 @@
 default: {username: 'myindiepop@126.com', password: 'joshtesting'}
 wrong: {username: 'I_am_wrong',password: 'yes,I_am_wrong'}
 server : 'http://www.douban.com'
-browser: 'ff'
+browser: 'ie'
