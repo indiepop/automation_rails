@@ -99,7 +99,8 @@ rake;db create
 
 rails -g scaffold feature name:text sort:string description:text author:string remark:text
 
-rails -g model feature_type name
+rails -g model sort name
+rails -g model author name
 
 ...
 
