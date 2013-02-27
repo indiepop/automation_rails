@@ -106,7 +106,7 @@ rails -g model author name
 
 
 TODO:
-1.Database insert (factory girl? ActiveRecord?)
+1.Database insert (factory girl? ActiveRecord?)      # Data things can be saved in yml, just saved.
 2.APP @marks
 3.Email Report
 4.To expand the lib    *
