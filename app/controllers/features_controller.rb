@@ -6,7 +6,7 @@ class FeaturesController < ApplicationController
  after_filter :disappear_sub ,:only => [:index]
 
   def index
-    @features = Feature.all
+    @features = Feature.order(:name).page(params[:page]).per(5)
 
     respond_to do |format|
       format.html # No_index.html.erb

@@ -62,3 +62,4 @@ group :cucumber do
 # gem 'factory_girl','3.4.2'
 end
 
+gem 'kaminari'
