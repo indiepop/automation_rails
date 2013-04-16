@@ -5,3 +5,5 @@
 
 # You can also remove all the silencers if you're trying to debug a problem that might stem from framework code.
 # Rails.backtrace_cleaner.remove_silencers!
+
+#可以讓你選擇性地移除例外追蹤(exception backtrace)訊息，例如有些套件可能會很吵，妨礙你除錯。
