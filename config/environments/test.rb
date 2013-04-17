@@ -14,6 +14,8 @@ AutomationRails::Application.configure do
   # Log error messages when you accidentally call methods on nil
   config.whiny_nils = true
 
+  #不同於 development 或 production 碰到例外會捕捉例外後，給瀏覽器顯示出 call stack trace 或 public/500.html 畫面，
+  # 在 test 模式就不處理，讓例外直接爆出。
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
@@ -27,11 +29,13 @@ AutomationRails::Application.configure do
   # Tell Action Mailer not to deliver emails to the real world.
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
+  #測試模式下不會真的去寄送email
   config.action_mailer.delivery_method = :test
 
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
 
+  #讓 deprecation 訊息會直接顯示到視窗之中。
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
 end
