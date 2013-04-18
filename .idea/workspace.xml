@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="ihower 1">
+    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/features/index.html.erb" afterPath="$PROJECT_DIR$/app/views/features/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366251056328" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366276048101" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361940265851" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -16,7 +16,7 @@
     <file path="/Gemfile" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366189433343" ignored="false" />
     <file path="/features_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1362027649187" ignored="false" />
     <file path="/feature.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1362023534123" ignored="false" />
-    <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366275714030" ignored="false" />
+    <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366278695093" ignored="false" />
     <file path="/application.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102790358" ignored="false" />
     <file path="/backtrace_silencers.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102851252" ignored="false" />
     <file path="/inflections.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366104455605" ignored="false" />
@@ -90,7 +90,7 @@
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/syntax/default.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/new_constructor.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/invocation_tracker.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
-    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366276003204" ignored="false" />
+    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366277769718" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +112,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.46690392">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="15" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.82258064">
+                <state line="30" column="27" selection-start="988" selection-end="988" vertical-scroll-proportion="0.7258065">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -126,7 +126,7 @@
           <file leaf-file-name="url_helper.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.2/lib/action_view/helpers/url_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="230" column="10" selection-start="10850" selection-end="10850" vertical-scroll-proportion="0.0">
+                <state line="162" column="62" selection-start="7762" selection-end="7762" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -139,29 +139,47 @@
           <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="38" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+                <state line="11" column="27" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_execute.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="runtime.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320@global/gems/bundler-1.3.5/lib/bundler/runtime.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="34" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="-4.96">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_execute.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/features/_execute.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="63" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.024193548">
+                <state line="29" column="63" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-0.625">
                   <folding>
-                    <marker date="1366275951838" expanded="false" signature="16550:16583" placeholder="..." />
-                    <marker date="1366275951838" expanded="false" signature="75992:76085" placeholder="..." />
-                    <marker date="1366275951838" expanded="false" signature="76118:76211" placeholder="..." />
+                    <marker date="1366278659750" expanded="false" signature="16550:16583" placeholder="..." />
+                    <marker date="1366278659750" expanded="false" signature="75992:76085" placeholder="..." />
+                    <marker date="1366278659750" expanded="false" signature="76118:76211" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="97" column="11" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
+                <state line="104" column="4" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.58074534">
                   <folding />
                 </state>
               </provider>
@@ -210,10 +228,10 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/app/views/features/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/features/index.html.erb" />
       </list>
     </option>
   </component>
@@ -387,33 +405,7 @@
       <recent name="G:\rubywork\rubymine_work\automation_rails\lib\douban_core" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: automation_rails">
-    <configuration default="false" name="cucumber:all" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="automation_rails" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="cucumber:all" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":cucumber " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="true" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rake.routes">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="automation_rails" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -514,6 +506,32 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="time:zones:all" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="D" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="automation_rails" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
@@ -848,18 +866,19 @@
       <item index="2" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
       <item index="3" class="java.lang.String" itemvalue="Rake.test" />
       <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.cucumber:all" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:seed" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:create" />
-      <item index="9" class="java.lang.String" itemvalue="Rake.time:zones:all" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:seed" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:create" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.time:zones:all" />
+      <item index="9" class="java.lang.String" itemvalue="Rake.routes" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Rake.time:zones:all" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:seed" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:create" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.time:zones:all" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:seed" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:create" />
       </list>
     </recent_temporary>
   </component>
@@ -1001,7 +1020,11 @@
       <created>1366191478021</created>
       <updated>1366191478021</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="ihower 2">
+      <created>1366276052741</created>
+      <updated>1366276052741</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1026,13 +1049,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-7" width="1857" height="1088" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672232" sideWeight="0.499723" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.49695966" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.49358973" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22160664" sideWeight="0.19937369" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22160664" sideWeight="0.50835073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22160664" sideWeight="0.50835073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900112" sideWeight="0.6005803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28496867" sideWeight="0.32576177" order="7" side_tool="true" content_ui="tabs" />
@@ -1043,7 +1067,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32708332" sideWeight="0.4997236" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1087,7 +1110,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ihower 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ihower 2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1116,23 +1139,12 @@
     <MESSAGE value="success in office ,linux ubuntu" />
     <MESSAGE value="adding kaminar feature" />
     <MESSAGE value="ihower 1" />
+    <MESSAGE value="ihower 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Calendar.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/douban_core/components/Action.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1196,43 +1208,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/_execute.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="63" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-0.625">
+          <folding>
+            <marker date="1366278659750" expanded="false" signature="16550:16583" placeholder="..." />
+            <marker date="1366278659750" expanded="false" signature="75992:76085" placeholder="..." />
+            <marker date="1366278659750" expanded="false" signature="76118:76211" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320@global/gems/bundler-1.3.5/lib/bundler/runtime.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="-4.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.2/lib/action_view/helpers/url_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="10" selection-start="10850" selection-end="10850" vertical-scroll-proportion="0.0">
+        <state line="162" column="62" selection-start="7762" selection-end="7762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="11" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
+        <state line="104" column="4" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.58074534">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="15" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.82258064">
+        <state line="30" column="27" selection-start="988" selection-end="988" vertical-scroll-proportion="0.7258065">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="38" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/features/_execute.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="63" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.024193548">
-          <folding>
-            <marker date="1366275951838" expanded="false" signature="16550:16583" placeholder="..." />
-            <marker date="1366275951838" expanded="false" signature="75992:76085" placeholder="..." />
-            <marker date="1366275951838" expanded="false" signature="76118:76211" placeholder="..." />
           </folding>
         </state>
       </provider>

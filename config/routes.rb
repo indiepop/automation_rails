@@ -7,7 +7,7 @@ AutomationRails::Application.routes.draw do
       get :save
     end
   end
-  get "features/save" => "features#save"
+
 
 
 
