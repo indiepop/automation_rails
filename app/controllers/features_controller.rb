@@ -12,6 +12,7 @@ class FeaturesController < ApplicationController
       format.html # No_index.html.erb
       format.json { render json: @features }
     end
+    p "the action name is #{action_name}" #输出当前action名
   end
 
   # GET /features/1
@@ -104,6 +105,7 @@ class FeaturesController < ApplicationController
   def save
     @feature = Feature.find(params[:id])
     send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
+    redirect_to features_path
   end
 private
   def appear_sub
