@@ -9,3 +9,4 @@
 # 例如 Accept:application/xml,application/xhtml+xml,text/html;
 # 和 Content-Type:text/html; charset=UTF-8。
 # 而 Rails 會在 Controller 的 respond_to 方法中辨識並回應所請求的格式樣板，例如瀏覽器請求 application/xml 就會回應 xml 格式
+#respond_to可以用來回應不同的資料格式。Rails內建支援格式包括有:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :json等

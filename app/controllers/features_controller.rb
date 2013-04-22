@@ -93,6 +93,7 @@ class FeaturesController < ApplicationController
   end
   def execute
       @feature = Feature.find(params[:id])
+      $executed_feature = @feature
       `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
        redirect_to features_path
        #render :template => "features/index"
@@ -103,9 +104,9 @@ class FeaturesController < ApplicationController
      send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
   end
   def save
-    @feature = Feature.find(params[:id])
+    @feature = $executed_feature
     send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
-    redirect_to features_path
+
   end
 private
   def appear_sub
