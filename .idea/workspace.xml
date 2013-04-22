@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/features_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/features_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/features/index.html.erb" afterPath="$PROJECT_DIR$/app/views/features/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366620070565" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366622014808" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361940265851" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -121,7 +116,7 @@
           <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="26" selection-start="943" selection-end="943" vertical-scroll-proportion="0.67741936">
+                <state line="37" column="18" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.82258064">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -151,10 +146,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="features_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="100" column="12" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.0">
+                <state line="14" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.33816424">
                   <folding />
                 </state>
               </provider>
@@ -196,7 +191,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="feature.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="feature.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/feature.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1230,7 +1225,11 @@
       <created>1366278865351</created>
       <updated>1366278865351</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="repair the bug of save function">
+      <created>1366622030826</created>
+      <updated>1366622030826</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1316,7 +1315,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ihower 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="repair the bug of save function" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1346,6 +1345,7 @@
     <MESSAGE value="adding kaminar feature" />
     <MESSAGE value="ihower 1" />
     <MESSAGE value="ihower 2" />
+    <MESSAGE value="repair the bug of save function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1435,22 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="943" selection-end="943" vertical-scroll-proportion="0.67741936">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="12" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/author.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1461,6 +1445,22 @@
     <entry file="file://$PROJECT_DIR$/app/models/feature.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="18" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.82258064">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.33816424">
           <folding />
         </state>
       </provider>

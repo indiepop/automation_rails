@@ -12,7 +12,7 @@ class FeaturesController < ApplicationController
       format.html # No_index.html.erb
       format.json { render json: @features }
     end
-    p "the action name is #{action_name}" #输出当前action名
+
   end
 
   # GET /features/1
