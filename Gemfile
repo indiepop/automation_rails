@@ -47,8 +47,8 @@ gem 'jquery-rails'
 
 
 group :cucumber do
-  gem 'capybara'
-#  gem 'capybara','1.1.2'
+#  gem 'capybara'
+  gem 'capybara','1.1.2'
   gem 'database_cleaner'
 #  gem 'database_cleaner' ,'0.7.2'
   gem 'cucumber-rails'

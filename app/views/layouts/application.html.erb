@@ -7,8 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div><h1>PacketTrap Automation System V 1.0</h1></div>
-<%= yield %>
-
+<div><h1>Automation Rails V 1.0</h1></div>
+<div id="banner">
+  <%= image_tag("logo.png") %>
+  <%= @page_title || "Automaton Rails made by Josh" %>
+</div>
+<div id="columns">
+  <div id="side">
+    <%=link_to "Main Page", features_path %> <br />
+    <%=link_to "Tags Management" %> <br />
+    <a href="http://www..../news">News</a><br />
+    <a href="http://www..../contact">Contact</a><br />
+  </div>
+  <div id="main">
+    <%= yield %>
+  </div>
+</div>
 </body>
+
 </html>
