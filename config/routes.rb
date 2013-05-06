@@ -1,5 +1,7 @@
 
 AutomationRails::Application.routes.draw do
+  resources :tags
+
   resources :features    do
     member do
       get :execute

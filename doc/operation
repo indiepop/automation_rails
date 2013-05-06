@@ -102,6 +102,8 @@ rails -g scaffold feature name:text sort:string description:text author:string r
 rails -g model sort name
 rails -g model author name
 
+rails -g scaffold tag name:text remark:text
+rails -g model feature_tag_ship feature_id:integer tag_id:integer
 ...
 
 
