@@ -11,11 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120606061912) do
+ActiveRecord::Schema.define(:version => 20130506085736) do
 
   create_table "authors", :force => true do |t|
     t.integer "author_id"
     t.string  "name"
+  end
+
+  create_table "feature_tag_ships", :force => true do |t|
+    t.integer  "feature_id"
+    t.integer  "tag_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "features", :force => true do |t|
@@ -31,6 +38,13 @@ ActiveRecord::Schema.define(:version => 20120606061912) do
   create_table "sorts", :force => true do |t|
     t.integer "sort_id"
     t.string  "name"
+  end
+
+  create_table "tags", :force => true do |t|
+    t.text     "name"
+    t.text     "remark"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
