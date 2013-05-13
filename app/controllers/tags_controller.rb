@@ -25,7 +25,7 @@ class TagsController < ApplicationController
   # GET /tags/new.json
   def new
     @tag = Tag.new
-
+    @tags = Tag.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @tag }
@@ -35,6 +35,8 @@ class TagsController < ApplicationController
   # GET /tags/1/edit
   def edit
     @tag = Tag.find(params[:id])
+    @tags = Tag.all
+    p "Josh said #{@feature.tags.map(&:id).include?(g.id)}"
   end
 
   # POST /tags
@@ -79,5 +81,13 @@ class TagsController < ApplicationController
       format.html { redirect_to tags_url }
       format.json { head :no_content }
     end
+  end
+  def set
+    @tag = Tag.find(params[:id])
+   # @checked ||= []
+    render
+  end
+  def save
+
   end
 end

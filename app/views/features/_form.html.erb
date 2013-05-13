@@ -43,7 +43,13 @@
   <div class="field">
     <%= f.label :remark %><br />
     <%= f.text_area :remark ,:rows=>5 %>
+
   </div>
+    <% @tags.each do |g| %>
+        <%= check_box_tag "feature[tag_ids][]", g.id, @feature.tags.map(&:id).include?(g.id) %> <%= g.name %>
+    <% end %>
+    <%= hidden_field_tag 'feature[tag_ids][]','' %>
+
   <div class="actions">
     <%= f.submit %>
   </div>

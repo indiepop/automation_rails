@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+<% form_tag :save_tags_path,:method => :put  %>
+<p>
+  <b>Name:</b>
+  <%= @tag.name %>
+</p>
+
+<p>
+  <b>Remark:</b>
+  <%= @tag.remark %>
+</p>
+
+<p>
+  <% Tag.all.each do |t| %>
+      <%= check_box 'checked[]',t.id%>
+      <%= t.name %>
+      <% end %>
+</p>
+
+
+<%= submit_tag 'Save'%>
+
+
+<%= link_to 'Back', tags_path %>

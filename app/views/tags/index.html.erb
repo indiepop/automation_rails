@@ -16,6 +16,7 @@
     <td><%= link_to 'Show', tag %></td>
     <td><%= link_to 'Edit', edit_tag_path(tag) %></td>
     <td><%= link_to 'Destroy', tag, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Set Tags', set_tag_path(tag), method: :get %></td>
   </tr>
 <% end %>
 </table>

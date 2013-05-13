@@ -7,7 +7,7 @@ class FeaturesController < ApplicationController
 
   def index
     @features = Feature.order(:name).page(params[:page]).per(5)
-
+    @tags = Tag.all
     respond_to do |format|
       format.html # No_index.html.erb
       format.json { render json: @features }
@@ -29,6 +29,7 @@ class FeaturesController < ApplicationController
   # GET /features/new
   # GET /features/new.json
   def new
+    @tags = Tag.all
     @feature = Feature.new
     all_features= Dir.glob "**/*.feature"
     db_features = Array.new
@@ -44,6 +45,7 @@ class FeaturesController < ApplicationController
 
   # GET /features/1/edit
   def edit
+    @tags = Tag.all
     @feature = Feature.find(params[:id])
     @edit_told= [Feature.find(params[:id]).name]
   end
@@ -67,7 +69,7 @@ class FeaturesController < ApplicationController
   # PUT /features/1.json
   def update
     @feature = Feature.find(params[:id])
-
+    @tags = Tag.all
     respond_to do |format|
       if @feature.update_attributes(params[:feature])
         format.html { redirect_to @feature, notice: 'Feature was successfully updated.' }
