@@ -44,16 +44,6 @@
     <%= f.label :remark %><br />
     <%= f.text_area :remark ,:rows=>5 %>
   </div>
-
-    <p>
-      <% Tag.all.each do |t| %>
-      <div>
-        <%= f.check_box "tag",{},:checked_value=>t.id  %>
-        <%= t.name %>
-      </div>
-        <% end %>
-    </p>
-
   <div class="actions">
     <%= f.submit %>
   </div>

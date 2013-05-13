@@ -51,16 +51,9 @@ class FeaturesController < ApplicationController
   # POST /features
   # POST /features.json
   def create
-    #@feature = Feature.new(params[:feature])
-    params[:tag] ||= []
-    @feature = Feature.new(:name => params[:name], :sort => params[:sort], :description => params[:description],:author => params[:author],:remark => params[:remark])
-    @tags = params[:tag]
-    p  "Josh testing:#{@tags}"
-    @tags.each do |t|
-      @new_tag= FeatureTagShip.new(:tag=>t,:feature=>@feature)
-    end
-    respond_to do |format|
-      if (@feature.save && @new_tag.save)
+    @feature = Feature.new(params[:feature])
+        respond_to do |format|
+      if @feature.save
         format.html { redirect_to @feature, notice: 'Feature was successfully created.' }
         format.json { render json: @feature, status: :created, location: @feature }
       else
