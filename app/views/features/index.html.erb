@@ -20,7 +20,7 @@
     <td><%= feature.description %></td>
     <td><%= Author.where('author_id' => feature.author).first.name %></td>
     <td><%= feature.remark %></td>
-    <td><%= feature.tags.select('name').all.to_s%></td>
+    <td><%= feature.tags.map(&:name).join(",")%></td>
     <td><%= link_to 'Show', feature %></td>
     <td><%= link_to 'Edit', edit_feature_path(feature) %></td>
     <td><%= link_to 'Destroy', feature, confirm: 'Are you sure?', method: :delete %></td>
