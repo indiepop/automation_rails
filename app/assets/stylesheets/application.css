@@ -12,19 +12,19 @@
  *= require_tree .
 */
 #banner {
-    background: #9c9;
+    background:#fff ;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid;
     font: small-caps 40px/40px "Times New Roman", serif;
-    color: #282;
+    color: #123456;
 text-align: center;
     }
 #banner img {
     float: left;
 }
 #columns {
-    background: #141;
+    background: #123456;
 }
 #main {
     margin-left: 13em;
@@ -38,10 +38,14 @@ text-align: center;
     padding-left: 1em;
     padding-bottom: 1em;
     width: 12em;
-    background: #141;
+    background: #123456;
 }
 #side a {
-    color: #bfb;
+    color: #fff;
     font-size: small;
 
+}
+#bottom {
+    float: right;
+    padding-right: 1em;
 }

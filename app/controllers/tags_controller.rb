@@ -1,6 +1,9 @@
 class TagsController < ApplicationController
   # GET /tags
   # GET /tags.json
+  $appear=false
+  before_filter :appear_sub,:only => [:execute]
+  after_filter :disappear_sub ,:only => [:index]
   def index
     @tags = Tag.all
 
@@ -25,7 +28,7 @@ class TagsController < ApplicationController
   # GET /tags/new.json
   def new
     @tag = Tag.new
-    @tags = Tag.all
+
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @tag }
@@ -35,8 +38,7 @@ class TagsController < ApplicationController
   # GET /tags/1/edit
   def edit
     @tag = Tag.find(params[:id])
-    @tags = Tag.all
-    p "Josh said #{@feature.tags.map(&:id).include?(g.id)}"
+
   end
 
   # POST /tags
@@ -82,12 +84,25 @@ class TagsController < ApplicationController
       format.json { head :no_content }
     end
   end
-  def set
-    @tag = Tag.find(params[:id])
-   # @checked ||= []
-    render
+  def execute
+
+     @checked_tags= params[:checked_tags]
+     $format_check_tags=@checked_tags.map{|x|'@'+x}.join","
+
+     `bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/_execute.html.erb`
+      redirect_to tags_path
   end
   def save
 
+    send_file "./app/views/tags/_execute.html.erb",:filename=> "report_#{$format_check_tags.gsub(/\//,"_")}.html",:disposition => "attachment"
+
   end
+  private
+  def appear_sub
+    $appear= true
+  end
+  def disappear_sub
+    $appear= false
+  end
+
 end

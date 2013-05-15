@@ -1,6 +1,12 @@
 
 AutomationRails::Application.routes.draw do
-  resources :tags
+  resources :tags do
+    collection  do
+      post :execute
+      get :save
+    end
+  end
+
 
   resources :features    do
     member do

@@ -7,10 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div><h1>Automation Rails V 1.0</h1></div>
+<div><h1></h1></div>
 <div id="banner">
-  <%= image_tag("logo.png") %>
-  <%= @page_title || "Automaton Rails made by Josh" %>
+  <%= image_tag("rails.png" ,:size => "44x44") %>
+  <%= @page_title || "Automaton Rails" %>
 </div>
 <div id="columns">
   <div id="side">
@@ -22,6 +22,10 @@
   <div id="main">
     <%= yield %>
   </div>
+</div>
+<div id="bottom">
+  Made by Josh.Yang.since 2012<br />
+  Automation Rails V 1.1.2
 </div>
 </body>
 
