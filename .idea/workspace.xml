@@ -6,7 +6,7 @@
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368611644077" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368611655552" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684873119" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -1235,7 +1235,11 @@
       <created>1368611651575</created>
       <updated>1368611651575</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="change appearance , adding tag execution and report save function">
+      <created>1368611660187</created>
+      <updated>1368611660187</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
