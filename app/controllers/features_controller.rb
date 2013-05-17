@@ -96,8 +96,8 @@ class FeaturesController < ApplicationController
       @feature = Feature.find(params[:id])
       $executed_feature = @feature
       `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
-       redirect_to features_path
-       #render :template => "features/index"
+      redirect_to features_path
+
   end
   def report
     @feature = Feature.find(params[:id])
@@ -109,6 +109,11 @@ class FeaturesController < ApplicationController
     send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
 
   end
+ def search
+    @features = Feature.where(["name like ?","%#{params[:keyword]}%"]).order(:name).page(params[:page]).per(5)
+    render :action => :index
+
+ end
 private
   def appear_sub
     $appear= true

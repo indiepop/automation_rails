@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/features_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/features_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/features/index.html.erb" afterPath="$PROJECT_DIR$/app/views/features/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/index.html.erb" afterPath="$PROJECT_DIR$/app/views/tags/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368611655552" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368611670122" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684873119" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
     <file path="/operation" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1367830380628" ignored="false" />
     <file path="/Gemfile" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684324424" ignored="false" />
-    <file path="/features_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368424732094" ignored="false" />
+    <file path="/features_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368776663717" ignored="false" />
     <file path="/feature.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368069700321" ignored="false" />
-    <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368611181123" ignored="false" />
+    <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368776227139" ignored="false" />
     <file path="/application.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102790358" ignored="false" />
     <file path="/backtrace_silencers.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102851252" ignored="false" />
     <file path="/inflections.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366104455605" ignored="false" />
@@ -88,7 +92,7 @@
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/syntax/default.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/new_constructor.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/invocation_tracker.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
-    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368610703714" ignored="false" />
+    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368776001358" ignored="false" />
     <file path="/application_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366601391071" ignored="false" />
     <file path="/session_store.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366614179162" ignored="false" />
     <file path="/login_steps.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366686656828" ignored="false" />
@@ -132,10 +136,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/tags/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="49" selection-start="742" selection-end="742" vertical-scroll-proportion="0.9178744">
+                <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.25">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -146,16 +150,16 @@
           <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="15" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+                <state line="22" column="25" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="form_tag_helper.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="10" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.0">
+                <state line="8" column="25" selection-start="198" selection-end="198" vertical-scroll-proportion="0.19323671">
                   <folding />
                 </state>
               </provider>
@@ -165,28 +169,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="tags_controller.rb" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/tags_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="39" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.5813953">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="array.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/array.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="6" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="features_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="106" column="0" selection-start="3253" selection-end="3445" vertical-scroll-proportion="0.0">
+                <state line="100" column="12" selection-start="2889" selection-end="2889" vertical-scroll-proportion="0.5813953">
                   <folding />
                 </state>
               </provider>
@@ -244,14 +230,14 @@
         <option value="$PROJECT_DIR$/app/views/tags/_form2.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tags/set.html.erb" />
         <option value="$PROJECT_DIR$/app/views/features/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/features_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/features/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/features/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/tags_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/tags/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/tags_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/features/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/features_controller.rb" />
       </list>
     </option>
   </component>
@@ -1239,7 +1225,11 @@
       <created>1368611660187</created>
       <updated>1368611660187</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="change appearance , adding tag execution and report save function">
+      <created>1368611672621</created>
+      <updated>1368611672621</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1415,44 +1405,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3253" selection-end="3445" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="37" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.8277592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="10" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="47" selection-start="761" selection-end="761" vertical-scroll-proportion="-19.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/features/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="29" selection-start="1706" selection-end="1706" vertical-scroll-proportion="-23.125">
           <folding />
         </state>
       </provider>
@@ -1464,6 +1419,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="10" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.91157556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tags_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="39" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.5813953">
@@ -1471,12 +1433,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="29" selection-start="1706" selection-end="1706" vertical-scroll-proportion="-23.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tags/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="49" selection-start="742" selection-end="742" vertical-scroll-proportion="0.9178744">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.25">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="198" selection-end="198" vertical-scroll-proportion="0.19323671">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="12" selection-start="2889" selection-end="2889" vertical-scroll-proportion="0.5813953">
+          <folding />
         </state>
       </provider>
     </entry>

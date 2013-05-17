@@ -1,5 +1,10 @@
 <h1>Listing Features</h1>
 
+<%= form_tag search_features_path, :method => :get do %>
+    <%= text_field_tag "keyword" %>
+    <%= submit_tag "Search" %>
+<% end %>
+
 <table style="width: 1000px">
   <tr>
     <th>Name</th>
