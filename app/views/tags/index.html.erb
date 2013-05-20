@@ -32,6 +32,7 @@
 <h2>Running by Tags:</h2>
 <h4>Pick tags:</h4>
 
+ <% unless $appear%>
 <%= form_tag execute_tags_path do %>
 <% @tags.each do |g| %>
     <%= check_box_tag "checked_tags[]", g.name %> <%= g.name %>
@@ -41,7 +42,7 @@
 <br />
 <%= submit_tag "Execute!"%>
 <% end %>
-
+  <% end %>
 </table>
 <% if $appear %>
     <p><%= link_to 'Save', save_tags_path %>

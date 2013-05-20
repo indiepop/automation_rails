@@ -86,11 +86,13 @@ class TagsController < ApplicationController
   end
   def execute
 
-     @checked_tags= params[:checked_tags]
+     @checked_tags= params[:checked_tags].delete_if{|x| x==" "}
+     #puts "I wanna see #{@checked_tags}"
      $format_check_tags=@checked_tags.map{|x|'@'+x}.join","
 
      `bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/_execute.html.erb`
-      redirect_to tags_path
+    # p "  bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/_execute.html.erb"
+     redirect_to tags_path
   end
   def save
 
