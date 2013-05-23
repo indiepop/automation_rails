@@ -17,7 +17,7 @@
 
 <p>
   <b>Machine type:</b>
-  <%= @machine.machine_type %>
+  <%= MachineType.where('machine_type_id'=>@machine.machine_type).first.name %>
 </p>
 
 <p>

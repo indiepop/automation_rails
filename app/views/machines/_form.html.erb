@@ -13,23 +13,26 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.text_area :name %>
+    <%= f.text_field :name %>
   </div>
   <div class="field">
     <%= f.label :ip %><br />
-    <%= f.text_area :ip %>
+    <%= f.text_field :ip %>
   </div>
   <div class="field">
     <%= f.label :credential %><br />
-    <%= f.text_area :credential %>
+    <%= f.text_area :credential,:rows => 4 %>
   </div>
   <div class="field">
     <%= f.label :machine_type %><br />
-    <%= f.number_field :machine_type %>
+    <%=
+        @types=MachineType.order(:machine_type_id).all
+        f.collection_select(:machine_type,@types,:machine_type_id,:name,:prompt=>'Please select types ...')
+    %>
   </div>
   <div class="field">
     <%= f.label :remark %><br />
-    <%= f.text_area :remark %>
+    <%= f.text_area :remark ,:rows => 6%>
   </div>
   <div class="actions">
     <%= f.submit %>

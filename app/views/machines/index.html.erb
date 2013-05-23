@@ -17,7 +17,7 @@
     <td><%= machine.name %></td>
     <td><%= machine.ip %></td>
     <td><%= machine.credential %></td>
-    <td><%= machine.machine_type %></td>
+    <td><%= MachineType.where('machine_type_id'=>machine.machine_type).first.name %></td>
     <td><%= machine.remark %></td>
     <td><%= link_to 'Show', machine %></td>
     <td><%= link_to 'Edit', edit_machine_path(machine) %></td>
