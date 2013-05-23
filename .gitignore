@@ -16,3 +16,6 @@
 
 /config/database.yml
 /app/views/features/_execute.html.erb
+/app/views/tags/_execute.html.erb
+
+/selenium-server-standalone*
