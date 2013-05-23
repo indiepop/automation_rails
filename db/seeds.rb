@@ -8,6 +8,8 @@
 #   It is a test
 Sort.delete_all
 Author.delete_all
+MachineType.delete_all
 
-sorts=Sort.create([{sort_id:1,name:'demo'},{sort_id:2,name:'function'}])
-authors=Author.create([{author_id:1,name:'Josh Yang'}])
+Sort.create([{sort_id:1,name:'demo'},{sort_id:2,name:'function'}])
+Author.create([{author_id:1,name:'Josh Yang'}])
+MachineType.create([{machine_type_id:1,name:'Windows'},{machine_type_id:2,name:'Unix'},{machine_type_id:3,name:'Linux'},{machine_type_id:4,name:'Mac'},{machine_type_id:5,name:'Iphone'},{machine_type_id:6,name:'Android'}])

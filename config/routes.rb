@@ -1,5 +1,7 @@
 
 AutomationRails::Application.routes.draw do
+  resources :machines
+
   resources :tags do
     collection  do
       post :execute

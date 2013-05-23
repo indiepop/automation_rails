@@ -97,13 +97,16 @@ rake:cucumber install
 rake;db create
 
 
-rails -g scaffold feature name:text sort:string description:text author:string remark:text
+rails -g scaffold feature name:text sort:integer description:text author:integer remark:text
 
 rails -g model sort name
 rails -g model author name
 
 rails -g scaffold tag name:text remark:text
 rails -g model feature_tag_ship feature_id:integer tag_id:integer
+
+rails g scaffold machine name:text ip:text credential:text machine_type:integer remark:text
+rails g model machine_type name
 ...
 
 

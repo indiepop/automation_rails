@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130506085736) do
+ActiveRecord::Schema.define(:version => 20130523094212) do
 
   create_table "authors", :force => true do |t|
     t.integer "author_id"
@@ -33,6 +33,23 @@ ActiveRecord::Schema.define(:version => 20130506085736) do
     t.text     "remark"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "machine_types", :force => true do |t|
+    t.integer  "machine_type_id"
+    t.string   "name"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  create_table "machines", :force => true do |t|
+    t.text     "name"
+    t.text     "ip"
+    t.text     "credential"
+    t.integer  "machine_type"
+    t.text     "remark"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "sorts", :force => true do |t|

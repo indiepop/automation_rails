@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @machine.name %>
+</p>
+
+<p>
+  <b>Ip:</b>
+  <%= @machine.ip %>
+</p>
+
+<p>
+  <b>Credential:</b>
+  <%= @machine.credential %>
+</p>
+
+<p>
+  <b>Machine type:</b>
+  <%= @machine.machine_type %>
+</p>
+
+<p>
+  <b>Remark:</b>
+  <%= @machine.remark %>
+</p>
+
+
+<%= link_to 'Edit', edit_machine_path(@machine) %> |
+<%= link_to 'Back', machines_path %>
