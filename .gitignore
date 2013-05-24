@@ -14,8 +14,10 @@
 /log/*.log
 /tmp
 
-/config/database.yml
+# Ignore by Josh.
+
+
 /app/views/features/_execute.html.erb
 /app/views/tags/_execute.html.erb
-
 /selenium-server-standalone*
+/config/database.yml
