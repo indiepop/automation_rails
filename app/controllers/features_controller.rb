@@ -2,7 +2,7 @@ class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
  $appear=false
- before_filter :appear_sub,:only => [:execute]
+ before_filter :appear_sub,:only => [:execute,:execute2]
  after_filter :disappear_sub ,:only => [:index]
 
   def index
@@ -114,6 +114,25 @@ class FeaturesController < ApplicationController
     render :action => :index
 
  end
+ def machine
+     @feature=Feature.find(params[:id])
+     @feature_name=@feature.name
+     @machines=Machine.all
+     session[:executed_feature]||= Feature.new
+     session[:executed_feature]= @feature    #the feature that need to run
+ end
+
+def execute2
+  $root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
+  $info = YAML.load_file("#{$root}/lib/douban_resource/info.yml")
+  p "sssssssssssssssssssssss#{$root}"
+  p "fffffffffffffffffffffffff##{$info}"
+  @checked_ip=params[:checked_ips].delete_if{|x| x==" "}
+
+  `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute.html.erb`
+  redirect_to features_path
+end
+
 private
   def appear_sub
     $appear= true

@@ -1,6 +1,8 @@
 
 AutomationRails::Application.routes.draw do
-  resources :machines
+
+  resources :machines  do
+  end
 
   resources :tags do
     collection  do
@@ -15,6 +17,8 @@ AutomationRails::Application.routes.draw do
       get :execute
       get :report
       get :save
+      get :machine
+      post :execute2
     end
     collection do
       get :search

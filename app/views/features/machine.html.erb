@@ -1,0 +1,14 @@
+<h2>Now Execute Feature: <h4><%= @feature_name %></h4></h2>
+
+<h2>Please select the machine you need to Run:</h2>
+
+<%= form_tag execute2_feature_path(@feature) do %>
+    <% @machines.each do |g| %>
+        <%= check_box_tag "checked_ips[]", g.ip %> <%= "Name:#{g.name},IP:#{g.ip}" %>
+        <%= hidden_field_tag "checked_ips[]"," " %>
+        <br>
+    <% end %>
+    <br>
+    <br>
+    <%= submit_tag "Execute!"%>
+<% end %>
