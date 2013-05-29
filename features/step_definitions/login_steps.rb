@@ -1,4 +1,4 @@
-require "douban_core/Initialization"
+require "core/Initialization"
 
 Given /^I Open main page using (#{USING_CREDENTIAL})$/ do  |table|
 

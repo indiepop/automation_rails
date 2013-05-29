@@ -1,4 +1,4 @@
-require "douban_core/base_classes/Object"
+require "core/base_classes/Object"
 
 module WCF
   module Components
