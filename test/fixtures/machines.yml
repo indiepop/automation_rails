@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyText
+  ip: MyText
+  credential: MyText
+  machine_type: 1
+  remark: MyText
+
+two:
+  name: MyText
+  ip: MyText
+  credential: MyText
+  machine_type: 1
+  remark: MyText
