@@ -3,7 +3,7 @@
 require "pathname"
 Before do
   $root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s     # so need pathname.rb  #to get the root name
-  $info = YAML.load_file("#{$root}/lib/douban_resource/info.yml")
+  $info = YAML.load_file("#{$root}/lib/resource/info.yml")
 end                                                                         #start
 
 After do

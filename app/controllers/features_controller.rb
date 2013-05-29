@@ -124,7 +124,7 @@ class FeaturesController < ApplicationController
 
 def execute2
   $root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
-  $info = YAML.load_file("#{$root}/lib/douban_resource/info.yml")
+  $info = YAML.load_file("#{$root}/lib/resource/info.yml")
   p "sssssssssssssssssssssss#{$root}"
   p "fffffffffffffffffffffffff##{$info}"
   @checked_ip=params[:checked_ips].delete_if{|x| x==" "}

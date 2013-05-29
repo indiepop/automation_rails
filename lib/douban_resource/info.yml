@@ -1,4 +1,0 @@
-default: {username: 'myindiepop@126.com', password: 'joshtesting'}
-wrong: {username: 'wrong_username', password: 'wrong_password'}
-server : 'http://www.douban.com'
-browser: 'ff'
