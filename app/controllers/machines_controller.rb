@@ -80,4 +80,7 @@ class MachinesController < ApplicationController
       format.json { head :no_content }
     end
   end
+  def download
+    send_file   "selenium-server-standalone-2.33.0.jar"
+  end
 end

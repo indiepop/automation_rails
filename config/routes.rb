@@ -2,6 +2,9 @@
 AutomationRails::Application.routes.draw do
 
   resources :machines  do
+    collection do
+      get :download
+    end
   end
 
   resources :tags do
