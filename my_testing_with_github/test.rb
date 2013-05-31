@@ -1,6 +1,6 @@
 require "rubygems"
 require "selenium-webdriver"
-
+#System.setProperty("webdriver.firefox.bin","D:\Program Files (x86)\Mozilla Firefox\firefox.exe");
 driver = Selenium::WebDriver.for :remote, :url => "http://localhost:4444/wd/hub" ,:desired_capabilities => :firefox
 driver.get "http://www.google.com"
 #driver.save_screenshot "/Screenshots/google.png"

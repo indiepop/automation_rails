@@ -4,30 +4,21 @@
     <bookmark url="file://$PROJECT_DIR$/app/views/features/machine.html.erb" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="log the gitignore method">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/core/Initialization.rb" afterPath="$PROJECT_DIR$/lib/core/Initialization.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/automation_rails.iml" afterPath="$PROJECT_DIR$/.idea/automation_rails.iml" />
+    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/features_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/features_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/machines/index.html.erb" afterPath="$PROJECT_DIR$/app/views/machines/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/resource/info.yml" afterPath="$PROJECT_DIR$/lib/resource/info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/machines_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/machines_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/test.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/transforms.rb" afterPath="$PROJECT_DIR$/features/support/transforms.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369971395612" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369985894495" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684873119" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369982804625" ignored="false" />
     <file path="/operation" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369302048545" ignored="false" />
     <file path="/Gemfile" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684324424" ignored="false" />
-    <file path="/features_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369982643436" ignored="false" />
+    <file path="/features_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369984433085" ignored="false" />
     <file path="/feature.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368069700321" ignored="false" />
     <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369972047809" ignored="false" />
     <file path="/application.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102790358" ignored="false" />
@@ -37,7 +28,7 @@
     <file path="/secret_token.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366105077717" ignored="false" />
     <file path="/development.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366186167256" ignored="false" />
     <file path="/production.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366187508628" ignored="false" />
-    <file path="/test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369982768608" ignored="false" />
+    <file path="/test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369986164737" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/rspec-mocks-2.13.0/lib/rspec/mocks/any_instance.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366191456390" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/tzinfo-0.3.35/lib/tzinfo/tzdataparser.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366191456390" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320@global/gems/rake-10.0.3/lib/rake.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366191456390" ignored="false" />
@@ -103,7 +94,7 @@
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/syntax/default.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/new_constructor.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/invocation_tracker.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
-    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369905882617" ignored="false" />
+    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369984669144" ignored="false" />
     <file path="/application_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366601391071" ignored="false" />
     <file path="/session_store.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366614179162" ignored="false" />
     <file path="/login_steps.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366686656828" ignored="false" />
@@ -154,13 +145,13 @@
     <favorites_list name="automation_rails" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.301085">
+    <splitter split-orientation="horizontal" split-proportion="0.36402115">
       <split-first>
         <leaf>
-          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/database.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="0.974359">
+                <state line="18" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -169,7 +160,7 @@
           <file leaf-file-name="machine.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/features/machine.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                <state line="12" column="27" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -184,10 +175,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="44" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+                <state line="10" column="63" selection-start="505" selection-end="505" vertical-scroll-proportion="0.54131055">
                   <folding />
                 </state>
               </provider>
@@ -200,16 +191,16 @@
           <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="136" column="2" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.0">
+                <state line="143" column="31" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Initialization.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Initialization.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/core/Initialization.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="51" selection-start="436" selection-end="436" vertical-scroll-proportion="0.6296296">
+                <state line="12" column="28" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -251,10 +242,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="12" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+                <state line="32" column="36" selection-start="428" selection-end="428" vertical-scroll-proportion="0.57575756">
                   <folding />
                 </state>
               </provider>
@@ -272,7 +263,7 @@
           <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/tags/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="0" selection-start="766" selection-end="803" vertical-scroll-proportion="-0.6785714">
+                <state line="42" column="0" selection-start="766" selection-end="803" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -317,17 +308,17 @@
         <option value="$PROJECT_DIR$/lib/core/requirement_list.rb" />
         <option value="$PROJECT_DIR$/lib/core/base_classes/Container.rb" />
         <option value="$PROJECT_DIR$/lib/core/base_classes/Element.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/helpers/machines_helper.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/machines.css.scss" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/controllers/machines_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/machines/index.html.erb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/features_controller.rb" />
-        <option value="$PROJECT_DIR$/my_testing_with_github/test.rb" />
         <option value="$PROJECT_DIR$/lib/resource/info.yml" />
         <option value="$PROJECT_DIR$/lib/core/Initialization.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/features_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/my_testing_with_github/test.rb" />
       </list>
     </option>
   </component>
@@ -370,6 +361,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -622,7 +614,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -1117,6 +1108,8 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
     <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
@@ -1144,16 +1137,16 @@
       <method />
     </configuration>
     <list size="10">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.douban_demo" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Production: automation_rails" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="5" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:seed" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="9" class="java.lang.String" itemvalue="Ruby.test" />
+      <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.db:seed" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.db:rollback" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.test" />
+      <item index="5" class="java.lang.String" itemvalue="Cucumber.douban_demo" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Production: automation_rails" />
+      <item index="7" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="9" class="java.lang.String" itemvalue="Rake.spec" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1403,7 +1396,11 @@
       <created>1369817624382</created>
       <updated>1369817624382</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="devolop the machine running">
+      <created>1369982900960</created>
+      <updated>1369982900960</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1430,12 +1427,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10819672" sideWeight="0.499723" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17640918" sideWeight="0.49695966" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17540984" sideWeight="0.49695966" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.49358973" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2299169" sideWeight="0.27661794" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1621212" sideWeight="0.6737705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2840909" sideWeight="0.6737705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900112" sideWeight="0.6005803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2299169" sideWeight="0.27661794" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28496867" sideWeight="0.25263157" order="8" side_tool="true" content_ui="tabs" />
@@ -1446,6 +1442,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32672232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10819672" sideWeight="0.499723" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1489,7 +1486,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="log the gitignore method" />
+    <option name="LAST_COMMIT_MESSAGE" value="devolop the machine running" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1502,7 +1499,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="0618|very successful!" />
     <MESSAGE value="0702|very successful!" />
     <MESSAGE value="0220|git testing" />
     <MESSAGE value="0220|git testing2" />
@@ -1527,6 +1523,7 @@
     <MESSAGE value="new feature Remote Execute, still need to do tips and yml written." />
     <MESSAGE value="rename the fold of douban" />
     <MESSAGE value="log the gitignore method" />
+    <MESSAGE value="devolop the machine running" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1534,30 +1531,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/README_FOR_APP">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="42" column="0" selection-start="766" selection-end="803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/README_FOR_APP">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/operation">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.531646">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.531646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/core/SeleniumUtils.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="50" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1590,34 +1583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="766" selection-end="803" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/resource/execute_ip.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="2" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/resource/info.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="21" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
@@ -1625,23 +1590,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/features/machine.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="0.974359">
+        <state line="18" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/core/Initialization.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="436" selection-end="436" vertical-scroll-proportion="0.6296296">
+        <state line="12" column="28" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="766" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="31" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/machine.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="63" selection-start="505" selection-end="505" vertical-scroll-proportion="0.54131055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="36" selection-start="428" selection-end="428" vertical-scroll-proportion="0.57575756">
           <folding />
         </state>
       </provider>

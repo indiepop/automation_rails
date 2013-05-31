@@ -137,7 +137,7 @@ def execute2
  # YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
 `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute.html.erb`
   File.delete "#{@root}/lib/resource/execute_ip.yml"
-  render :action => :index
+  redirect_to features_path
 end
 
 private
