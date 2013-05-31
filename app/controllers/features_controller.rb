@@ -1,3 +1,4 @@
+require 'yaml'
 class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
@@ -123,14 +124,20 @@ class FeaturesController < ApplicationController
  end
 
 def execute2
-  $root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
-  $info = YAML.load_file("#{$root}/lib/resource/info.yml")
-  p "sssssssssssssssssssssss#{$root}"
-  p "fffffffffffffffffffffffff##{$info}"
-  @checked_ip=params[:checked_ips].delete_if{|x| x==" "}
-
-  `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute.html.erb`
-  redirect_to features_path
+  @checked_ip = params[:checked_ips].delete_if{|x| x==" "}    #check the array of checked ip out
+  hash_ip= Hash.new
+  hash_ip_add = Hash.new
+ @checked_ip.each_with_index do |x,index|
+      hash_ip[index]=x
+   end    #revert the arry to hash
+  hash_ip_add.store('checked_ips',hash_ip)
+  @root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
+  #$info = YAML.load_file("#{$root}/lib/resource/info.yml")
+  File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip_add, f) }
+ # YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
+`bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute.html.erb`
+  File.delete "#{@root}/lib/resource/execute_ip.yml"
+  render :action => :index
 end
 
 private

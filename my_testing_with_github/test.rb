@@ -1,7 +1,7 @@
 require "rubygems"
 require "selenium-webdriver"
 
-driver = Selenium::WebDriver.for :remote, :url => "http://10.30.178.48:4444/wd/hub" ,:desired_capabilities => :chrome
+driver = Selenium::WebDriver.for :remote, :url => "http://localhost:4444/wd/hub" ,:desired_capabilities => :firefox
 driver.get "http://www.google.com"
 #driver.save_screenshot "/Screenshots/google.png"
 
