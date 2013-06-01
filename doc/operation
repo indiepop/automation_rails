@@ -118,3 +118,15 @@ TODO:
 5.Jquery in APP(user experience)
 6.User management
 7.kaminari               #done 20130228
+
+
+
+stackoverflow已经有讨论，无需修正，或者硬要修的话，修改/home/soledad/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.10/lib/action_dispatch/middleware/session目录下的abstract_store.rb，插一行即可:
+
+    module Compatibility
+      def initialize(app, options = {})
+        options[:key] ||= '_session_id'
+        options[:secret] ||= Rails.application.config.secret_token # insert this line, only a temp solution
+        super
+      end
+

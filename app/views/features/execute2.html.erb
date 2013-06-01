@@ -1,0 +1,11 @@
+Here is the report:
+
+<% if $appear %>
+    <%= link_to 'Saves' %></p>
+    <%= link_to 'Back',:back %></p>
+    <div style="width:1000px;border: green 1px solid;background: #ffcc00;">
+   <% $is_remote_size.times do |x|  %>
+      <%= render "execute#{x}}" %>
+   <% end %>
+    </div>
+<% end %>

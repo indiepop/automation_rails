@@ -124,6 +124,7 @@ class FeaturesController < ApplicationController
  end
 
 def execute2
+  begin
   @checked_ip = params[:checked_ips].delete_if{|x| x==" "}    #check the array of checked ip out
   hash_ip= Hash.new
   hash_ip_add = Hash.new
@@ -132,13 +133,20 @@ def execute2
    end    #revert the arry to hash
   hash_ip_add.store('checked_ips',hash_ip)
   @root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
-  #$info = YAML.load_file("#{$root}/lib/resource/info.yml")
-  File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip_add, f) }
- # YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
-`bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute.html.erb`
+  File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip_add, f) }  # 写入文件
+  @is_remote = YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
+  @is_remote['checked_ips'].each do |key,value|
+ `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute#{key}.html.erb`
+  end
+  $is_remote_size = @is_remote['checked_ips'].size
+ rescue
+    nil
+  ensure
   File.delete "#{@root}/lib/resource/execute_ip.yml"
-  redirect_to features_path
+  render
+  end
 end
+
 
 private
   def appear_sub
