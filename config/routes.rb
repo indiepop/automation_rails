@@ -25,7 +25,6 @@ AutomationRails::Application.routes.draw do
     end
     collection do
       get :search
-      get :save
     end
   end
 
