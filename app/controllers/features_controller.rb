@@ -3,7 +3,7 @@ class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
  $appear=false
- before_filter :appear_sub,:only => [:execute,:execute2]
+ before_filter :appear_sub,:only => [:execute]
  after_filter :disappear_sub ,:only => [:index]
 
   def index
@@ -138,7 +138,8 @@ def execute2
   @is_remote['checked_ips'].each do |key,value|
  `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute#{key}.html.erb`
   end
-  $is_remote_size = @is_remote['checked_ips'].size
+  @is_remote_size = @is_remote['checked_ips'].size
+  #  p "ssssssssssssssssssssss#{$is_remote_size.class}"
  rescue
     nil
   ensure

@@ -9,18 +9,22 @@ Before do
   end
 end                                                                         #start
 
+
 After do
   # Be sure to close the browser if it's still open
   if $browser
-    $browser.close
-    $browser = nil
+    $browser.each do |browser|
+    browser.close
+  end
   end                                                                    #one scenario ends
 end
 
 at_exit do
   # Be sure to close the browser if it's still open
   if $browser
+    $browser.each do |browser|
     $browser.close
-    $browser = nil                                                      #one feature ends
+    #browser = nil
+    end                                                   #one feature ends
   end
 end
