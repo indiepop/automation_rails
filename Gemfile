@@ -68,6 +68,9 @@ end
 #PAGE
 gem 'kaminari'
 
+#PERFORMANCE
+gem 'roadrunner'
+
 #bundle update gem_name 則會更新此 gem 的版本
 #bundle update 則會檢查所有的 gem 更新到最新版本。
 #一般來說你只需要在每次 Gemfile 修改後，執行 bundle install 即可。
