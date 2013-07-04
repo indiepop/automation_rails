@@ -69,7 +69,10 @@ end
 gem 'kaminari'
 
 #PERFORMANCE
+group :roadrunner do
 gem 'roadrunner'
+gem 'net-ssh'
+end
 
 #bundle update gem_name 則會更新此 gem 的版本
 #bundle update 則會檢查所有的 gem 更新到最新版本。

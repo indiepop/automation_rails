@@ -89,6 +89,7 @@ GEM
     multi_json (1.7.2)
     mysql2 (0.3.11)
     mysql2 (0.3.11-x86-mingw32)
+    net-ssh (2.6.7)
     nokogiri (1.5.9)
     nokogiri (1.5.9-x86-mingw32)
     polyglot (0.3.3)
@@ -173,6 +174,7 @@ DEPENDENCIES
   kaminari
   launchy
   mysql2
+  net-ssh
   rails (= 3.2.2)
   roadrunner
   rspec-rails (>= 2.0.0.beta.10)

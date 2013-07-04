@@ -7,13 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div><h1></h1></div>
 <div id="banner">
   <%= image_tag("rails.png" ,:size => "44x44") %>
   <%= @page_title || "Automaton Rails" %>
 </div>
 <div id="columns">
-  <div id="side">
+  <div id="side" style="width: 12em">
     <%=link_to "Main Page", features_path %> <br />
     <%=link_to "Tags Management", tags_path %> <br />
     <%=link_to "Machines Management", machines_path %> <br />
