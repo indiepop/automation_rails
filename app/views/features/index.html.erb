@@ -35,17 +35,11 @@
   </tr>
   <% end %>
 </table>
-<%if $appear %>
-  <p style="float: right">
-  <%= link_to 'Save', save_feature_path($executed_feature) %>
-  <%= link_to 'Back',:back %>
-  </p>
- <div style="width:1000px">
-<%= render 'execute' %>
-</div>
-<% else %>
+
+
+
 <%= link_to_unless $appear,'New Feature', new_feature_path %>
-<%end%>
+
 
 
 

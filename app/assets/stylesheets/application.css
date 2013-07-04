@@ -27,10 +27,11 @@ text-align: center;
     background: #123456;
 }
 #main {
-    margin-left: 13em;
+    margin-left:13em;
     padding-top: 4ex;
     padding-left: 2em;
     background: white;
+    font-size: small;
 }
 #side {
     float: left;

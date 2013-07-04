@@ -2,9 +2,6 @@ require 'yaml'
 class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
- $appear=false
- before_filter :appear_sub,:only => [:execute]
- after_filter :disappear_sub ,:only => [:index]
 
   def index
     @features = Feature.order(:name).page(params[:page]).per(5)
@@ -95,11 +92,12 @@ class FeaturesController < ApplicationController
   end
   def execute
       @feature = Feature.find(params[:id])
-      $executed_feature = @feature
+      session[:executed_feature]||= Feature.new
+      session[:executed_feature] = @feature
       `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
-      redirect_to features_path
-
+      render
   end
+
   def report
     @feature = Feature.find(params[:id])
     `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
@@ -149,12 +147,5 @@ def execute2
 end
 
 
-private
-  def appear_sub
-    $appear= true
-  end
-  def disappear_sub
-    $appear= false
-  end
 
 end
