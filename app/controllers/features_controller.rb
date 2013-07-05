@@ -121,7 +121,7 @@ class FeaturesController < ApplicationController
      session[:executed_feature]= @feature    #the feature that need to run
  end
 
-def execute2
+def execute2         #because this procedure need run with system command , we need to use a file system to communicate
   begin
   @checked_ip = params[:checked_ips].delete_if{|x| x==" "}    #check the array of checked ip out
   hash_ip= Hash.new
@@ -140,8 +140,8 @@ def execute2
  rescue
     nil
   ensure
-  File.delete "#{@root}/lib/resource/execute_ip.yml"
-  render(layout: 'layouts/save_layout2')
+  File.delete "#{@root}/lib/resource/execute_ip.yml"         #毁灭罪证
+  render(layout: 'layouts/save_layout2')    #use the special layout
   end
 end
 
