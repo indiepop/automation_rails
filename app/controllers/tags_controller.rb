@@ -90,13 +90,13 @@ class TagsController < ApplicationController
   #   puts "I wanna see #{@checked_tags}"
      $format_check_tags=@checked_tags.map{|x|'@'+x}.join","
 
-     `bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/_execute.html.erb`
-  #   p "  bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/_execute.html.erb"
+     `bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/execute.html.erb`
+  #   p "  bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/execute.html.erb"
      redirect_to tags_path
   end
   def save
 
-    send_file "./app/views/tags/_execute.html.erb",:filename=> "report_#{$format_check_tags.gsub(/\//,"_")}.html",:disposition => "attachment"
+    send_file "./app/views/tags/execute.html.erb",:filename=> "report_#{$format_check_tags.gsub(/\//,"_")}.html",:disposition => "attachment"
 
   end
   private

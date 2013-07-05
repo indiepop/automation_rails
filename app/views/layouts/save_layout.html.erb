@@ -1,0 +1,7 @@
+<div style="float: right;font-size: small">
+  <%= link_to 'Save', save_feature_path(session[:executed_feature]) %>
+  <%= link_to 'Close',"javascript:close()" %>
+</div>
+<div id="main" >
+     <%= yield %>
+ </div>

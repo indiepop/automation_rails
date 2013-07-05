@@ -91,21 +91,21 @@ class FeaturesController < ApplicationController
     end
   end
   def execute
-      @feature = Feature.find(params[:id])
+      @feature = Feature.find(params[:id])           #make session for save and other.
       session[:executed_feature]||= Feature.new
       session[:executed_feature] = @feature
-      `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
-      render
+      `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/execute.html.erb`
+      render(layout: 'layouts/save_layout')       #to use the save layout in order not to ruin the application layout
   end
 
   def report
     @feature = Feature.find(params[:id])
-    `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/_execute.html.erb`
-     send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
+    `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/execute.html.erb`
+     send_file "./app/views/features/execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
   end
   def save
-    @feature = $executed_feature
-    send_file "./app/views/features/_execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
+    @feature = session[:executed_feature]
+    send_file "./app/views/features/execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
 
   end
  def search
@@ -137,12 +137,11 @@ def execute2
  `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute#{key}.html.erb`
   end
   @is_remote_size = @is_remote['checked_ips'].size
-  #  p "ssssssssssssssssssssss#{$is_remote_size.class}"
  rescue
     nil
   ensure
   File.delete "#{@root}/lib/resource/execute_ip.yml"
-  render
+  render(layout: 'layouts/save_layout2')
   end
 end
 
