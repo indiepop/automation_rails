@@ -35,7 +35,7 @@
  <% unless $appear%>
 <%= form_tag execute_tags_path do %>
 <% @tags.each do |g| %>
-    <%= check_box_tag "checked_tags[]", g.name %> <%= g.name %>
+    <%= check_box_tag "checked_tags[]", g.name %> <%= g.name %> || Feature names: <%=g.features.map(&:name).join(",") %>
     <%= hidden_field_tag "checked_tags[]"," " %>
 <% end %>
 <br />
