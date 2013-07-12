@@ -10,6 +10,8 @@ require 'rubygems'
 require 'benchmark'
 require 'logger'
 require 'pp'
+require 'yaml'
+require 'active_record'
 
 Dir[File.join(File.dirname(__FILE__),"*.rb")].select{|x|not ( x =~ /.*roadrunner\.rb/)}.each { |x| require x  }
 
@@ -30,53 +32,32 @@ class RoadRunner
 
   def initialize(opts={})
     # => DEBUG < INFO < WARN < ERROR < FATAL < UNKNOWN
-    opts = {:out=>File.join(File.dirname(__FILE__),'..','..','..','log',"stdout.log"),:frequency=>'daily',:size=>1048576,:level=>Logger::DEBUG}.merge opts      #日志参数
+    p   File.dirname(__FILE__)
+
+    opts = {:out=>  File.join(File.dirname(__FILE__),'..','..','..','log',"stdout.log"),:frequency=>'daily',:size=>1048576,:level=>Logger::DEBUG}.merge opts      #日志参数
     @users,@iterations,@longest,@userId,@iterationId=1,1,0,0,0   #用户数，迭代次数
     @initBlk,@actBlk,@endBlk=proc{},proc{},proc{}      #定义初始化，动作，结束模块
     @global,@transactions={},{}
-    @log=Logger.new(opts[:out],opts[:frequency],opts[:size])
+    @log = Logger.new(opts[:out],opts[:frequency],opts[:size])
     @log.level=opts[:level]
     @log.info("#{'-'*20} #{$0} RoadRunner log #{'-'*20}")
-                                                                                                                                                      # => mode : sequence<default>,thread|t,process|p
+     # => mode : sequence<default>,thread|t,process|p                                                                                                                                                  # => mode : sequence<default>,thread|t,process|p
     @mode='sequence'
 
     @transaction_blk={}
 
-    if block_given? then
-      begin
-        gem 'active_record'
-        require 'active_record'
-      rescue Exception => e
-        require 'active_record'
-      end
-
-      require 'db'
-      require "model"
-
-      session = {}
-      _session = yield session
-      session = _session if session == {}
+      db_info = YAML.load_file(File.join(File.dirname(__FILE__),'..','..','..','config',"database.yml"))
 
       begin
         ActiveRecord::Base.establish_connection(
-#
-#          === session defined in block :
-#
-#          :adapter=>session[:adapter],
-#          :encoding=>session[:encoding],
-#          :database=>session[:database],
-#          :username=>session[:username],
-#          :password=>session[:password],
-#          :host=>session[:host]
-#
-            session
+            db_info['development']              #load the rails db
         )
         self.log.info "connect db ok."
-      rescue =>ex
-        self.log.error "adapter:#{session[:adapter]}.connect db faile."
+      rescue => ex
+        self.log.error "adapter:#{db_info['development']['adapter']}.connect db faile."
       end
 
-      default_report_table = %w"scenarios transactions records"
+    default_report_table = %w"scenarios transactions records"
 
       unless @data_write = default_report_table.inject(true){|r,t| r = r && ActiveRecord::Base.connection.tables.include?(t)} then
         self.log.warn "table rreports doesn't defined and will be created."
@@ -90,7 +71,7 @@ class RoadRunner
       require 'model' unless defined? Scenario
       self.log.debug 'model Rreport is reqruired.'
     end
-  end
+
 
   def transaction(name,&blk)
     @transactions[name] || @transactions[name] = []
@@ -101,8 +82,8 @@ class RoadRunner
     # => 0=>success
     # => -1=>faile
     case status
-      when false,'false','-1',-1 then status = -1
-      else status = 0
+    when false,'false','-1',-1 then status = -1
+    else status = 0
     end
     # {:stats=>status,:cost=>rcost,:create_at=>Time.now} is one record
     @transactions[name] << {:stats=>status,:cost=>rcost,:create_at=>Time.now.to_s}
@@ -116,9 +97,9 @@ class RoadRunner
     @transaction_blk[name]=blk
   end
 
+
   def method_missing(name,*args,&blk)
     # self.transaction(name.to_s,&blk)
     register_transactions(name,&blk)
   end
-
 end

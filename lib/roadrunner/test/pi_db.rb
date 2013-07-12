@@ -13,7 +13,7 @@ require 'roadrunner'
 rrpi=RoadRunner.new
 
 
-=begin
+
 rrpi.init do
   rrpi.global[:pi],rrpi.global[:deep]=0,1000
 
@@ -21,6 +21,7 @@ rrpi.init do
   # iterations决定每个用户执行多少次
   rrpi.users,rrpi.iterations=10,10
 end
+
 
 rrpi.action do
 
@@ -37,7 +38,11 @@ rrpi.ended do
   #rrpi.global={}
 end
 
+
+
 rrpi.run
+=begin
+
 rrpi.report
 rrpi.save_report("pi_conputiong_perf_01")
 

@@ -72,6 +72,7 @@ gem 'kaminari'
 group :roadrunner do
 gem 'roadrunner'
 gem 'net-ssh'
+gem 'httparty'
 end
 
 #bundle update gem_name 則會更新此 gem 的版本

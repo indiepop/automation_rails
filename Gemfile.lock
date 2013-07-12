@@ -70,6 +70,9 @@ GEM
     gherkin (2.11.6-x86-mingw32)
       json (>= 1.7.6)
     hike (1.2.1)
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
     i18n (0.6.2)
     journey (1.0.4)
     jquery-rails (2.2.1)
@@ -87,6 +90,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.2)
+    multi_xml (0.5.4)
     mysql2 (0.3.11)
     mysql2 (0.3.11-x86-mingw32)
     net-ssh (2.6.7)
@@ -170,6 +174,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   factory_girl
+  httparty
   jquery-rails
   kaminari
   launchy
