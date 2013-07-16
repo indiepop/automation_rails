@@ -19,7 +19,7 @@ rrpi.init do
 
   # users决定同时有多少并发用户一起执行action
   # iterations决定每个用户执行多少次
-  rrpi.users,rrpi.iterations=10,10
+  rrpi.users,rrpi.iterations=10,100
 end
 
 
@@ -30,20 +30,21 @@ rrpi.action do
   # 可以通过userId获得当前action执行用户的id
   #  puts rrpi.iterationId
   #  puts rrpi.userId
-  1.upto(rrpi.global[:deep]){|x|rrpi.global[:pi]+=((-1)**(x+1)*1.0/(x*2-1))}
+  1.upto(rrpi.global[:deep]){|x|rrpi.global[:pi]+=4*1.0/(1+x**2)}
 end
 
 rrpi.ended do
-  rrpi.global[:pi]*=4
+  rrpi.global[:pi]
   #rrpi.global={}
 end
 
 
 
 rrpi.run
-=begin
+
 
 rrpi.report
+=begin
 rrpi.save_report("pi_conputiong_perf_01")
 
 =end

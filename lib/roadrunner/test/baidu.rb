@@ -7,7 +7,7 @@ require 'httparty'
 baidu = RoadRunner.new
 
 baidu.init do
-  baidu.users, baidu.iterations= 10,2
+  baidu.users, baidu.iterations= 2,2
 end
 
 baidu.action do
@@ -17,3 +17,4 @@ baidu.action do
 end
 
 baidu.run
+baidu.report
