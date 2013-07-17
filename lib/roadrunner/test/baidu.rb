@@ -5,16 +5,15 @@ require 'httparty'
 
 
 baidu = RoadRunner.new
+baidu.users, baidu.iterations,baidu.mode= 1,1,'p'
 
-baidu.init do
-  baidu.users, baidu.iterations= 2,2
-end
 
-baidu.action do
-  baidu.query do
+  baidu.query  do
     resp = HTTParty.get('http://www.baidu.com/')
   end
-end
+  baidu.sina do
+    HTTParty.get('http://www.sina.com.cn')
+  end
 
 baidu.run
 baidu.report
