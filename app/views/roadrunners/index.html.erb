@@ -1,0 +1,29 @@
+<h1>Listing roadrunners</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Script</th>
+    <th>Description</th>
+    <th>Remark</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @roadrunners.each do |roadrunner| %>
+  <tr>
+    <td><%= roadrunner.name %></td>
+    <td><%= roadrunner.script %></td>
+    <td><%= roadrunner.description %></td>
+    <td><%= roadrunner.remark %></td>
+    <td><%= link_to 'Show', roadrunner %></td>
+    <td><%= link_to 'Edit', edit_roadrunner_path(roadrunner) %></td>
+    <td><%= link_to 'Destroy', roadrunner, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Roadrunner', new_roadrunner_path %>

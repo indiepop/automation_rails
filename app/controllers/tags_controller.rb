@@ -1,9 +1,7 @@
 class TagsController < ApplicationController
   # GET /tags
   # GET /tags.json
-  $appear=false
-  before_filter :appear_sub,:only => [:execute]
-  after_filter :disappear_sub ,:only => [:index]
+
   def index
     @tags = Tag.all
 
@@ -92,19 +90,12 @@ class TagsController < ApplicationController
 
      `bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/execute.html.erb`
   #   p "  bundle exec cucumber --color -r features -t #{$format_check_tags} -f html > ./app/views/tags/execute.html.erb"
-     redirect_to tags_path
+     render(layout:'layouts/save_layout_tag')
   end
   def save
 
     send_file "./app/views/tags/execute.html.erb",:filename=> "report_#{$format_check_tags.gsub(/\//,"_")}.html",:disposition => "attachment"
 
-  end
-  private
-  def appear_sub
-    $appear= true
-  end
-  def disappear_sub
-    $appear= false
   end
 
 end

@@ -107,6 +107,8 @@ rails -g model feature_tag_ship feature_id:integer tag_id:integer
 
 rails g scaffold machine name:text ip:text credential:text machine_type:integer remark:text
 rails g model machine_type name
+
+rails g scaffold roadrunner name:text script:text description:text remark:text
 ...
 
 

@@ -1,0 +1,38 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutomationRails</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="banner">
+    <%= image_tag("rails.png" ,:size => "44x44") %>
+    <%= @page_title || "Automaton Rails" %>
+</div>
+<div id="columns">
+    <div id="side">
+        <%=link_to "Main Page", features_path %> <br />
+        <%=link_to "Tags Management", tags_path %> <br />
+        <%=link_to "Machines Management", machines_path %> <br />
+        <%=link_to "Road Runner", roadrunners_path %> <br />
+        <a href="http://www.weibo.com/u/2542232013">Contact Me</a><br />
+    </div>
+    <div id="main">
+        <div style="float: right;font-size: small">
+            <%= link_to 'Save', save_tags_path %>
+        </div>
+        <%= yield :layout%>
+    </div>
+</div>
+<div id="bottom">
+    Made by Josh.Yang.since 2012<br />
+    Automation Rails V 1.1.2
+</div>
+</body>
+
+</html>

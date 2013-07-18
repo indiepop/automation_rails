@@ -1,6 +1,8 @@
 
 AutomationRails::Application.routes.draw do
 
+  resources :roadrunners
+
   resources :machines  do
     collection do
       get :download

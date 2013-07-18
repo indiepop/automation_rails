@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @roadrunner.name %>
+</p>
+
+<p>
+  <b>Script:</b>
+  <%= @roadrunner.script %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @roadrunner.description %>
+</p>
+
+<p>
+  <b>Remark:</b>
+  <%= @roadrunner.remark %>
+</p>
+
+
+<%= link_to 'Edit', edit_roadrunner_path(@roadrunner) %> |
+<%= link_to 'Back', roadrunners_path %>

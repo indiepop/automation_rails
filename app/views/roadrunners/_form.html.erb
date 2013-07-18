@@ -1,0 +1,33 @@
+<%= form_for(@roadrunner) do |f| %>
+  <% if @roadrunner.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@roadrunner.errors.count, "error") %> prohibited this roadrunner from being saved:</h2>
+
+      <ul>
+      <% @roadrunner.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_area :name %>
+  </div>
+  <div class="field">
+    <%= f.label :script %><br />
+    <%= f.text_area :script %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :remark %><br />
+    <%= f.text_area :remark %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
