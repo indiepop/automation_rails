@@ -1,7 +1,12 @@
 
 AutomationRails::Application.routes.draw do
 
-  resources :roadrunners
+  resources :roadrunners  do
+    member do
+      get :execute
+      post :execute2
+    end
+  end
 
   resources :machines  do
     collection do

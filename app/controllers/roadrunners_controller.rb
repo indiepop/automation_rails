@@ -1,3 +1,5 @@
+require 'roadrunner/lib/roadrunner'
+require 'httparty'
 class RoadrunnersController < ApplicationController
   # GET /roadrunners
   # GET /roadrunners.json
@@ -80,4 +82,24 @@ class RoadrunnersController < ApplicationController
       format.json { head :no_content }
     end
   end
+  def execute
+    @roadrunner = Roadrunner.find(params[:id])
+  end
+  def execute2
+    @roadrunner = Roadrunner.find(params[:id])
+    user_number=params[:user_number].to_i
+    iteration_number= params[:iteration_number].to_i
+    mode=params[:mode]
+    @instance= @roadrunner.name
+
+    @instance=RoadRunner.new
+    @instance.users=user_number
+    @instance.iterations=iteration_number
+    @instance.mode=mode
+    eval @roadrunner.script
+    @instance.run
+    @instance.report
+
+  end
+
 end

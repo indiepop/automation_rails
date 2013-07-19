@@ -8,9 +8,4 @@
 #http://docs.seleniumhq.org/download/
 #java -jar selenium-server-standalone.jar
 #http://selenium.googlecode.com/files/selenium-server-standalone-2.33.0.jar
-
-
-p File.join(File.dirname(__FILE__),'..','..','..','log')
-
-
-File.dirname(__FILE__)
+'baidu'.to_a = Array.new

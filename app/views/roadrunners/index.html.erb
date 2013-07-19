@@ -14,12 +14,13 @@
 <% @roadrunners.each do |roadrunner| %>
   <tr>
     <td><%= roadrunner.name %></td>
-    <td><%= roadrunner.script %></td>
-    <td><%= roadrunner.description %></td>
+    <td><%= truncate(strip_tags(roadrunner.script),length: 60) %></td>
+    <td><%= truncate(strip_tags(roadrunner.description),length:20) %></td>
     <td><%= roadrunner.remark %></td>
     <td><%= link_to 'Show', roadrunner %></td>
     <td><%= link_to 'Edit', edit_roadrunner_path(roadrunner) %></td>
     <td><%= link_to 'Destroy', roadrunner, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'execute', execute_roadrunner_path(roadrunner), method: :get %></td>
   </tr>
 <% end %>
 </table>

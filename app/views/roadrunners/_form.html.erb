@@ -13,19 +13,19 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.text_area :name %>
+    <%= f.text_field :name %>
   </div>
   <div class="field">
     <%= f.label :script %><br />
-    <%= f.text_area :script %>
+    <%= f.text_area :script ,:rows => 10,:cols =>100%>
   </div>
   <div class="field">
     <%= f.label :description %><br />
-    <%= f.text_area :description %>
+    <%= f.text_area :description ,:rows => 3%>
   </div>
   <div class="field">
     <%= f.label :remark %><br />
-    <%= f.text_area :remark %>
+    <%= f.text_area :remark ,:rows =>3%>
   </div>
   <div class="actions">
     <%= f.submit %>
