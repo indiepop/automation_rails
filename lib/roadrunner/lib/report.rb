@@ -5,10 +5,10 @@ module RoadRunnerModule
 
   def report(opts={:label=>'',:width=>0,:msg=>""})
     p "      Wait for moment,the report is collecting......"
-    content = if @rep
+    @running_report = if @rep
       @succRates = getSuccessRate @transactions
       <<-DOC
-      #{"Performance Reports".center(50, '*')}
+      #{"Performance Reports".center(50, '*')} \n
       #{opts[:label].ljust(opts[:width])}
       #{Benchmark::Tms::CAPTION}
       #{@rep.format}
@@ -30,8 +30,8 @@ module RoadRunnerModule
     else
       "None Report before RoadRunner run."
     end
-    puts content
-    self.log.info content
+    puts @running_report
+    self.log.info @running_report
   end
 
   def save_report(opts={:author=>'Anonymous',:script=>""})

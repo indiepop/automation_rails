@@ -8,4 +8,9 @@
 #http://docs.seleniumhq.org/download/
 #java -jar selenium-server-standalone.jar
 #http://selenium.googlecode.com/files/selenium-server-standalone-2.33.0.jar
-'baidu'.to_a = Array.new
+test="fuck"
+     a = <<DOC
+     "test"
+     Tsdfsfs
+DOC
+

@@ -1,2 +1,6 @@
-<%= @roadrunner.name%>
-<%= params[:mode] %>
+<h1>Report:<%= @roadrunner.name%></h1>
+<br>
+Running time: <%= Time.now %>   <br>
+Running mode: <%= @load.mode %>  <br>
+
+<%=raw @load.running_report %>

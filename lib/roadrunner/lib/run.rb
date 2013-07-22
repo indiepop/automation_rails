@@ -146,13 +146,13 @@ DOC
     end
 
     p '      '+"RoadRunner".center(50, '*')
-    p '      *'+"---Run , on your way.".rjust(48, ' ')+'*'
+    p '      *'+"---Made By Josh.".rjust(48, ' ')+'*'
     p '      '+'*'*50
     p
     p "      Running......"
     @rep = Benchmark::measure(&iterationBlk)
     p "      Ending......"
-    @endBlk.call
+   # @endBlk.call
 
     @tps = @iterations*@users/@rep.real
   end

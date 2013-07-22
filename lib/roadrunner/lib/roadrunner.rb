@@ -29,6 +29,7 @@ class RoadRunner
   attr :tps
   alias_method :g,:global
   alias_method :g=,:global=
+  attr :running_report, true
 
   def initialize(opts={})
     # => DEBUG < INFO < WARN < ERROR < FATAL < UNKNOWN
@@ -43,7 +44,7 @@ class RoadRunner
     @log.info("#{'-'*20} #{$0} RoadRunner log #{'-'*20}")
      # => mode : sequence<default>,thread|t,process|p                                                                                                                                                  # => mode : sequence<default>,thread|t,process|p
     @mode='sequence'
-
+    @running_report=''
     @transaction_blk={}
 
       db_info = YAML.load_file(File.join(File.dirname(__FILE__),'..','..','..','config',"database.yml"))

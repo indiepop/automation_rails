@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/roadrunners/execute.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/roadrunners/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/roadrunners/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/features/index.html.erb" afterPath="$PROJECT_DIR$/app/views/features/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/roadrunners/index.html.erb" afterPath="$PROJECT_DIR$/app/views/roadrunners/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/roadrunners/execute.html.erb" afterPath="$PROJECT_DIR$/app/views/roadrunners/execute.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb" afterPath="$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/roadrunner/lib/report.rb" afterPath="$PROJECT_DIR$/lib/roadrunner/lib/report.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/roadrunner/lib/roadrunner.rb" afterPath="$PROJECT_DIR$/lib/roadrunner/lib/roadrunner.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/roadrunners_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/roadrunners_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/roadrunner/lib/run.rb" afterPath="$PROJECT_DIR$/lib/roadrunner/lib/run.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/test.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374139794238" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374226316046" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684873119" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -33,7 +33,7 @@
     <file path="/secret_token.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366105077717" ignored="false" />
     <file path="/development.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366186167256" ignored="false" />
     <file path="/production.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366187508628" ignored="false" />
-    <file path="/test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374226183940" ignored="false" />
+    <file path="/test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374481101137" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/rspec-mocks-2.13.0/lib/rspec/mocks/any_instance.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366191456390" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/tzinfo-0.3.35/lib/tzinfo/tzdataparser.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366191456390" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320@global/gems/rake-10.0.3/lib/rake.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366191456390" ignored="false" />
@@ -105,7 +105,7 @@
     <file path="/login_steps.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1370766012146" ignored="false" />
     <file path="/application.css" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373269338411" ignored="false" />
     <file path="/application.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374128200068" ignored="false" />
-    <file path="/_form.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374219021825" ignored="false" />
+    <file path="/_form.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374474763930" ignored="false" />
     <file path="/feature_tag_ship.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368070342533" ignored="false" />
     <file path="/tag.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368070388343" ignored="false" />
     <file path="/_form2.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368167425751" ignored="false" />
@@ -132,22 +132,23 @@
     <file path="/machines_helper.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369904817312" ignored="false" />
     <file path="/machines.css.scss" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1369906417677" ignored="false" />
     <file path="/hooks.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1370766495926" ignored="false" />
-    <file path="/execute2.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374219602700" ignored="false" />
+    <file path="/execute2.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374483143097" ignored="false" />
     <file path="/execute.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374221063513" ignored="false" />
     <file path="/save_layout.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1372993410341" ignored="false" />
     <file path="/save_layout.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373004341086" ignored="false" />
     <file path="/application_helper.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373004281690" ignored="false" />
     <file path="/save_layout2.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373006898907" ignored="false" />
-    <file path="/roadrunner.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374043586592" ignored="false" />
+    <file path="/roadrunner.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374476738134" ignored="false" />
     <file path="/pi_db.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373959625814" ignored="false" />
     <file path="/db.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373610122075" ignored="false" />
-    <file path="/run.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373619895087" ignored="false" />
+    <file path="/run.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374477689695" ignored="false" />
     <file path="/baidu.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374045155527" ignored="false" />
     <file path="/getHawaii.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373964481682" ignored="false" />
     <file path="/action.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374044200119" ignored="false" />
     <file path="/init.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374047164213" ignored="false" />
     <file path="/save_layout_tag.html" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374128221358" ignored="false" />
-    <file path="/roadrunners_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374225939753" ignored="false" />
+    <file path="/roadrunners_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374464309967" ignored="false" />
+    <file path="/report.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374482576703" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
           <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/roadrunners/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="61" selection-start="323" selection-end="323" vertical-scroll-proportion="-10.0">
+                <state line="25" column="44" selection-start="770" selection-end="770" vertical-scroll-proportion="-15.625">
                   <folding />
                 </state>
               </provider>
@@ -187,10 +188,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="31" selection-start="533" selection-end="533" vertical-scroll-proportion="0.2669039">
+                <state line="16" column="27" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -199,7 +200,7 @@
           <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/roadrunners/_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="65" selection-start="684" selection-end="684" vertical-scroll-proportion="-14.375">
+                <state line="19" column="41" selection-start="555" selection-end="555" vertical-scroll-proportion="-11.875">
                   <folding />
                 </state>
               </provider>
@@ -217,7 +218,7 @@
           <file leaf-file-name="execute.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="83" selection-start="605" selection-end="605" vertical-scroll-proportion="-10.625">
+                <state line="21" column="49" selection-start="644" selection-end="644" vertical-scroll-proportion="-13.125">
                   <folding />
                 </state>
               </provider>
@@ -235,7 +236,25 @@
           <file leaf-file-name="run.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/run.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="141" column="19" selection-start="4774" selection-end="4774" vertical-scroll-proportion="0.0">
+                <state line="152" column="8" selection-start="5023" selection-end="5027" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="execute2.html.erb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="37" selection-start="151" selection-end="151" vertical-scroll-proportion="0.1923077">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="roadrunners_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/roadrunners_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="93" column="46" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -245,24 +264,6 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="form_tag_helper.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="91" column="125" selection-start="4700" selection-end="4717" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="execute2.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="39" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.625">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
@@ -272,28 +273,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <file leaf-file-name="roadrunner.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/roadrunner.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="20" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+                <state line="46" column="23" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="roadrunners_controller.rb" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/controllers/roadrunners_controller.rb">
+          <file leaf-file-name="report.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/report.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="92" column="31" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.613879">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="proc.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/proc.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="6" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+                <state line="32" column="29" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.82857144">
                   <folding />
                 </state>
               </provider>
@@ -333,22 +325,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/roadrunner/lib/action.rb" />
-        <option value="$PROJECT_DIR$/lib/roadrunner/lib/ended.rb" />
-        <option value="$PROJECT_DIR$/doc/operation" />
-        <option value="$PROJECT_DIR$/app/controllers/tags_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/tags/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/save_layout_tag.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/features/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/roadrunners/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/roadrunners/execute.html.erb" />
         <option value="$PROJECT_DIR$/app/views/roadrunners/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/roadrunners_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/roadrunners/_form.html.erb" />
+        <option value="$PROJECT_DIR$/lib/roadrunner/lib/roadrunner.rb" />
+        <option value="$PROJECT_DIR$/app/views/roadrunners/execute.html.erb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/roadrunner-4.0.4/lib/report.rb" />
+        <option value="$PROJECT_DIR$/lib/roadrunner/lib/run.rb" />
         <option value="$PROJECT_DIR$/my_testing_with_github/test.rb" />
+        <option value="$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb" />
+        <option value="$PROJECT_DIR$/lib/roadrunner/lib/report.rb" />
       </list>
     </option>
   </component>
@@ -398,6 +390,42 @@
               <option name="myItemId" value="automation_rails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roadrunner (v4.0.4, RVM: ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roadrunner (v4.0.4, RVM: ruby-1.9.3-p448) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -434,6 +462,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="my_testing_with_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1500,7 +1542,11 @@
       <created>1374139797715</created>
       <updated>1374139797715</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="something need to converse ,and fixed something">
+      <created>1374226321425</created>
+      <updated>1374226321425</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1527,17 +1573,17 @@
     <frame x="64" y="-7" width="1857" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672232" sideWeight="0.499723" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672232" sideWeight="0.499723" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17640918" sideWeight="0.49695966" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.49358973" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2299169" sideWeight="0.27661794" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27423823" sideWeight="0.65344465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27423823" sideWeight="0.5908142" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900112" sideWeight="0.6005803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2299169" sideWeight="0.27661794" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28496867" sideWeight="0.25263157" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34655532" sideWeight="0.7434903" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30777538" sideWeight="0.3263158" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4091858" sideWeight="0.7434903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30777538" sideWeight="0.3263158" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1586,7 +1632,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add roadrunner UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="something need to converse ,and fixed something" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1599,7 +1645,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="add model relationship" />
     <MESSAGE value="just not easy but going on ,let me think" />
     <MESSAGE value="can create tags, but something showing is not correct.&#10;some tags set save is not implement" />
     <MESSAGE value="get tag name showing fixed" />
@@ -1624,89 +1669,76 @@
     <MESSAGE value="add some new lib and make db_pi running" />
     <MESSAGE value="got a bug :can't add a new key into hash..........considering how to fix it ." />
     <MESSAGE value="add roadrunner UI" />
+    <MESSAGE value="something need to converse ,and fixed something" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/features/machine.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="678" selection-end="678" vertical-scroll-proportion="-11.25">
+        <state line="21" column="49" selection-start="644" selection-end="644" vertical-scroll-proportion="-13.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="41" selection-start="555" selection-end="555" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.2/lib/active_support/core_ext/logger.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="6" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.33161953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/roadrunner-4.0.4/lib/report.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="23" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.92544985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/logger.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="56" selection-start="6439" selection-end="6439" vertical-scroll-proportion="0.8714653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/roadrunner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/stdout.log.20130720">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/run.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="19" selection-start="4774" selection-end="4774" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/roadrunner/test/baidu.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="125" selection-start="4700" selection-end="4717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="39" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="83" selection-start="605" selection-end="605" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="61" selection-start="323" selection-end="323" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.2/lib/active_support/core_ext/proc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="64" selection-end="64" vertical-scroll-proportion="0.052173913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/proc.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+        <state line="91" column="125" selection-start="4700" selection-end="4717" vertical-scroll-proportion="1.9860557">
           <folding />
         </state>
       </provider>
@@ -1718,30 +1750,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/_form.html.erb">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/hash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="65" selection-start="684" selection-end="684" vertical-scroll-proportion="-14.375">
+        <state line="625" column="8" selection-start="23586" selection-end="23586" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/string.rb">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/proc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1224" column="8" selection-start="50936" selection-end="50936" vertical-scroll-proportion="0.0">
+        <state line="20" column="6" selection-start="657" selection-end="657" vertical-scroll-proportion="0.35619047">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/roadrunners_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="31" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.613879">
+        <state line="11" column="47" selection-start="187" selection-end="187" vertical-scroll-proportion="0.31428573">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="533" selection-end="533" vertical-scroll-proportion="0.2669039">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/report.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="29" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.82857144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="151" selection-end="151" vertical-scroll-proportion="0.1923077">
           <folding />
         </state>
       </provider>

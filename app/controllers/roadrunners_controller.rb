@@ -90,15 +90,14 @@ class RoadrunnersController < ApplicationController
     user_number=params[:user_number].to_i
     iteration_number= params[:iteration_number].to_i
     mode=params[:mode]
-    @instance= @roadrunner.name
-
-    @instance=RoadRunner.new
-    @instance.users=user_number
-    @instance.iterations=iteration_number
-    @instance.mode=mode
-    eval @roadrunner.script
-    @instance.run
-    @instance.report
+    @load= @roadrunner.name  #   从数据库中读取该name
+    @load=RoadRunner.new     #   以该name建立实例
+    @load.users=user_number
+    @load.iterations=iteration_number
+    @load.mode=mode
+    eval @roadrunner.script      #跑一个保存在数据库中的脚本，脚本实例名为数据库中的name
+    @load.run
+    @load.report
 
   end
 

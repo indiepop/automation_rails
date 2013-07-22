@@ -8,7 +8,7 @@
  <%= text_field_tag :iteration_number %>
  <br/> <br/>
  <%= label_tag "Mode:" %>
- <%= select_tag :mode,"<option>sequense</option><option>process</option><option>thread</option>".html_safe %>
+ <%= select_tag :mode,"<option>sequence</option><option>process</option><option>thread</option>".html_safe %>
  <br/> <br/>
  <%= label_tag "Action:" %><br/>
  <%= text_area_tag :script,@roadrunner.script,:rows => 10 ,:cols => 100 %>
