@@ -9,13 +9,13 @@ In Automation-Rails, you can do both web-automation testing and performance test
 
 == Getting Started
 
-*1.install mysql server
-*2.git clone https://github.com/indiepop/automation_rails.git
-*3.bundle install
-*4.edit your own config/database.yml
-*5.rake db:migrate
-*6.rake db:seed
-*7.rails server
+1. install mysql server
+2. git clone https://github.com/indiepop/automation_rails.git
+3. bundle install
+4. edit your own config/database.yml
+5. rake db:migrate
+6. rake db:seed
+7. rails server
 
 
 == Interduction
@@ -25,13 +25,19 @@ The framework has two main features:
 2.	Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
 
 == Screenshot
-
+1. This is the main page.
 ![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg "MainPage")
+2. Cucumber Report.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
+3. Running by cucumber tags.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/running_by_tag.jpg)
+4. Machine management if you need to run remotely.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/machine_management.jpg)
+5. Multiple machine running settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/mutiple_machine_running.jpg)
+6. RoadRunner scenario settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_execution.jpg)
+7. RoadRunner Report.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg)
 
 == Debugging Rails
