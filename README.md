@@ -20,9 +20,12 @@ In Automation-Rails, you can do both web-automation testing and performance test
 
 >### Interduction
 
-The framework has two main features:
-1.	Web-automation-testing: case management, auto-execution, report management, BDD.
-2.	Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
+>######The framework has two main features:
+
+> Web-automation-testing: case management, auto-execution, report management, BDD.
+>
+> Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
+>
 
 >### Screenshot
 
