@@ -25,13 +25,13 @@ The framework has two main features:
 2.	Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
 
 == Screenshot
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/main_page.jpg" >
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/report.jpg" >
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/running_by_tag.jpg" >
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/machine_management.jpg" >
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/mutiple_machine_running.jpg" >
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/roadrunner_execution.jpg" >
-<img src="https://github.com/indiepop/automation_rails/tree/master/app/assets/images/roadrunner_report.jpg" >
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
+![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/running_by_tag.jpg)
+![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/machine_management.jpg)
+![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/mutiple_machine_running.jpg)
+![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/roadrunner_execution.jpg)
+![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/roadrunner_report.jpg)
 
 == Debugging Rails
 
