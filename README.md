@@ -28,11 +28,11 @@ The framework has two main features:
 
 ![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg "MainPage")
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
-![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/running_by_tag.jpg)
-![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/machine_management.jpg)
-![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/mutiple_machine_running.jpg)
-![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/roadrunner_execution.jpg)
-![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/roadrunner_report.jpg)
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/running_by_tag.jpg)
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/machine_management.jpg)
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/mutiple_machine_running.jpg)
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_execution.jpg)
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg)
 
 == Debugging Rails
 
