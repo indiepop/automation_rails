@@ -117,3 +117,34 @@ with a IRB prompt in the server window. Here you can do things like:
 
 Finally, when you're ready to resume execution, you can enter "cont".
 
+
+
+>## 欢迎来到 Automation Rails
+
+Rails 是一个web框架，相当牛逼。
+
+我们的 Automation-Rails 集成了 rails + mysql + selenium-webdriver + cucumber + roadrunner 这些组件。
+通过此框架，你可以轻松进行web自动化和性能测试。
+
+
+
+>### 开始吧
+
+1. install mysql server （安装好mysql）
+2. git clone https://github.com/indiepop/automation_rails.git   （克隆到本地）
+3. bundle install                            （安装依赖包）
+4. edit your own config/database.yml        （修改数据库用户名密码）
+5. rake db:migrate                            （数据迁移）
+6. rake db:seed                                （加载原始数据）
+7. rails server                              （启动）
+
+
+>### 介绍
+
+>###### 这个框架有两个特性:
+
+> 页面自动化测试: 用例管理, 自动执行, 报告管理, BDD（用户行为驱动）.
+>
+> 性能测试： 利用开源框架Roadrunner, 本框架对其进行重构。免费，开源，可操作性强，报告详尽。
+>
+

@@ -10,7 +10,7 @@
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374566082165" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374566243243" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684873119" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -143,7 +143,7 @@
     <file path="/roadrunners_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374464309967" ignored="false" />
     <file path="/report.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374546539296" ignored="false" />
     <file path="/README.rdoc" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374549423220" ignored="false" />
-    <file path="/README.md" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374566222143" ignored="false" />
+    <file path="/README.md" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374567534646" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +289,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="1" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5416667">
+                <state line="147" column="53" selection-start="5122" selection-end="5122" vertical-scroll-proportion="1.0520834">
                   <folding />
                 </state>
               </provider>
@@ -1524,7 +1524,11 @@
       <created>1374566084134</created>
       <updated>1374566084134</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="renew rdoc">
+      <created>1374566245148</created>
+      <updated>1374566245148</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1765,7 +1769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5416667">
+        <state line="147" column="53" selection-start="5122" selection-end="5122" vertical-scroll-proportion="1.0520834">
           <folding />
         </state>
       </provider>
