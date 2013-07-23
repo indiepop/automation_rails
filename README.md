@@ -26,7 +26,7 @@ The framework has two main features:
 
 >## Screenshot
 
-![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg "MainPage")
+![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
 This is the main page.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
 Cucumber Report.
