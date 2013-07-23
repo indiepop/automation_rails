@@ -6,7 +6,7 @@
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374562395652" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374563130116" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374558376311" ignored="false" />
     <file path="/README.rdoc" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374560113292" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,7 +105,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="99" selection-start="971" selection-end="971" vertical-scroll-proportion="0.6879562">
+                <state line="38" column="57" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.5492701">
                   <folding />
                 </state>
               </provider>
@@ -950,7 +950,11 @@
       <created>1374562399268</created>
       <updated>1374562399268</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="renew readme">
+      <created>1374563135154</created>
+      <updated>1374563135154</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1167,7 +1171,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="99" selection-start="971" selection-end="971" vertical-scroll-proportion="0.6879562">
+        <state line="38" column="57" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.5492701">
           <folding />
         </state>
       </provider>
