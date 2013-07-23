@@ -7,7 +7,7 @@ Automation-Rails integrated rails + mysql + selenium-webdriver + cucumber + road
 In Automation-Rails, you can do both web-automation testing and performance testing.
 
 
->## Getting Started
+>### Getting Started
 
 1. install mysql server
 2. git clone https://github.com/indiepop/automation_rails.git
@@ -18,13 +18,13 @@ In Automation-Rails, you can do both web-automation testing and performance test
 7. rails server
 
 
->## Interduction
+>### Interduction
 
 The framework has two main features:
 1.	Web-automation-testing: case management, auto-execution, report management, BDD.
 2.	Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
 
->## Screenshot
+>### Screenshot
 
 ![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
 This is the main page.
@@ -42,7 +42,7 @@ RoadRunner scenario settings.
 RoadRunner Report.
 
 
->## Debugging Rails
+>### Debugging Rails
 
 Sometimes your application goes wrong. Fortunately there are a lot of tools that
 will help you debug it and get it back on the rails.
@@ -79,7 +79,7 @@ These two books will bring you up to speed on the Ruby language and also on
 programming in general.
 
 
->## Debugger
+>### Debugger
 
 Debugger support is available through the debugger command when you start your
 Mongrel or WEBrick server with --debugger. This means that you can break out of
