@@ -30,19 +30,19 @@ In Automation-Rails, you can do both web-automation testing and performance test
 >### Screenshot
 
 ![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
-This is the main page.
+>This is the main page.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
-Cucumber Report.
+>Cucumber Report.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/running_by_tag.jpg)
-Running by cucumber tags.
+>Running by cucumber tags.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/machine_management.jpg)
-Machine management if you need to run remotely.
+>Machine management if you need to run remotely.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/mutiple_machine_running.jpg)
-Multiple machine running settings.
+>Multiple machine running settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_execution.jpg)
-RoadRunner scenario settings.
+>RoadRunner scenario settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg)
-RoadRunner Report.
+>RoadRunner Report.
 
 
 >### Debugging Rails
