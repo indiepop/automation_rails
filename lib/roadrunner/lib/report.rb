@@ -8,24 +8,24 @@ module RoadRunnerModule
     @running_report = if @rep
       @succRates = getSuccessRate @transactions
       <<-DOC
-      #{"Performance Reports".center(50, '*')} \n
-      #{opts[:label].ljust(opts[:width])}
-      #{Benchmark::Tms::CAPTION}
-      #{@rep.format}
-      #{'--'*32}
-      The Virtual User is #{@users}.
-      Total Execute #{@iterations*@users} Action(s).
-      Total Cost #{@rep.real} Second(s).
-      This Scenario's TPS : #{@tps}.
-      The longest action cost #{@longest || 0} seconds.
-      #{'Transaction Report'.center(50, '-')}
+      #{"Performance Reports".center(50, '*')} \<br\>
+      #{opts[:label].ljust(opts[:width])}      \<br\>
+      #{Benchmark::Tms::CAPTION}               \<br\>
+      #{@rep.format}                           \<br\>
+      #{'--'*32}                               \<br\>
+      The Virtual User is #{@users}.           \<br\>
+      Total Execute #{@iterations*@users} Action(s).     \<br\>
+      Total Cost #{@rep.real} Second(s).                 \<br\>
+      This Scenario's TPS : #{@tps}.                     \<br\>
+      The longest action cost #{@longest || 0} seconds.  \<br\>
+      #{'Transaction Report'.center(50, '-')}            \<br\>
       #{@transactions.inject("") { |str,k|
       str += "#{k[0].to_s} : count => #{k[1].size} time(s) , cost => #{k[1].inject(0){|c,v|c+=v[:cost].to_f}.to_s[0..3]} sec(s) , success rate => #{@succRates[k[0]]}\n      "
-      }.gsub(/\n$/,'')}
-      #{'--'*32}
-      User defined params as below: 
-      #{@global}
-      #{"End of Reports".center(50, '*')}
+      }.gsub(/\n$/,'')}                                  \<br\>
+      #{'--'*32}                                         \<br\>
+      User defined params as below:                      \<br\>
+      #{@global}                                         \<br\>
+      #{"End of Reports".center(50, '*')}                \<br\>
       DOC
     else
       "None Report before RoadRunner run."
