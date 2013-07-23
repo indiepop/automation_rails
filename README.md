@@ -119,6 +119,9 @@ Finally, when you're ready to resume execution, you can enter "cont".
 
 
 
+------------------------------------------------------------------------------------------------
+
+
 >## 欢迎来到 Automation Rails
 
 Rails 是一个web框架，相当牛逼。

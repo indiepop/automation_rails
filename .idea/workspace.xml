@@ -10,7 +10,7 @@
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374566243243" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374567561465" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366684873119" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -289,7 +289,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="147" column="53" selection-start="5122" selection-end="5122" vertical-scroll-proportion="1.0520834">
+                <state line="121" column="96" selection-start="4536" selection-end="4536" vertical-scroll-proportion="0.5486111">
                   <folding />
                 </state>
               </provider>
@@ -1528,7 +1528,11 @@
       <created>1374566245148</created>
       <updated>1374566245148</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="renew rdoc">
+      <created>1374567563950</created>
+      <updated>1374567563950</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1769,7 +1773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="53" selection-start="5122" selection-end="5122" vertical-scroll-proportion="1.0520834">
+        <state line="121" column="96" selection-start="4536" selection-end="4536" vertical-scroll-proportion="0.5486111">
           <folding />
         </state>
       </provider>
