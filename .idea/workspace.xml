@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\jyang2\RubymineProjects\automation_rails\README.rdoc" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374560140189" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374560959396" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374558376311" ignored="false" />
     <file path="/README.rdoc" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374560113292" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,7 +105,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="85" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.69343066">
+                <state line="28" column="12" selection-start="969" selection-end="969" vertical-scroll-proportion="0.6587591">
                   <folding />
                 </state>
               </provider>
@@ -931,7 +930,11 @@
       <created>1374560149651</created>
       <updated>1374560149651</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="renew readme">
+      <created>1374560970241</created>
+      <updated>1374560970241</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1148,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="85" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.69343066">
+        <state line="28" column="12" selection-start="969" selection-end="969" vertical-scroll-proportion="0.6587591">
           <folding />
         </state>
       </provider>
