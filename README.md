@@ -9,13 +9,13 @@ In Automation-Rails, you can do both web-automation testing and performance test
 
 == Getting Started
 
-=1.install mysql server
-=2.git clone https://github.com/indiepop/automation_rails.git
-=3.bundle install
-=4.edit your own config/database.yml
-=5.rake db:migrate
-=6.rake db:seed
-=7.rails server
+*1.install mysql server
+*2.git clone https://github.com/indiepop/automation_rails.git
+*3.bundle install
+*4.edit your own config/database.yml
+*5.rake db:migrate
+*6.rake db:seed
+*7.rails server
 
 
 == Interduction
@@ -26,7 +26,7 @@ The framework has two main features:
 
 == Screenshot
 
-![Main](http://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
+![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg "MainPage")
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
 ![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/running_by_tag.jpg)
 ![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/machine_management.jpg)
