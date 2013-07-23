@@ -9,13 +9,13 @@ In Automation-Rails, you can do both web-automation testing and performance test
 
 == Getting Started
 
-1.install mysql server
-2.git clone https://github.com/indiepop/automation_rails.git
-3.bundle install
-4.edit your own config/database.yml
-5.rake db:migrate
-6.rake db:seed
-7.rails server
+=1.install mysql server
+=2.git clone https://github.com/indiepop/automation_rails.git
+=3.bundle install
+=4.edit your own config/database.yml
+=5.rake db:migrate
+=6.rake db:seed
+=7.rails server
 
 
 == Interduction
@@ -25,7 +25,8 @@ The framework has two main features:
 2.	Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
 
 == Screenshot
-![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
+
+![Main](http://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg)
 ![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/running_by_tag.jpg)
 ![Josh](https://github.com/indiepop/automation_rails/tree/master/app/assets/images/machine_management.jpg)
