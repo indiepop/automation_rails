@@ -18,7 +18,7 @@ In Automation-Rails, you can do both web-automation testing and performance test
 7. rails server
 
 
->### Interduction
+>### Introduction
 
 >######The framework has two main features:
 
