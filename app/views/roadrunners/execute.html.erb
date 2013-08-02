@@ -2,16 +2,16 @@
 <h2>Please set the scenario:</h2>
 <%= form_tag execute2_roadrunner_path(@roadrunner) do %>
  <%= label_tag "Users Number:" %>
- <%= text_field_tag :user_number %>
+ <%= text_field_tag :user_number ,'1'%>
  <br/> <br/>
  <%= label_tag "Iteration Number:" %>
- <%= text_field_tag :iteration_number %>
+ <%= text_field_tag :iteration_number,'1' %>
  <br/> <br/>
  <%= label_tag "Mode:" %>
  <%= select_tag :mode,"<option>sequence</option><option>process</option><option>thread</option>".html_safe %>
  <br/> <br/>
  <%= label_tag "Action:" %><br/>
- <%= text_area_tag :script,@roadrunner.script,:rows => 10 ,:cols => 100 %>
+ <%= text_area_tag :script,@roadrunner.script,:rows => 10 ,:cols => 100 ,:disabled => true%>
  <br/>
 
 
