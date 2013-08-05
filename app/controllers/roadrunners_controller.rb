@@ -100,5 +100,8 @@ class RoadrunnersController < ApplicationController
     @load.report
 
   end
+  def scripts
+
+  end
 
 end

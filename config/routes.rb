@@ -6,6 +6,9 @@ AutomationRails::Application.routes.draw do
       get :execute
       post :execute2
     end
+    collection do
+      get :scripts
+    end
   end
 
   resources :machines  do

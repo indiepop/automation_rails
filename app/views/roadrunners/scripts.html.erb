@@ -2,6 +2,9 @@
 <p>
   resp = HTTParty.get('http://charlescui.javaeye.com')
   resp.headers.inspect.include? 'Apache'
+  ------------------------------
+  resp = HTTParty.get('http://www.hawaii.com/')
+  resp.body.include? 'CalendarPopup'
 </p>
 <h4>下载</h4>
 <p>
@@ -9,5 +12,13 @@
 </p>
 <h4>斐波拉契数列</h4>
 <p>
+  rrfib.global[:x],rrfib.global[:y]=0,1
+  rrfib.global[:fib]=Array.new(200) {|i| [0,1].include?(i) ? 1 : (rrfib.global[:x],rrfib.global[:y] = rrfib.global[:y],rrfib.global[:x]+rrfib.global[:y])&&(rrfib.global[:x]+rrfib.global[:y]) }
+</p>
 
+<h4>rfuzz</h4>
+<p>
+  require 'rfuzz/client'
+  @rc = RFuzz::HttpClient.new('10.2.226.132', 6080)
+  @rc.get('/').http_body
 </p>
