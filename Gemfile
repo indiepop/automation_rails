@@ -73,6 +73,7 @@ group :roadrunner do
 gem 'roadrunner'
 gem 'net-ssh'
 gem 'httparty'
+#gem 'rfuzz'
 end
 
 gem 'simple_form'
