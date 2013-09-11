@@ -1,6 +1,8 @@
 
 AutomationRails::Application.routes.draw do
 
+  get "snmp/index"
+
   resources :roadrunners  do
     member do
       get :execute

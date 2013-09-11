@@ -8,9 +8,20 @@
 #http://docs.seleniumhq.org/download/
 #java -jar selenium-server-standalone.jar
 #http://selenium.googlecode.com/files/selenium-server-standalone-2.33.0.jar
-test="fuck"
-     a = <<DOC
-     "test"
-     Tsdfsfs
-DOC
 
+
+
+
+require 'snmp'
+
+ifTable_columns = ["ifIndex", "ifDescr", "ifInOctets", "ifOutOctets"]
+SNMP::Manager.open(:host => '10.30.155.76') do |manager|
+  manager.walk(ifTable_columns) do |row|
+    row.each { |vb| print "\t#{vb.value}" }
+    puts
+  end
+end
+
+t1=Time.mktime(2013,7,18,13,4,20)
+t2=Time.mktime(2013,7,21,9,56,28)
+puts (t2 - t1)/60/60
