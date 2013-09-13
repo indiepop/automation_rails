@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/automation_rails.iml" afterPath="$PROJECT_DIR$/.idea/automation_rails.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/operation" afterPath="$PROJECT_DIR$/doc/operation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/snmps/walk.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/test.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/save_layout_tag.html" afterPath="$PROJECT_DIR$/app/views/layouts/save_layout_tag.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378884808708" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1379043100612" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378881414465" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -23,7 +21,7 @@
     <file path="/Gemfile" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378705727800" ignored="false" />
     <file path="/features_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373011450338" ignored="false" />
     <file path="/feature.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368069700321" ignored="false" />
-    <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374222112379" ignored="false" />
+    <file path="/index.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1379054470418" ignored="false" />
     <file path="/application.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102790358" ignored="false" />
     <file path="/backtrace_silencers.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366102851252" ignored="false" />
     <file path="/inflections.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366104455605" ignored="false" />
@@ -97,17 +95,17 @@
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/syntax/default.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/new_constructor.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/factory_girl-4.2.0/lib/factory_girl/decorator/invocation_tracker.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366192402332" ignored="false" />
-    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1375672396520" ignored="false" />
+    <file path="/routes.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1379043363753" ignored="false" />
     <file path="/application_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366601391071" ignored="false" />
     <file path="/session_store.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1366614179162" ignored="false" />
     <file path="/login_steps.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1370766012146" ignored="false" />
     <file path="/application.css" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1373269338411" ignored="false" />
-    <file path="/application.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1375672515779" ignored="false" />
+    <file path="/application.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378967690612" ignored="false" />
     <file path="/_form.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374474763930" ignored="false" />
     <file path="/feature_tag_ship.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368070342533" ignored="false" />
     <file path="/tag.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368070388343" ignored="false" />
     <file path="/_form2.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368167425751" ignored="false" />
-    <file path="/Ruby Console" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368172174785" ignored="false" />
+    <file path="/Ruby Console" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1379042812375" ignored="false" />
     <file path="/tags_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374127317176" ignored="false" />
     <file path="/set.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368430889487" ignored="false" />
     <file path="/show.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1368601526046" ignored="false" />
@@ -150,6 +148,11 @@
     <file path="/README.rdoc" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374549423220" ignored="false" />
     <file path="/README.md" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1375340915489" ignored="false" />
     <file path="/scripts.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1375670847206" ignored="false" />
+    <file path="$PROJECT_DIR$/test/functional/snmp_controller_test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378967910624" ignored="false" />
+    <file path="$PROJECT_DIR$/test/unit/helpers/snmp_helper_test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378967910624" ignored="false" />
+    <file path="$PROJECT_DIR$/app/helpers/snmp_helper.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378967910624" ignored="false" />
+    <file path="/snmps_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1379054842851" ignored="false" />
+    <file path="/walk.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1379057111422" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,22 +171,58 @@
     <favorites_list name="automation_rails" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4616566">
+    <splitter split-orientation="horizontal" split-proportion="0.54683745">
       <split-first>
         <leaf>
-          <file leaf-file-name="execute2.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb">
+          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="33" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+                <state line="16" column="64" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/snmps/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.43373495">
+                <state line="17" column="71" selection-start="392" selection-end="392" vertical-scroll-proportion="-10.625">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="execute.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="11" selection-start="712" selection-end="712" vertical-scroll-proportion="-13.75">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/features/edit.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/features/_form.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="67" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form_options_helper.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_options_helper.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="644" column="10" selection-start="33032" selection-end="33032" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -192,7 +231,7 @@
           <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="28" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+                <state line="10" column="54" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -207,55 +246,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="save_layout2.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout2.html.erb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="save_layout_tag.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout_tag.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="74" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+                <state line="34" column="60" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="execute.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute.html.erb">
+          <file leaf-file-name="snmps_controller.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="66" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="snmp_controller.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/snmp_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="14" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="operation" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/doc/operation">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="111" column="29" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="form_tag_helper.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="322" column="7" selection-start="16742" selection-end="16742" vertical-scroll-proportion="0.0">
+                <state line="6" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.14492753">
                   <folding />
                 </state>
               </provider>
@@ -268,7 +271,7 @@
           <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="34" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -292,22 +295,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/database.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="1.0126582">
+                <state line="32" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="roadrunners_controller.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/roadrunners_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="77" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <marker date="1375776167527" expanded="true" signature="2005:2069" placeholder="do ... end" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -315,7 +307,25 @@
           <file leaf-file-name="abstract_store.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_dispatch/middleware/session/abstract_store.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="56" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
+                <state line="39" column="41" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form_tag_helper.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="160" column="10" selection-start="8935" selection-end="8935" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="walk.html.erb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/snmps/walk.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="4" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -355,15 +365,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/roadrunner/lib/report.rb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/app/models/roadrunner.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb" />
         <option value="$PROJECT_DIR$/app/views/roadrunners/scripts.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/save_layout_tag.html" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/roadrunners_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/roadrunners/execute.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -371,6 +374,13 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/doc/operation" />
         <option value="$PROJECT_DIR$/app/controllers/snmp_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/save_layout_tag.html" />
+        <option value="$PROJECT_DIR$/app/views/features/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/snmps/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/snmps/walk.html.erb" />
       </list>
     </option>
   </component>
@@ -382,10 +392,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-7" />
-    <option name="width" value="1857" />
-    <option name="height" value="1088" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -413,6 +423,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -459,7 +471,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snmps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,10 +515,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,28 +599,6 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/my_testing_with_github/test.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="roadrunner" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="automation_rails" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/lib/roadrunner/lib" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/lib/roadrunner/lib/roadrunner.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -644,6 +676,29 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rails console: automation_rails" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="automation_rails" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/script/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -1014,25 +1069,25 @@
       <method />
     </configuration>
     <list size="11">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.roadrunner" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.baidu" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.getHawaii" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="Cucumber.douban_demo" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Production: automation_rails" />
-      <item index="7" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="9" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="10" class="java.lang.String" itemvalue="Ruby.pi_db" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.douban_demo" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: automation_rails" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Development: automation_rails" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.pi_db" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.test" />
+      <item index="7" class="java.lang.String" itemvalue="Ruby.baidu" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.getHawaii" />
+      <item index="9" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="10" class="java.lang.String" itemvalue="IRB console.Rails console: automation_rails" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.baidu" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.getHawaii" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.roadrunner" />
+        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: automation_rails" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.test" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.baidu" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.getHawaii" />
       </list>
     </recent_temporary>
   </component>
@@ -1418,7 +1473,11 @@
       <created>1378452603945</created>
       <updated>1378452603945</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="new a snmp feature.">
+      <created>1378885429191</created>
+      <updated>1378885429191</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1442,18 +1501,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-7" width="1857" height="1088" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17640918" sideWeight="0.49695966" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.49358973" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2299169" sideWeight="0.27661794" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33684212" sideWeight="0.5480167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30803323" sideWeight="0.7254697" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900112" sideWeight="0.6005803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2299169" sideWeight="0.27661794" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28496867" sideWeight="0.25263157" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4519833" sideWeight="0.7434903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27453026" sideWeight="0.7434903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30777538" sideWeight="0.3263158" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1504,7 +1563,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding back in roadrunner" />
+    <option name="LAST_COMMIT_MESSAGE" value="new a snmp feature." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1517,7 +1576,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="get ready to do remote control" />
     <MESSAGE value="test" />
     <MESSAGE value="new feature Remote Execute, still need to do tips and yml written." />
     <MESSAGE value="rename the fold of douban" />
@@ -1542,6 +1600,7 @@
     <MESSAGE value="add roadrunner exp.." />
     <MESSAGE value="rfuzz cannot use." />
     <MESSAGE value="adding back in roadrunner" />
+    <MESSAGE value="new a snmp feature." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1552,112 +1611,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout2.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout_tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="60" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout_tag.html">
+    <entry file="file://$PROJECT_DIR$/app/views/features/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="74" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+        <state line="7" column="55" selection-start="208" selection-end="208" vertical-scroll-proportion="0.17979452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="8" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="67" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/features/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_options_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="644" column="10" selection-start="33032" selection-end="33032" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+        <state line="10" column="54" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/roadrunners_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="77" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1375776167527" expanded="true" signature="2005:2069" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute2.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_dispatch/middleware/session/abstract_store.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="56" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="9" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.6152125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/roadrunner/lib/report.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="26" selection-start="1923" selection-end="1932" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_testing_with_github/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+        <state line="160" column="10" selection-start="8935" selection-end="8935" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/roadrunners/execute.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="66" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+        <state line="22" column="11" selection-start="712" selection-end="712" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/roadrunners_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/roadrunners/scripts.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/operation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="29" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="36" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.02377179">
+          <folding>
+            <marker date="1375776167527" expanded="true" signature="-1:-1" placeholder="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="1.0126582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/snmp_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.43373495">
+        <state line="16" column="64" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="71" selection-start="392" selection-end="392" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.14492753">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/walk.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
