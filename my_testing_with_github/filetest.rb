@@ -16,9 +16,18 @@ $is_remote['checked_ips'].each do |key,value|
 end
 =end
 
-2.times do |x|
-p x
-#puts "tttttt#{(x-1)}"
+require 'snmp'
+
+$strr = "Hi, there"
+SNMP::Manager.open(:host => '10.6.197.17') do |manager|
+  response = manager.get(["sysDescr.0", "sysName.0","1.3.6.1.2.1.1.3.0","1.3.6.1.4.1.2021.11.9.0 "])
+  response.each_varbind do |vb|
+    temp=  <<EOF
+       #{vb.name.to_s}:  #{vb.value.to_s}
+EOF
+  $strr+=temp
+  end
 end
 
+puts $strr
 

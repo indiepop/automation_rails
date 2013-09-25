@@ -1,0 +1,17 @@
+<h3>Get From Exiting device</h3>
+<%= form_tag '/snmps/walk', :method => :get do  %>
+    IP:
+    <br>
+    <%= select_tag :execute_ip, options_from_collection_for_select(@machines, "ip", "ip"), :prompt => "Select an IP please.." %>
+    <br>
+    <br>
+    Community String:
+    <br>
+    <%= text_field_tag :community , 'public'%>
+    <br>
+    <br>
+    <%= submit_tag "Submit"  %>
+<% end %>
+
+
+

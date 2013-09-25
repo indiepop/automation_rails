@@ -1,10 +1,10 @@
 
 AutomationRails::Application.routes.draw do
 
-
-
-  get "snmps/index"
+  get "snmps/index" => "snmps#index", :via => "get"
   get "snmps/walk"
+
+
 
   resources :roadrunners  do
     member do
