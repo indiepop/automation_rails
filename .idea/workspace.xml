@@ -10,7 +10,7 @@
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1383034447721" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1383034590815" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378881414465" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -143,7 +143,7 @@
     <file path="/roadrunners_controller.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1375776165827" ignored="false" />
     <file path="/report.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374546539296" ignored="false" />
     <file path="/README.rdoc" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1374549423220" ignored="false" />
-    <file path="/README.md" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1383034579127" ignored="false" />
+    <file path="/README.md" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1383034929035" ignored="false" />
     <file path="/scripts.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1375670847206" ignored="false" />
     <file path="$PROJECT_DIR$/test/functional/snmp_controller_test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378967910624" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/helpers/snmp_helper_test.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378967910624" ignored="false" />
@@ -193,7 +193,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="159" column="112" selection-start="5598" selection-end="5598" vertical-scroll-proportion="0.89830506">
+                <state line="22" column="30" selection-start="631" selection-end="631" vertical-scroll-proportion="0.3559322">
                   <folding />
                 </state>
               </provider>
@@ -1466,7 +1466,11 @@
       <created>1383034455345</created>
       <updated>1383034455345</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="snmp feature">
+      <created>1383034597801</created>
+      <updated>1383034597801</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1707,7 +1711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="112" selection-start="5598" selection-end="5598" vertical-scroll-proportion="0.89830506">
+        <state line="22" column="30" selection-start="631" selection-end="631" vertical-scroll-proportion="0.3559322">
           <folding />
         </state>
       </provider>

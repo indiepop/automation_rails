@@ -20,7 +20,7 @@ In Automation-Rails, you can do both web-automation testing and performance test
 
 >### Introduction
 
->######The framework has two main features:
+>######The framework has three main features:
 
 > Web-automation-testing: case management, auto-execution, report management, BDD.
 >
@@ -148,7 +148,7 @@ Rails 是一个web框架，相当牛逼。
 
 >### 介绍
 
->###### 这个框架有两个特性:
+>###### 这个框架有三个特性:
 
 > 页面自动化测试: 用例管理, 自动执行, 报告管理, BDD（用户行为驱动）.在自动执行方面尤为出色，主要体现在单用例执行，标签执行，多机器执行等。。
 >
