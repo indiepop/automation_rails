@@ -12,7 +12,7 @@ class SnmpsController < ApplicationController
                  "1.3.6.1.2.1.25.2.2.0"
     ]
     @strr = ""
-    SNMP::Manager.open(:host => '10.6.197.17') do |manager|
+    SNMP::Manager.open(:host => @execute_ip) do |manager|
       response = manager.get(@walking)
       response.each_varbind do |vb|
         temp=  <<EOF

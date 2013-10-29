@@ -26,7 +26,8 @@ In Automation-Rails, you can do both web-automation testing and performance test
 >
 > Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
 >
-
+>SNMP Walk: This is just a demo snmp function to get basic information.You can use SNMP to monitor the device.
+>
 >### Screenshot
 
 ![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
@@ -43,6 +44,9 @@ In Automation-Rails, you can do both web-automation testing and performance test
 >RoadRunner scenario settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg)
 >RoadRunner Report.
+>SNMP Demo.
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/snmp.jpg)
+>SNMP Report.
 
 
 >### Debugging Rails
@@ -149,5 +153,7 @@ Rails 是一个web框架，相当牛逼。
 > 页面自动化测试: 用例管理, 自动执行, 报告管理, BDD（用户行为驱动）.在自动执行方面尤为出色，主要体现在单用例执行，标签执行，多机器执行等。。
 >
 > 性能测试： 利用开源框架Roadrunner, 本框架对其进行重构。免费，开源，可操作性强，报告详尽。
+>
+> SNMP 监控： 通过SNMP协议，拉取设备到基本数据，这仅仅是个demo，因为SNMP Mib对厂商到支持实在是凌乱了，所以以后要扩展到化，需要跟上需求，这里只是证明SNMP完全能被此框架胜任。
 >
 

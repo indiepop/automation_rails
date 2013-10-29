@@ -2,7 +2,7 @@
 <%= form_tag '/snmps/walk', :method => :get do  %>
     IP:
     <br>
-    <%= select_tag :execute_ip, options_from_collection_for_select(@machines, "ip", "ip"), :prompt => "Select an IP please.." %>
+    <%= select_tag @execute_ip, options_from_collection_for_select(@machines, "ip", "ip"), :prompt => "Select an IP please.." %>
     <br>
     <br>
     Community String:
