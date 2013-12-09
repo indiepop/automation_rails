@@ -5,13 +5,13 @@
     <%= submit_tag "Search" %>
 <% end %>
 
-<table style="width: 1000px;font-size: small">
+<table style="font-size: small">
   <tr>
     <th>Name</th>
     <th>Sort</th>
     <th>Description</th>
     <th>Author</th>
-    <th>Remark</th>
+    <th>Comment</th>
     <th>Tags</th>
     <th></th>
     <th></th>
@@ -25,7 +25,7 @@
     <td><%= feature.description %></td>
     <td><%= Author.where('author_id' => feature.author).first.name %></td>
     <td><%= feature.remark %></td>
-    <td><%= feature.tags.map(&:name).join(",")%></td>
+    <td><%= feature.tags.map{|x|x.name}.join(",")%></td>   <%# feature.tags.map(&name).join "," %>
     <td><%= link_to 'Show', feature %></td>
     <td><%= link_to 'Edit', edit_feature_path(feature) %></td>
     <td><%= link_to 'Destroy', feature, confirm: 'Are you sure?', method: :delete %></td>
