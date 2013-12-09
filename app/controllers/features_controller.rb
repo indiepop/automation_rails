@@ -90,7 +90,7 @@ class FeaturesController < ApplicationController
       format.json { head :no_content }
     end
   end
-  def execute
+  def execute                                        #执行
       @feature = Feature.find(params[:id])           #获取要执行脚本到ID
       session[:executed_feature]||= Feature.new      #为今后生成报告，产生Session
       session[:executed_feature] = @feature
@@ -98,8 +98,8 @@ class FeaturesController < ApplicationController
       render(layout: 'layouts/save_layout')         #因为产生到报告是独有的，嵌套在另一个样式到layout里面
   end
 
-  def report
-    @feature = Feature.find(params[:id])
+  def report                                        #执行并下载
+    @feature = Feature.find(params[:id])            #获取要执行脚本到ID
     `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/execute.html.erb`
      send_file "./app/views/features/execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
   end
