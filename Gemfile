@@ -65,7 +65,7 @@ group :cucumber do
 # gem 'factory_girl','3.4.2'
 end
 
-#PAGE
+#PAGING
 gem 'kaminari'
 
 #PERFORMANCE

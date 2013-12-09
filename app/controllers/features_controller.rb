@@ -4,7 +4,7 @@ class FeaturesController < ApplicationController
   # GET /features.json
 
   def index
-    @features = Feature.order(:name).page(params[:page]).per(5)
+    @features = Feature.order(:name).page(params[:page]).per(5)    #配置kaminari到参数，每页几个数据
     @tags = Tag.all
     respond_to do |format|
       format.html # No_index.html.erb
@@ -29,7 +29,7 @@ class FeaturesController < ApplicationController
   def new
     @tags = Tag.all
     @feature = Feature.new
-    all_features= Dir.glob "**/*.feature"
+    all_features= Dir.glob "**/*.feature"       #递归获取所有目录
     db_features = Array.new
     Feature.find_each{|t| db_features<<t.name}          #get the to the array from db with names
         @feature_name= all_features - db_features
@@ -84,12 +84,12 @@ class FeaturesController < ApplicationController
   def destroy
     @feature = Feature.find(params[:id])
     @feature.destroy
-
     respond_to do |format|
       format.html { redirect_to features_url }
       format.json { head :no_content }
     end
   end
+
   def execute                                        #执行
       @feature = Feature.find(params[:id])           #获取要执行脚本到ID
       session[:executed_feature]||= Feature.new      #为今后生成报告，产生Session
@@ -103,16 +103,17 @@ class FeaturesController < ApplicationController
     `bundle exec cucumber --color -r features ./#{@feature.name} -f html > ./app/views/features/execute.html.erb`
      send_file "./app/views/features/execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
   end
-  def save
-    @feature = session[:executed_feature]
-    send_file "./app/views/features/execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
 
+  def save
+    @feature = session[:executed_feature]            #获取从执行过程得到到session，然后下载
+    send_file "./app/views/features/execute.html.erb",:filename=> "report_#{@feature.name.gsub(/\//,"_")}.html",:disposition => "attachment"
   end
- def search
+
+  def search
     @features = Feature.where(["name like ?","%#{params[:keyword]}%"]).order(:name).page(params[:page]).per(5)
     render :action => :index
+  end
 
- end
  def machine
      @feature=Feature.find(params[:id])
      @feature_name=@feature.name

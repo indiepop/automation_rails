@@ -1,4 +1,4 @@
-<%= form_for(@feature) do |f| %>
+<%= simple_form_for(@feature) do |f| %>
   <% if @feature.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@feature.errors.count, "error") %> prohibited this feature from being saved:</h2>
@@ -15,22 +15,23 @@
     <%= f.label :name %><br />
     <% if @edit_told   %>
         <%= f.select :name,@edit_told %>
-        <% else %>
+    <% else %>
     <%= f.select :name,@feature_name.to_a ,:prompt=> @prompt  %>
-        <% end %>
+    <% end %>
   </div>
+  <%# 报错信息 %>
+
   <div class="field">
     <%= f.label :sort %><br />
     <%#= f.select :type, FeatureType.all.collect{|p|[p.name,p.id]},{:prompt => 'Please select types ...'} %>
     <%=
         @sorts=Sort.order(:sort_id).all
         f.collection_select(:sort,@sorts,:sort_id,:name,:prompt=>'Please select types ...')
-    %>
+    %> <%# 传值为sortid %>
 
   </div>
   <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description ,:rows=> 6 %>
+     <%= f.input :description, label:'Description<Br/>', input_html:{rows:5} %>
   </div>
   <div class="field">
     <%= f.label :author %><br />
@@ -45,12 +46,14 @@
     <%= f.text_area :remark ,:rows=>5 %>
 
   </div>
-    <% @tags.each do |g| %>
-        <%= check_box_tag "feature[tag_ids][]", g.id, @feature.tags.map(&:id).include?(g.id) %> <%= g.name %>
-    <% end %>
-    <%= hidden_field_tag 'feature[tag_ids][]','' %>
-
-  <div class="actions">
+    <%# @tags.each do |g| %>
+    <%#   check_box_tag "feature[tag_ids][]", g.id, @feature.tags.map(&:id).include?(g.id) = g.name %>
+    <%#   <% end %>
+    <%#   <%= hidden_field_tag 'feature[tag_ids][]','' %>
+  <div class="field">
+    <%= f.association :tags,label:'Tags<br>', as: :check_boxes %>
+  </div>
+   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
