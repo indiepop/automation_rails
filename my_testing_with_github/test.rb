@@ -10,7 +10,7 @@
 #http://selenium.googlecode.com/files/selenium-server-standalone-2.33.0.jar
 
 
-
+=begin
 
 require 'snmp'
 
@@ -25,3 +25,32 @@ end
 t1=Time.mktime(2013,7,18,13,4,20)
 t2=Time.mktime(2013,7,21,9,56,28)
 puts (t2 - t1)/60/60
+
+
+
+puts '-'*80
+=end
+
+class Test
+  def initialize
+    @att={}
+  end
+  def method_missing(name, *args)
+    puts *args
+    att= name.to_s
+    puts att
+    if att =~ /=$/
+      puts att.chop
+      @att[att.chop]=args[0]
+      puts args[0]
+      puts args[1]
+    else
+      @att[att]
+    end
+  end
+end
+
+     my=Test.new
+ #   my.afsdfds="testing"
+ puts   my.afsdfds
+

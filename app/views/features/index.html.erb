@@ -29,7 +29,7 @@
     <td><%= link_to 'Show', feature %></td>
     <td><%= link_to 'Edit', edit_feature_path(feature) %></td>
     <td><%= link_to 'Destroy', feature, confirm: 'Are you sure?', method: :delete %></td>
-    <td><%= link_to 'Execute', execute_feature_path(feature),:target => "_blank" ,method: :get %></td>
+    <td><%= link_to 'Execute', execute_feature_path(feature),:target => "_blank" ,method: :get %></td>  <%# 执行服务器上到单脚本执行 %>
     <td><%= button_to 'Directly Report', report_feature_path(feature), method: :get %></td>
     <td><%= link_to 'Remote Execute', machine_feature_path(feature), method: :get %></td>
   </tr>
