@@ -4,20 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/app/views/features/machine.html.erb" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="using simple form ,so funny so easy!">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_testing_with_github/test_event.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/save_layout2.html.erb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/features/execute2.html.erb" afterPath="$PROJECT_DIR$/app/views/features/multiple_execute.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/block.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/block.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/features_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/features_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/features/machine.html.erb" afterPath="$PROJECT_DIR$/app/views/features/machine.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/save_layout.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/save_layout.html.erb" />
+    <list default="true" id="11231ba5-7948-4712-8881-1f91c1fcf690" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/features/multiple_execute.html.erb" afterPath="$PROJECT_DIR$/app/views/features/multiple_execute.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1386581221737" ignored="false" />
+    <file path="/Dummy.txt" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1386661841018" ignored="false" />
     <file path="/testing1.test" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361344199784" ignored="false" />
     <file path="/database.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1378881414465" ignored="false" />
     <file path="/info.yml" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1361942963894" ignored="false" />
@@ -160,7 +153,7 @@
     <file path="/filetest.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1380009111263" ignored="false" />
     <file path="/block.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1386645462837" ignored="false" />
     <file path="/test_event.rb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1386645515912" ignored="false" />
-    <file path="/multiple_execute.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1386661778376" ignored="false" />
+    <file path="/multiple_execute.html.erb" changelist="11231ba5-7948-4712-8881-1f91c1fcf690" time="1386662366774" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +205,7 @@
           <file leaf-file-name="multiple_execute.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/features/multiple_execute.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="41" selection-start="212" selection-end="212" vertical-scroll-proportion="0.14423077">
+                <state line="6" column="45" selection-start="214" selection-end="214" vertical-scroll-proportion="0.14423077">
                   <folding />
                 </state>
               </provider>
@@ -328,7 +321,7 @@
           <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="138" column="7" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.58064514">
+                <state line="146" column="48" selection-start="5226" selection-end="5226" vertical-scroll-proportion="0.7843803">
                   <folding />
                 </state>
               </provider>
@@ -1554,7 +1547,11 @@
       <created>1386580987479</created>
       <updated>1386580987479</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Perfecting my code ,  i should like my code as my child.">
+      <created>1386661848424</created>
+      <updated>1386661848424</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1640,7 +1637,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="using simple form ,so funny so easy!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perfecting my code ,  i should like my code as my child." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1653,7 +1650,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="add remote warinning in machine index." />
     <MESSAGE value="fixed save" />
     <MESSAGE value="fixed the different browser running problem, and save error." />
     <MESSAGE value="add roadrunner gem requiremnent" />
@@ -1678,6 +1674,7 @@
     <MESSAGE value="snmp feature done, still need some usual oid to show up ." />
     <MESSAGE value="snmp feature" />
     <MESSAGE value="using simple form ,so funny so easy!" />
+    <MESSAGE value="Perfecting my code ,  i should like my code as my child." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1760,13 +1757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="7" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.58064514">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/save_layout.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="44" selection-start="367" selection-end="367" vertical-scroll-proportion="-7.5">
@@ -1790,9 +1780,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="48" selection-start="5226" selection-end="5226" vertical-scroll-proportion="0.7843803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/features/multiple_execute.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="212" selection-end="212" vertical-scroll-proportion="0.14423077">
+        <state line="6" column="45" selection-start="214" selection-end="214" vertical-scroll-proportion="0.14423077">
           <folding />
         </state>
       </provider>
