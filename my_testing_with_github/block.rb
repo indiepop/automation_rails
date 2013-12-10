@@ -1,9 +1,5 @@
-def block
- yield if block_given?
- "no block"
+def event(name)
+  puts "Alert:#{name}" if yield
 end
 
-
-
-
-block{puts "I'm block"}
+Dir.glob('*event.rb').each {|file| load file}

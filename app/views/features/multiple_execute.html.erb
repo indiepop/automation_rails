@@ -1,0 +1,6 @@
+   <div class="cucumber">Here is the report:</div>
+   <% @is_remote['checked_ips'].each do |x,y|  %>
+      <div class="cucumber"><%="For the device: #{y} "%></div>
+      <%= render "execute#{x}" %>
+   <% end %>
+

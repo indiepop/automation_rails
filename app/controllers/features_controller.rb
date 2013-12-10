@@ -122,27 +122,26 @@ class FeaturesController < ApplicationController
      session[:executed_feature]= @feature    #the feature that need to run
  end
 
-def execute2         #because this procedure need run with system command , we need to use a file system to communicate
+def multiple_execute         #because this procedure need run with system command , we need to use a file system to communicate
   begin
-  @checked_ip = params[:checked_ips].delete_if{|x| x==" "}    #check the array of checked ip out
-  hash_ip= Hash.new
-  hash_ip_add = Hash.new
- @checked_ip.each_with_index do |x,index|
-      hash_ip[index]=x
-   end    #revert the arry to hash
-  hash_ip_add.store('checked_ips',hash_ip)
-  @root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
-  File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip_add, f) }  # 写入文件
-  @is_remote = YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
-  @is_remote['checked_ips'].each do |key,value|
- `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute#{key}.html.erb`
-  end
-  @is_remote_size = @is_remote['checked_ips'].size
- rescue
-    nil
+    @checked_ip = params[:checked_ips].delete_if{|x| x==" "}    #获取一个数组保存被选取到的IPs
+    hash_ip= Hash.new
+    hash_ip_add_title = Hash.new
+    @checked_ip.each_with_index do |x,index|   #switch the arry to hash ，得到hash_ip{1=>ip1,2=>ip2}这种形式
+     hash_ip[index]=x
+    end
+    hash_ip_add_title.store('checked_ips',hash_ip)   #形成{'checked_ip'=>{1=>ip1,2=>ip2}}
+    @root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
+    File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip_add_title, f) }  # 写入文件
+    @is_remote = YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
+    @is_remote['checked_ips'].each do |key,value|
+    `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute#{key}.html.erb`
+    end
+  rescue
+      puts "something happens."
   ensure
-  File.delete "#{@root}/lib/resource/execute_ip.yml"         #毁灭罪证
-  render(layout: 'layouts/save_layout2')    #use the special layout
+      File.delete "#{@root}/lib/resource/execute_ip.yml"         #毁灭罪证
+      render(layout: 'layouts/save_layout')    #use the special layout
   end
 end
 

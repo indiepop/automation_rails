@@ -36,7 +36,7 @@ AutomationRails::Application.routes.draw do
       get :report
       get :save
       get :machine
-      post :execute2
+      post :multiple_execute
     end
     collection do
       get :search
