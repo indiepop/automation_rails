@@ -1,5 +1,5 @@
-#require "rubygems"
-#require "selenium-webdriver"
+require "rubygems"
+require "selenium-webdriver"
 #System.setProperty("webdriver.firefox.bin","D:\Program Files (x86)\Mozilla Firefox\firefox.exe");
 #driver = Selenium::WebDriver.for :remote, :url => "http://localhost:4444/wd/hub" ,:desired_capabilities => :firefox
 #driver.get "http://www.google.com"
@@ -31,26 +31,7 @@ puts (t2 - t1)/60/60
 puts '-'*80
 =end
 
-class Test
-  def initialize
-    @att={}
-  end
-  def method_missing(name, *args)
-    puts *args
-    att= name.to_s
-    puts att
-    if att =~ /=$/
-      puts att.chop
-      @att[att.chop]=args[0]
-      puts args[0]
-      puts args[1]
-    else
-      @att[att]
-    end
-  end
-end
-
-     my=Test.new
- #   my.afsdfds="testing"
- puts   my.afsdfds
+driver = Selenium::WebDriver.for :ff
+driver.get "http://www.google.com"
+driver.quit
 

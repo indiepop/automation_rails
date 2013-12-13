@@ -470,40 +470,4 @@ e&&e.document?e.document.compatMode==="CSS1Compat"&&e.document.documentElement["
     $('#'+element_id).css('color', '#000000');
   }
   
-</script></head><body><!-- Step count 2--><div class="cucumber"><div id="cucumber-header"><div id="label"><h1>Cucumber Features</h1></div><div id="summary"><p id="totals"></p><p id="duration"></p><div id="expand-collapse"><p id="expander">Expand All</p><p id="collapser">Collapse All</p></div></div></div><div class="feature"><span class="tag">@demo</span><h2><span class="val">Feature: The demo login</span></h2><p class="narrative"></p><div class='scenario'><span class="scenario_file">./features/douban_demo/demo.feature:5</span><h3 id="scenario_1"><span class="keyword">Scenario:</span> <span class="val">login user fail</span></h3><ol><li id='__features_douban_demo_demo_feature_6' class='step passed'><div class="step_name"><span class="keyword">Given </span><span class="step val">I Open main page using <span class="param">wrong credential</span></span></div><div class="step_file"><span>features/step_definitions/login_steps.rb:3</span></div></li> <script type="text/javascript">moveProgressBar('50.0');</script></ol></div><div class='scenario'><span class="scenario_file">./features/douban_demo/demo.feature:8</span><h3 id="scenario_2"><span class="keyword">Scenario:</span> <span class="val">login user ok</span></h3><ol><script>makeRed('cucumber-header');makeRed('scenario_2');</script><li id='__features_douban_demo_demo_feature_9' class='step failed'><div class="step_name"><span class="keyword">Given </span><span class="step val">I Open main page using <span class="param">default credential</span></span></div><div class="step_file"><span>features/step_definitions/login_steps.rb:3</span></div><div class="message"><pre>Connection refused - connect(2) (Errno::ECONNREFUSED)</pre></div><div class="backtrace"><pre>/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `initialize'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `open'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `block in connect'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/timeout.rb:55:in `timeout'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/timeout.rb:100:in `timeout'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `connect'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:756:in `do_start'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:745:in `start'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:1285:in `request'
-./features/step_definitions/login_steps.rb:20:in `/^I Open main page using ((?:.+) credential)$/'
-./features/douban_demo/demo.feature:9:in `Given I Open main page using default credential'</pre></div><pre class="ruby"><code><span class="linenum">761</span>    def connect
-<span class="linenum">762</span>      D "opening connection to #{conn_address()}..."
-<span class="offending"><span class="linenum">763</span>      s = timeout(@open_timeout) { TCPSocket.open(conn_address(), conn_port()) }</span>
-<span class="linenum">764</span>      D "opened"
-<span class="linenum">765</span>      if use_ssl?
-<span class="linenum">766</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></li> <script type="text/javascript">moveProgressBar('100.0');</script></ol><div class="message"><pre>Connection refused - connect(2) (Errno::ECONNREFUSED)</pre></div><div class="backtrace"><pre>/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `initialize'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `open'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `block in connect'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/timeout.rb:55:in `timeout'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/timeout.rb:100:in `timeout'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:763:in `connect'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:756:in `do_start'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:745:in `start'
-/home/josh/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/net/http.rb:1285:in `request'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/remote/http/default.rb:83:in `response_for'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/remote/http/default.rb:39:in `request'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/remote/bridge.rb:619:in `raw_execute'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/remote/bridge.rb:597:in `execute'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/remote/bridge.rb:199:in `close'
-/home/josh/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.32.1/lib/selenium/webdriver/common/driver.rb:176:in `close'
-/home/josh/RubyminePro/automation_rails/features/support/hooks.rb:17:in `After'</pre></div><pre class="ruby"><code><span class="linenum">761</span>    def connect
-<span class="linenum">762</span>      D "opening connection to #{conn_address()}..."
-<span class="offending"><span class="linenum">763</span>      s = timeout(@open_timeout) { TCPSocket.open(conn_address(), conn_port()) }</span>
-<span class="linenum">764</span>      D "opened"
-<span class="linenum">765</span>      if use_ssl?
-<span class="linenum">766</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></div></div><script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0m33.840s seconds</strong>";</script><script type="text/javascript">document.getElementById('totals').innerHTML = "2 scenarios (1 failed, 1 passed)<br />2 steps (1 failed, 1 passed)";</script></div></body></html>
+</script></head><body><!-- Step count 2--><div class="cucumber"><div id="cucumber-header"><div id="label"><h1>Cucumber Features</h1></div><div id="summary"><p id="totals"></p><p id="duration"></p><div id="expand-collapse"><p id="expander">Expand All</p><p id="collapser">Collapse All</p></div></div></div><div class="feature"><span class="tag">@demo</span><h2><span class="val">Feature: The demo login</span></h2><p class="narrative"></p><div class='scenario'><span class="scenario_file">./features/douban_demo/demo.feature:6</span><h3 id="scenario_1"><span class="keyword">Scenario:</span> <span class="val">login user ok</span></h3><ol><li id='__features_douban_demo_demo_feature_7' class='step passed'><div class="step_name"><span class="keyword">Given </span><span class="step val">I Open main page using <span class="param">default credential</span></span></div><div class="step_file"><span>features/step_definitions/login_steps.rb:3</span></div></li> <script type="text/javascript">moveProgressBar('50.0');</script></ol></div><div class='scenario'><span class="scenario_file">./features/douban_demo/demo.feature:9</span><h3 id="scenario_2"><span class="keyword">Scenario:</span> <span class="val">login user fail</span></h3><ol><li id='__features_douban_demo_demo_feature_10' class='step passed'><div class="step_name"><span class="keyword">Given </span><span class="step val">I Open main page using <span class="param">wrong credential</span></span></div><div class="step_file"><span>features/step_definitions/login_steps.rb:3</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script></ol></div></div><script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0m14.615s seconds</strong>";</script><script type="text/javascript">document.getElementById('totals').innerHTML = "2 scenarios (2 passed)<br />2 steps (2 passed)";</script></div></body></html>

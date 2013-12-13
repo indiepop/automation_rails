@@ -14,19 +14,19 @@ After do
   # Be sure to close the browser if it's still open
   if $browser
  #   $browser.each do |browser|
-   $browser.close
+  $browser = nil
  # end
   end                                                                    #one scenario ends
 end
 
 at_exit do
   # Be sure to close the browser if it's still open
-  #if $browser
+  if $browser
 
-  #  $browser.close
+    $browser.quit
     #browser = nil
                                                #one feature ends
-  #end
+  end
   if $threads
     $threads.each{|t|t.join}
   end
