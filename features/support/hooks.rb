@@ -16,7 +16,10 @@ After do
  #   $browser.each do |browser|
   $browser = nil
  # end
-  end                                                                    #one scenario ends
+  end
+  if $threads
+    $threads.each{|t|t.join}
+  end   #one scenario ends
 end
 
 at_exit do
