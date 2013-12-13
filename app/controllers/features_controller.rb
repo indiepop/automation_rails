@@ -134,9 +134,11 @@ def multiple_execute         #because this procedure need run with system comman
     @root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
     File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip_add_title, f) }  # 写入文件
     @is_remote = YAML.load_file("#{@root}/lib/resource/execute_ip.yml")
-    @is_remote['checked_ips'].each do |key,value|
-    `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute#{key}.html.erb`
-    end
+#    File.open("./app/views/features/_execute.html.erb","w") do
+#      |file| file.puts " "
+#    end
+    `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/_execute.html.erb`
+     #There is a bug, the report is only one.
   rescue
       puts "something happens."
   ensure
@@ -144,7 +146,5 @@ def multiple_execute         #because this procedure need run with system comman
       render(layout: 'layouts/save_layout')    #use the special layout
   end
 end
-
-
 
 end

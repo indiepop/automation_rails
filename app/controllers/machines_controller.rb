@@ -85,8 +85,6 @@ class MachinesController < ApplicationController
     send_file   "selenium-server-standalone-2.33.0.jar"
     rescue
     flash[:notice]='The file is not exited in Server.Try web link above.'
-    ensure
-    redirect_to machines_path
     end
   end
 end
