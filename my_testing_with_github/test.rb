@@ -1,5 +1,8 @@
 require "rubygems"
 require "selenium-webdriver"
+
+
+
 #System.setProperty("webdriver.firefox.bin","D:\Program Files (x86)\Mozilla Firefox\firefox.exe");
 #driver = Selenium::WebDriver.for :remote, :url => "http://localhost:4444/wd/hub" ,:desired_capabilities => :firefox
 #driver.get "http://www.google.com"
@@ -32,6 +35,8 @@ puts '-'*80
 =end
 
 driver = Selenium::WebDriver.for :ff
-driver.get "http://www.google.com"
-driver.quit
+driver.get "http://www.douban.com"
+# encoding: utf-8
+driver.find_element(:xpath,"//h1[contains(.,'Listing Features')]")
+#driver.quit
 
