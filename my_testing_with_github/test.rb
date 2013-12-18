@@ -33,10 +33,14 @@ puts (t2 - t1)/60/60
 
 puts '-'*80
 =end
+# encoding: utf-8
+
 
 driver = Selenium::WebDriver.for :ff
-driver.get "http://www.douban.com"
-# encoding: utf-8
-driver.find_element(:xpath,"//h1[contains(.,'Listing Features')]")
+driver.get "http://www.douban.com/group"
+
+e = driver.find_element(:xpath,"//*[contains(.,'douban.com')][count(ancestor-or-self::*[not(contains(@style,'display: none')) and not(contains(@style,'visibility: hidden'))])=count(ancestor-or-self::*)]")
+puts e
+
 #driver.quit
 

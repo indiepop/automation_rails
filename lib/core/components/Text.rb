@@ -7,7 +7,7 @@ module WCF
       # @param [String] text inside required element.
       # @param [String] under_locator locator of the parent container.
       def initialize(text, under_locator = nil)
-        super("#{under_locator}//*[contains(.,'#{text}')]")
+        super("#{under_locator}//*[contains(.,'#{text}')][last()-1]")
       end
     end
   end

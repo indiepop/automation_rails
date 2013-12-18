@@ -22,22 +22,24 @@ Then /^'(.*)' (.+) should( not)? be displayed(?: in (\d+) seconds?)?( .+)?$/ do 
 
   raise "Unknown object type: #{object_type}." if aliases[object_type.to_s.downcase].nil?
 
-  #Object.new("//*[contains(.,'#{object_name}')]").is_present?
+
 
   container_class = aliases[object_type.to_s.downcase]
 
-  find_result = container_class.new(object_name,container_locator)
-                                  puts find_result
-  if  find_result.is_present?
-    begin
-      find_result.wait(second).should == should_not.nil?
-    rescue RSpec::Expectations::ExpectationNotMetError
-      raise "#{object_type} with name '#{object_name}' expected#{should_not.nil? ? '' : ' not'} to be present but it doesn't."
-    end
+  if container_class == Text
+    WCF::Components::Object.new("//*[contains(.,'#{object_name}')]").is_present?          #This this the only way for Text
   else
+    find_result = container_class.new(object_name,container_locator)
+    if  find_result.is_present?
+      begin
+        find_result.wait(second).should == should_not.nil?
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise "#{object_type} with name '#{object_name}' expected#{should_not.nil? ? '' : ' not'} to be present but it doesn't."
+      end
+    else
     raise "Error! This '#{object_name}' #{object_type} isn't exist!"
+    end
   end
-
 end
 
 # This step is to verify that some *screen* or *box* or *popup* or *border* is *disappear*
