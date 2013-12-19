@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Automation rails by indiepop</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Automation rails</h1>
+        <p>This is a framework to do automation test including function ,performance, and monitoring. </p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/indiepop/automation_rails" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/indiepop/automation_rails/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/indiepop/automation_rails/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <blockquote>
+<h2>
+<a name="welcome-to-automation-rails" class="anchor" href="#welcome-to-automation-rails"><span class="octicon octicon-link"></span></a>Welcome to Automation Rails</h2>
+</blockquote>
+
+<p>Rails is a web-application framework that includes everything needed to create
+database-backed web applications according to the Model-View-Control pattern.</p>
+
+<p>Automation-Rails integrated rails + mysql + selenium-webdriver + cucumber + roadrunner.
+In Automation-Rails, you can do both web-automation testing and performance testing.</p>
+
+<blockquote>
+<h3>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h3>
+</blockquote>
+
+<ol>
+<li>install mysql server</li>
+<li>git clone <a href="https://github.com/indiepop/automation_rails.git">https://github.com/indiepop/automation_rails.git</a>
+</li>
+<li>bundle install</li>
+<li>edit your own config/database.yml</li>
+<li>rake db:migrate</li>
+<li>rake db:seed</li>
+<li>rails server</li>
+</ol><blockquote>
+<h3>
+<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h3>
+
+<h6>
+<a name="the-framework-has-three-main-features" class="anchor" href="#the-framework-has-three-main-features"><span class="octicon octicon-link"></span></a>The framework has three main features:</h6>
+
+<p>Web-automation-testing: case management, auto-execution, report management, BDD.</p>
+
+<p>Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.</p>
+
+<p>SNMP Walk: This is just a demo snmp function to get basic information.You can use SNMP to monitor the device.</p>
+
+<h3>
+<a name="screenshot" class="anchor" href="#screenshot"><span class="octicon octicon-link"></span></a>Screenshot</h3>
+</blockquote>
+
+<p><img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg" alt="Main"></p>
+
+<blockquote>
+<p>This is the main page.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/report.jpg" alt="Josh">
+Cucumber Report.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/running_by_tag.jpg" alt="Josh">
+Running by cucumber tags.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/machine_management.jpg" alt="Josh">
+Machine management if you need to run remotely.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/mutiple_machine_running.jpg" alt="Josh">
+Multiple machine running settings.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_execution.jpg" alt="Josh">
+RoadRunner scenario settings.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg" alt="Josh">
+RoadRunner Report.
+SNMP Demo.
+<img src="https://raw.github.com/indiepop/automation_rails/master/app/assets/images/snmp.jpg" alt="Josh">
+SNMP Report.</p>
+
+<h3>
+<a name="debugging-rails" class="anchor" href="#debugging-rails"><span class="octicon octicon-link"></span></a>Debugging Rails</h3>
+</blockquote>
+
+<p>Sometimes your application goes wrong. Fortunately there are a lot of tools that
+will help you debug it and get it back on the rails.</p>
+
+<p>First area to check is the application log files. Have "tail -f" commands
+running on the server.log and development.log. Rails will automatically display
+debugging and runtime information to these files. Debugging info will also be
+shown in the browser on requests from 127.0.0.1.</p>
+
+<p>You can also log your own messages directly into the log file from your code
+using the Ruby logger class from inside your controllers. Example:</p>
+
+<p>class WeblogController &lt; ActionController::Base
+    def destroy
+      <a href="https://github.com/weblog" class="user-mention">@weblog</a> = Weblog.find(params[:id])
+      @weblog.destroy
+      logger.info("#{Time.now} Destroyed Weblog ID ##{@weblog.id}!")
+    end
+  end</p>
+
+<p>The result will be a message in your log file along the lines of:</p>
+
+<p>Mon Oct 08 14:22:29 +1000 2007 Destroyed Weblog ID #1!</p>
+
+<p>More information on how to use the logger is at <a href="http://www.ruby-doc.org/core/">http://www.ruby-doc.org/core/</a></p>
+
+<p>Also, Ruby documentation can be found at <a href="http://www.ruby-lang.org/">http://www.ruby-lang.org/</a>. There are
+several books available online as well:</p>
+
+<ul>
+<li>Programming Ruby: <a href="http://www.ruby-doc.org/docs/ProgrammingRuby/">http://www.ruby-doc.org/docs/ProgrammingRuby/</a> (Pickaxe)</li>
+<li>Learn to Program: <a href="http://pine.fm/LearnToProgram/">http://pine.fm/LearnToProgram/</a> (a beginners guide)</li>
+</ul><p>These two books will bring you up to speed on the Ruby language and also on
+programming in general.</p>
+
+<blockquote>
+<h3>
+<a name="debugger" class="anchor" href="#debugger"><span class="octicon octicon-link"></span></a>Debugger</h3>
+</blockquote>
+
+<p>Debugger support is available through the debugger command when you start your
+Mongrel or WEBrick server with --debugger. This means that you can break out of
+execution at any point in the code, investigate and change the model, and then,
+resume execution! You need to install ruby-debug to run the server in debugging
+mode. With gems, use <tt>sudo gem install ruby-debug</tt>. Example:</p>
+
+<p>class WeblogController &lt; ActionController::Base
+    def index
+      @posts = Post.all
+      debugger
+    end
+  end</p>
+
+<p>So the controller will accept the action, run the first line, then present you
+with a IRB prompt in the server window. Here you can do things like:</p>
+
+<blockquote>
+<blockquote>
+<p>@posts.inspect
+  =&gt; "[#nil, "body"=&gt;nil, "id"=&gt;"1"}&gt;,
+       #"Rails", "body"=&gt;"Only ten..", "id"=&gt;"2"}&gt;]"
+@posts.first.title = "hello from a debugger"
+  =&gt; "hello from a debugger"</p>
+</blockquote>
+</blockquote>
+
+<p>...and even better, you can examine how your runtime objects actually work:</p>
+
+<blockquote>
+<blockquote>
+<p>f = @posts.first
+  =&gt; #nil, "body"=&gt;nil, "id"=&gt;"1"}&gt;
+f.
+  Display all 152 possibilities? (y or n)</p>
+</blockquote>
+</blockquote>
+
+<p>Finally, when you're ready to resume execution, you can enter "cont".</p>
+
+<hr><blockquote>
+<h2>
+<a name="%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0-automation-rails" class="anchor" href="#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0-automation-rails"><span class="octicon octicon-link"></span></a>欢迎来到 Automation Rails</h2>
+</blockquote>
+
+<p>Rails 是一个web框架，相当牛逼。</p>
+
+<p>我们的 Automation-Rails 集成了 rails + mysql + selenium-webdriver + cucumber + roadrunner 这些组件。
+通过此框架，你可以轻松进行web自动化和性能测试。</p>
+
+<blockquote>
+<h3>
+<a name="%E5%BC%80%E5%A7%8B%E5%90%A7" class="anchor" href="#%E5%BC%80%E5%A7%8B%E5%90%A7"><span class="octicon octicon-link"></span></a>开始吧</h3>
+</blockquote>
+
+<ol>
+<li>install mysql server （安装好mysql）</li>
+<li>git clone <a href="https://github.com/indiepop/automation_rails.git">https://github.com/indiepop/automation_rails.git</a>   （克隆到本地）</li>
+<li>bundle install                            （安装依赖包）</li>
+<li>edit your own config/database.yml        （修改数据库用户名密码）</li>
+<li>rake db:migrate                            （数据迁移）</li>
+<li>rake db:seed                                （加载原始数据）</li>
+<li>rails server                              （启动）</li>
+</ol><blockquote>
+<h3>
+<a name="%E4%BB%8B%E7%BB%8D" class="anchor" href="#%E4%BB%8B%E7%BB%8D"><span class="octicon octicon-link"></span></a>介绍</h3>
+
+<h6>
+<a name="%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E4%B8%89%E4%B8%AA%E7%89%B9%E6%80%A7" class="anchor" href="#%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E4%B8%89%E4%B8%AA%E7%89%B9%E6%80%A7"><span class="octicon octicon-link"></span></a>这个框架有三个特性:</h6>
+
+<p>页面自动化测试: 用例管理, 自动执行, 报告管理, BDD（用户行为驱动）.在自动执行方面尤为出色，主要体现在单用例执行，标签执行，多机器执行等。。</p>
+
+<p>性能测试： 利用开源框架Roadrunner, 本框架对其进行重构。免费，开源，可操作性强，报告详尽。</p>
+
+<p>SNMP 监控： 通过SNMP协议，拉取设备的基本数据，这仅仅是个demo，因为SNMP Mib对厂商到支持实在是凌乱了，所以以后要扩展的话，需要跟据需求进行开发，这里只是证明SNMP完全能被此框架胜任。</p>
+</blockquote>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/indiepop">indiepop</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("cucumber rails automation roadrunner performance");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
