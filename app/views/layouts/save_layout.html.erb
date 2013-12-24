@@ -1,5 +1,5 @@
 <div class="cucumber" style="float: right;font-size: small">
-  <% unless defined?(@is_remote['checked_ips']) %>
+  <% unless defined?(@is_remote[:checked_ip]) %>
       <%= link_to 'Save', save_feature_path(session[:executed_feature]) %>
       <%= link_to 'Close',"javascript:close()" %>
   <% else %>

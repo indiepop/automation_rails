@@ -16,13 +16,14 @@
 
 <h2>Please select the machine you need to Run:</h2>
 
-<%= form_tag multiple_execute_feature_path(@feature) do %>
+<%= form_tag remote_execute_feature_path(@feature) do %>
     <% @machines.each do |g| %>
-        <%= check_box_tag "checked_ips[]", g.ip %> <%= "Name:#{g.name},IP:#{g.ip}" %>
-        <%= hidden_field_tag "checked_ips[]"," " %>
+        <%# check_box_tag "checked_ips[]", g.ip %> <%# "Name:#{g.name},IP:#{g.ip}" %>
+        <%= radio_button_tag :checked_ip,g.ip %> <%= "Name:#{g.name},IP:#{g.ip}" %>
+        <%# hidden_field_tag "checked_ips[]"," " %>
         <br>
     <% end %>
     <br>
     <br>
-    <%= submit_tag "Execute!" %>
+    <%= submit_tag "Execute Me !" %>
 <% end %>

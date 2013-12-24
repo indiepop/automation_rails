@@ -122,6 +122,23 @@ class FeaturesController < ApplicationController
      session[:executed_feature]= @feature    #the feature that need to run
  end
 
+def remote_execute
+  begin
+    @checked_ip = params[:checked_ip]
+    hash_ip = {:checked_ip=>@checked_ip}
+    @root = Pathname.new(File.dirname(__FILE__)).parent.parent.realpath.to_s
+    File.open("#{@root}/lib/resource/execute_ip.yml", 'w') { |f| YAML.dump(hash_ip, f) }
+    @is_remote = YAML.load_file("#{@root}/lib/resource/execute_ip.yml")   #{:checked_ip="45645641"}
+
+    `bundle exec cucumber --color -r features ./#{session[:executed_feature].name} -f html > ./app/views/features/remote_execute.html.erb`
+  rescue
+    puts "something happens."
+  ensure
+    File.delete "#{@root}/lib/resource/execute_ip.yml"         #毁灭罪证
+    render(layout: 'layouts/save_layout')    #use the special layout
+  end
+end
+
 def multiple_execute         #because this procedure need run with system command , we need to use a file system to communicate
   begin
     @checked_ip = params[:checked_ips].delete_if{|x| x==" "}    #获取一个数组保存被选取到的IPs
