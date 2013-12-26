@@ -14,7 +14,7 @@ After do
   # Be sure to close the browser if it's still open
   if $browser
  #   $browser.each do |browser|
-  $browser = nil
+  $browser.quit
  # end
   end
   if $threads
@@ -26,7 +26,7 @@ at_exit do
   # Be sure to close the browser if it's still open
   if $browser
 
-    $browser.quit
+    $browser.close
     #browser = nil
                                                #one feature ends
   end
