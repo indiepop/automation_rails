@@ -17,7 +17,8 @@ class FeaturesController < ApplicationController
   # GET /features/1.json
   def show
     @feature = Feature.find(params[:id])
-
+   # @content = File.readlines(@feature.name).each {|line| line.rstrip!<<'<br/>'}
+    @content= File.read(@feature.name)
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @feature }

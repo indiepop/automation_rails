@@ -29,5 +29,10 @@
   <%= @feature.tags.map(&:name).join(",")%>
 </p>
 
+<p>
+  <b>Feature Content (readonly):</b><br/><br/><br/>
+  <%=text_area_tag :content,@content ,:size => '100x25',:disabled => true %>
+</p>
+
 <%= link_to 'Edit', edit_feature_path(@feature) %> |
 <%= link_to 'Back', features_path %>
