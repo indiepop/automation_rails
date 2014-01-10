@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130718040341) do
+ActiveRecord::Schema.define(:version => 20140110021849) do
 
   create_table "authors", :force => true do |t|
     t.integer "author_id"
@@ -77,6 +77,14 @@ ActiveRecord::Schema.define(:version => 20130718040341) do
     t.string  "author"
     t.integer "tps"
     t.string  "desc"
+  end
+
+  create_table "snmps", :force => true do |t|
+    t.text     "simulated_ip"
+    t.text     "name"
+    t.text     "description"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "sorts", :force => true do |t|

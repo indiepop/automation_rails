@@ -1,10 +1,14 @@
 
 AutomationRails::Application.routes.draw do
 
-  get "snmps/index" => "snmps#index", :via => "get"
-  get "snmps/walk"
 
 
+  resources :snmps  do
+    member do
+      get :csv
+      post :upload
+    end
+  end
 
   resources :roadrunners  do
     member do

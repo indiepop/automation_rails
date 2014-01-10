@@ -109,7 +109,9 @@ rails g scaffold machine name:text ip:text credential:text machine_type:integer 
 rails g model machine_type name
 
 rails g scaffold roadrunner name:text script:text description:text remark:text
-rails g controller snmp index
+rails distroy controller snmps index
+
+rails g scaffold snmp simulated_ip:text name:text description:text
 ...
 
 

@@ -1,38 +1,28 @@
-<h1>Please Choose your option:</h1>
+<h1>Listing Simulators</h1>
 
+<table>
+  <tr>
+    <th>Simulated_IP</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3>Get From Exiting device</h3>
-<%= form_tag '/snmps/walk', :method => :get do  %>
-    IP:
-    <br>
-    <%= select_tag @execute_ip, options_from_collection_for_select(@machines, "ip", "ip"), :prompt => "Select an IP please.." %>
-    <br>
-    <br>
-    Community String:
-    <br>
-    <%= text_field_tag :community , 'public'%>
-    <br>
-    <br>
-    <%= submit_tag "Submit"  %>
+<% @snmps.each do |snmp| %>
+  <tr>
+    <td><%= snmp.simulated_ip %></td>
+    <td><%= snmp.name %></td>
+    <td><%= snmp.description %></td>
+    <td><%= link_to 'Show', snmp %></td>
+    <td><%#= link_to 'Edit', edit_snmp_path(snmp) %></td>
+    <td><%= link_to 'Destroy', snmp, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Import a CVS file to simulate',csv_snmp_path(snmp)%></td>
+  </tr>
 <% end %>
+</table>
 
+<br />
 
-
+<%= link_to 'New Simulator', new_snmp_path %>
