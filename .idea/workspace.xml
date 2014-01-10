@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00105dfe-1df5-456a-aaa5-fb422dd701bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/snmps/csv.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/development_server.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/snmps/upload.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/snmps/walk.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/automation_rails.iml" afterPath="$PROJECT_DIR$/.idea/automation_rails.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/snmps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/snmps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/operation" afterPath="$PROJECT_DIR$/doc/operation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/snmps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/testss.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/testss.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
@@ -93,7 +80,16 @@
       <file leaf-file-name="snmps_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="30" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.6969697" vertical-offset="1620" max-vertical-offset="2718">
+            <state line="118" column="66" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.8857645" vertical-offset="1620" max-vertical-offset="2772">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.2/lib/rails/generators/base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="282" column="17" selection-start="10280" selection-end="10280" vertical-scroll-proportion="0.0" vertical-offset="4563" max-vertical-offset="6876">
               <folding />
             </state>
           </provider>
@@ -563,13 +559,18 @@
       <created>1389261352017</created>
       <updated>1389261352017</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done :upload works&#10;">
+      <created>1389346411387</created>
+      <updated>1389346411387</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-7" width="1857" height="1087" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -585,7 +586,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -604,7 +604,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="TODO:snmp feature better&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO:snmp feature better&#10;" />
+    <MESSAGE value="Done :upload works&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done :upload works&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/io.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="6" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="6669" max-vertical-offset="37134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
@@ -911,9 +905,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.2/lib/rails/generators/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="17" selection-start="10280" selection-end="10280" vertical-scroll-proportion="0.0" vertical-offset="4563" max-vertical-offset="6876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/io.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="6" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="6669" max-vertical-offset="37134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="30" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.6969697" vertical-offset="1620" max-vertical-offset="2718">
+        <state line="118" column="66" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.8857645" vertical-offset="1620" max-vertical-offset="2772">
           <folding />
         </state>
       </provider>

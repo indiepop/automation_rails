@@ -111,6 +111,9 @@ class SnmpsController < ApplicationController
          @txt << "#{ar[0].delete('"')}|#{parse_tag(ar[2])}|#{ar[1]}\n"
        end
     end
+    rec_file= File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,"#{@uploadfile.original_filename.delete('.csv')}.snmprec"),'w')
+    rec_file.print @txt
+    rec_file.close
 
   end
  private
