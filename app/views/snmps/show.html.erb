@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Simulated ip:</b>
+  <%= @snmp.simulated_ip %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @snmp.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @snmp.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_snmp_path(@snmp) %> |
+<%= link_to 'Back', snmps_path %>

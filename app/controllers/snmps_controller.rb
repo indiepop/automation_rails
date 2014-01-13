@@ -46,7 +46,7 @@ class SnmpsController < ApplicationController
 
     respond_to do |format|
       if @snmp.save
-        format.html { redirect_to @snmp, notice: 'Snmp was successfully created.' }
+        format.html { redirect_to @snmp, notice: 'Simulator was successfully created.' }
         format.json { render json: @snmp, status: :created, location: @snmp }
       else
         format.html { render action: "new" }
@@ -97,7 +97,11 @@ class SnmpsController < ApplicationController
   end
 
   def upload
+     puts `ps -fe|grep snmpsimd|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
+
      @uploadfile = params[:attachment]
+
+
      unless File.directory?(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip))
        FileUtils.mkdir_p(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip))
      end
@@ -105,17 +109,25 @@ class SnmpsController < ApplicationController
         file.write(@uploadfile.read)
       end     #写文件，保存
      @txt = String.new
-    File.open(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,@uploadfile.original_filename)) do |row|
-           row.each_line do |line|
-         ar=line.split('","')
-         @txt << "#{ar[0].delete('"')}|#{parse_tag(ar[2])}|#{ar[1]}\n"
+    fs= File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,@uploadfile.original_filename))
+
+        fs.each_line do |line|
+          if fs.lineno == 1
+          else
+          ar=line.split('","')
+          @txt << "#{ar[0].delete('"')}|#{parse_tag(ar[2])}|#{ar[1]}\n"
+           end
        end
-    end
+
     rec_file= File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,"#{@uploadfile.original_filename.delete('.csv')}.snmprec"),'w')
     rec_file.print @txt
     rec_file.close
 
+    puts `whoami`
+    `echo 1 |sudo -S snmpsimd.py   --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:161 --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
   end
+
+
  private
   def parse_tag(val)
     case val

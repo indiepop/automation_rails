@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Rails automation_rails: development" uuid="9d596611-df3a-4dd1-a0b1-eef862b73546">
+  <data-source source="LOCAL" name="Rails automation_rails: development" uuid="94fc5a73-c60b-47bf-b1c1-39ee60099966">
     <database-info product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -1122,7 +1122,7 @@
       <column name="NAME" sqlType="VARCHAR" length="128" precision="0" nullable="false" jdbcType="12"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails automation_rails: test" uuid="e8086334-eeba-4529-8ef6-70b5ffff55f9">
+  <data-source source="LOCAL" name="Rails automation_rails: test" uuid="fadfb4ff-47f9-4c88-b96c-c9509cdc7544">
     <database-info product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -2244,7 +2244,7 @@
       <column name="NAME" sqlType="VARCHAR" length="128" precision="0" nullable="false" jdbcType="12"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails automation_rails: cucumber" uuid="fdb519e8-9aa3-42b4-a793-7aa499265205">
+  <data-source source="LOCAL" name="Rails automation_rails: cucumber" uuid="8d5800ab-1958-4c54-aefe-a1375d45b9f5">
     <database-info product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -3366,7 +3366,7 @@
       <column name="NAME" sqlType="VARCHAR" length="128" precision="0" nullable="false" jdbcType="12"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails automation_rails: production" uuid="c4822359-1091-44f7-9af8-4bf553734f82">
+  <data-source source="LOCAL" name="Rails automation_rails: production" uuid="0070c57a-c879-4889-9d98-a3d513e99f08">
     <database-info product="MySQL" version="5.5.32-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>

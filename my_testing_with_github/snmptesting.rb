@@ -37,15 +37,21 @@ def parse_tag(val)
   end
 end
 
+  # f = File.new("test.csv")
+  #  f.each {|line| puts "#{f.lineno}: #{line}" }
+
+
 @hellow=String.new
 
-File.open("test.csv")do |row|
-
-  row.each_line do |line|
+  fs= File.new("test.csv")
+  fs.each_line do |line|
+     if fs.lineno ==1
+     else
     ar=line.split('","')
     @hellow << "#{ar[0].delete('"')}|#{parse_tag(ar[2])}|#{ar[1]}\n"
   end
+  end
   puts @hellow
-end
+
 
 

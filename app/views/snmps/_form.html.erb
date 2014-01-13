@@ -1,0 +1,13 @@
+<%= simple_form_for(@snmp) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :simulated_ip,label:"Simulated IP:<br>",:as => :string  %>
+    <%= f.input :name ,label:"Give a Name:<br>",:as => :string%>
+    <%= f.input :description,label:"Description:<br>" %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Create a Simulator" %>
+  </div>
+<% end %>
