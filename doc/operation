@@ -112,6 +112,7 @@ rails g scaffold roadrunner name:text script:text description:text remark:text
 rails distroy controller snmps index
 
 rails g scaffold snmp simulated_ip:text name:text description:text
+rails g migration snmp status:string
 ...
 
 

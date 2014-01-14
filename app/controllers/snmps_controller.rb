@@ -97,14 +97,14 @@ class SnmpsController < ApplicationController
   end
 
   def upload
-     puts `ps -fe|grep snmpsimd|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
+     `ps -fe|grep #{session[:executed_snmp].simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
 
      @uploadfile = params[:attachment]
 
 
      unless File.directory?(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip))
        FileUtils.mkdir_p(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip))
-     end
+     end       #建文件夹
       File.open(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,@uploadfile.original_filename),'w+') do |file|
         file.write(@uploadfile.read)
       end     #写文件，保存
@@ -123,8 +123,24 @@ class SnmpsController < ApplicationController
     rec_file.print @txt
     rec_file.close
 
-    puts `whoami`
+   # puts `whoami`
     `echo 1 |sudo -S snmpsimd.py   --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:161 --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
+
+     puts "I wanna validate"
+     @snmp = Snmp.find(session[:executed_snmp].id)
+     @snmp.status= "on"
+     @snmp.save
+
+  end
+
+  def off
+    @snmp =Snmp.find(params[:id])
+    `ps -fe|grep #{@snmp.simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh`
+    working_path= Rails.root.join('public','uploads',@snmp.simulated_ip)
+    FileUtils.rm_r Dir.glob("#{working_path}/*"),:force =>true
+    @snmp.status='down'
+    @snmp.save
+    redirect_to snmp_path , notice: 'Simulator was successfully turned off.'
   end
 
 
@@ -151,8 +167,14 @@ class SnmpsController < ApplicationController
         68
       when 'Counter64' then
         70
+      when 'OctetString:PhysicalAddress' then
+        '4x'
+      when 'OctetString:UInteger32' then
+        2
+      when 'RFC2578_Unsigned32' then
+        2
       else
-        5
+        4
     end
   end
 

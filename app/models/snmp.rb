@@ -8,6 +8,6 @@ class Snmp < ActiveRecord::Base
 #  def base_part_of(file_name)
  #   File.basename(file_name).gsub(/[^\w._-]/)
  # end
-
+validates_uniqueness_of  :name ,:simulated_ip
 
 end

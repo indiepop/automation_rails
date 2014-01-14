@@ -5,6 +5,7 @@
     <th>Simulated_IP</th>
     <th>Name</th>
     <th>Description</th>
+    <th>Status</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,10 +16,12 @@
     <td><%= snmp.simulated_ip %></td>
     <td><%= snmp.name %></td>
     <td><%= snmp.description %></td>
+    <td><%= snmp.status %></td>
     <td><%= link_to 'Show', snmp %></td>
-    <td><%#= link_to 'Edit', edit_snmp_path(snmp) %></td>
+    <td><%= link_to 'Edit', edit_snmp_path(snmp) %></td>
     <td><%= link_to 'Destroy', snmp, confirm: 'Are you sure?', method: :delete %></td>
     <td><%= link_to 'Import a CVS file to simulate',csv_snmp_path(snmp)%></td>
+    <td><%= button_to 'Turn down',off_snmp_path(snmp),:confirm => 'Turn down the simulator when the status is "on". Are you Sure?'  %></td>
   </tr>
 <% end %>
 </table>

@@ -2,8 +2,14 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
+    <% if action_name == 'create' %>
     <%= f.input :simulated_ip,label:"Simulated IP:<br>",:as => :string  %>
     <%= f.input :name ,label:"Give a Name:<br>",:as => :string%>
+    <% else %>
+        <%= f.input :simulated_ip,label:"Simulated IP:<br>",:as => :string,:disabled =>true  %>
+        <%= f.input :name ,label:"Give a Name:<br>",:as => :string ,:disabled =>true %>
+    <% end %>
+
     <%= f.input :description,label:"Description:<br>" %>
   </div>
 

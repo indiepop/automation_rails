@@ -7,6 +7,7 @@ AutomationRails::Application.routes.draw do
     member do
       get :csv
       post :upload
+      post :off
     end
   end
 
