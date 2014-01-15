@@ -119,12 +119,12 @@ class SnmpsController < ApplicationController
            end
        end
 
-    rec_file= File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,"#{@uploadfile.original_filename.delete('.csv')}.snmprec"),'w')
+    rec_file = File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,'public.snmprec'),'w')
     rec_file.print @txt
     rec_file.close
 
    # puts `whoami`
-    `echo 1 |sudo -S snmpsimd.py   --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:161 --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
+    `echo 1 |sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:161 --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
 
      puts "I wanna validate"
      @snmp = Snmp.find(session[:executed_snmp].id)

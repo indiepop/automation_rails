@@ -4,7 +4,7 @@
 <%= form_tag upload_snmp_path ,:multipart=>true do %>
 
    <%= text_field_tag "please upload you csv file here" %> <br>
-   <%= file_field_tag :attachment %>  <br> <br><br>
+   <%= file_field_tag :attachment,:accept => 'txt/csv' %>  <br> <br><br>
    <%= submit_tag "Turn On!" %>
    <%=link_to "Back" ,snmps_path %>
 

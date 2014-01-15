@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00105dfe-1df5-456a-aaa5-fb422dd701bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140110031528_create_snmps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140114085254_add_status_to_snmp.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/snmps/upload.html" afterPath="$PROJECT_DIR$/app/views/snmps/upload.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/my_testing_with_github/testing1.test" afterPath="$PROJECT_DIR$/my_testing_with_github/testfile.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/snmps/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/snmps/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/automation_rails.iml" afterPath="$PROJECT_DIR$/.idea/automation_rails.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/snmps/csv.html.erb" afterPath="$PROJECT_DIR$/app/views/snmps/csv.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/snmps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/snmps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/operation" afterPath="$PROJECT_DIR$/doc/operation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/snmps/show.html.erb" afterPath="$PROJECT_DIR$/app/views/snmps/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/snmp.rb" afterPath="$PROJECT_DIR$/app/models/snmp.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/snmps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/testss.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/testss.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_testing_with_github/testfile.rb" afterPath="$PROJECT_DIR$/my_testing_with_github/testfile.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
@@ -47,76 +36,88 @@
     <favorites_list name="automation_rails" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/snmps/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="182" selection-end="182" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testfile.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_testing_with_github/testfile.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="61" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snmps_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="35" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-12.5" vertical-offset="2073" max-vertical-offset="3384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="157" selection-end="157" vertical-scroll-proportion="0.087804876" vertical-offset="0" max-vertical-offset="820">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SNMP Walk 2198.snmprec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/uploads/10.30.178.252/SNMP Walk 2198.snmprec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="12" selection-start="737" selection-end="737" vertical-scroll-proportion="-16.56" vertical-offset="0" max-vertical-offset="1187280">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="37" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="576">
-              <folding>
-                <marker date="1389695131269" expanded="true" signature="36:92" placeholder="..." />
-                <marker date="1389695131269" expanded="true" signature="97:137" placeholder="..." />
-                <marker date="1389695131269" expanded="true" signature="142:196" placeholder="..." />
-                <marker date="1389695131269" expanded="true" signature="201:245" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6580743">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="csv.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/snmps/csv.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="43" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="288">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/snmps/index.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="26" selection-start="160" selection-end="160" vertical-scroll-proportion="0.042168673" vertical-offset="141" max-vertical-offset="666">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="form_tag_helper.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="237" column="37" selection-start="12362" selection-end="12405" vertical-scroll-proportion="0.0" vertical-offset="3916" max-vertical-offset="12078">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="68" column="0" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2808">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="upload.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="6" selection-start="149" selection-end="149" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="180">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="snmps_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="117" column="52" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0" vertical-offset="1769" max-vertical-offset="3384">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testfile.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my_testing_with_github/testfile.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="30" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="4" selection-start="138" selection-end="138" vertical-scroll-proportion="0.33582088" vertical-offset="0" max-vertical-offset="576">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -145,20 +146,21 @@
         <option value="$PROJECT_DIR$/app/models/data_file.rb" />
         <option value="$PROJECT_DIR$/my_testing_with_github/test.csv" />
         <option value="$PROJECT_DIR$/my_testing_with_github/snmptesting.rb" />
-        <option value="$PROJECT_DIR$/public/uploads/10.30.178.251/snmp.log" />
-        <option value="$PROJECT_DIR$/app/views/snmps/csv.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140114085254_add_status_to_snmp.rb" />
         <option value="$PROJECT_DIR$/app/views/snmps/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/snmp.rb" />
         <option value="$PROJECT_DIR$/doc/operation" />
-        <option value="$PROJECT_DIR$/app/views/snmps/index.html.erb" />
         <option value="$PROJECT_DIR$/my_testing_with_github/testss.rb" />
-        <option value="$PROJECT_DIR$/my_testing_with_github/testfile.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/snmps/upload.html" />
         <option value="$PROJECT_DIR$/app/views/snmps/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/snmps/upload.html.erb" />
+        <option value="$PROJECT_DIR$/public/uploads/10.30.178.251/snmp.log" />
+        <option value="$PROJECT_DIR$/my_testing_with_github/testfile.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
+        <option value="$PROJECT_DIR$/public/uploads/10.30.178.252/snmp.log" />
+        <option value="$PROJECT_DIR$/app/views/snmps/csv.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/snmps/index.html.erb" />
       </list>
     </option>
   </component>
@@ -243,111 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="10.30.178.252" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="10.30.178.251" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="my_testing_with_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,24 +300,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -758,7 +638,11 @@
       <created>1389609464826</created>
       <updated>1389609464826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TODO:why all the file runs the same?!!&#10;">
+      <created>1389696422531</created>
+      <updated>1389696422531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -783,7 +667,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-7" width="1617" height="1057" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -792,11 +676,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24219248" sideWeight="0.6541275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15933716" sideWeight="0.6541275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34257206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34257206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -842,7 +726,8 @@
     <MESSAGE value="TODO:snmp feature better&#10;" />
     <MESSAGE value="Done :upload works&#10;" />
     <MESSAGE value="Done :Greate update simulation complete ,happy!&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done :Greate update simulation complete ,happy!&#10;" />
+    <MESSAGE value="TODO:why all the file runs the same?!!&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO:why all the file runs the same?!!&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -957,7 +842,9 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="4516" selection-end="4516" vertical-scroll-proportion="0.0" vertical-offset="2281" max-vertical-offset="4860" />
+        <state line="137" column="0" selection-start="4516" selection-end="4516" vertical-scroll-proportion="0.0" vertical-offset="2281" max-vertical-offset="4860">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_testing_with_github/snmptesting.rb">
@@ -988,13 +875,6 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/url_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="227" column="100" selection-start="10610" selection-end="10610" vertical-scroll-proportion="0.0" vertical-offset="3636" max-vertical-offset="12546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/snmps/csv.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="335" selection-end="335" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="288">
           <folding />
         </state>
       </provider>
@@ -1079,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_testing_with_github/testfile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_testing_with_github/testss.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.57454544" vertical-offset="26" max-vertical-offset="576">
@@ -1103,6 +976,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="138" selection-end="138" vertical-scroll-proportion="0.33582088" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_testing_with_github/testfile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2808">
@@ -1110,49 +997,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/snmps/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="182" selection-end="182" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="666">
+        <state line="4" column="6" selection-start="149" selection-end="149" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_view/helpers/form_tag_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="576">
-          <folding>
-            <marker date="1389695131269" expanded="true" signature="36:92" placeholder="..." />
-            <marker date="1389695131269" expanded="true" signature="97:137" placeholder="..." />
-            <marker date="1389695131269" expanded="true" signature="142:196" placeholder="..." />
-            <marker date="1389695131269" expanded="true" signature="201:245" placeholder="..." />
-          </folding>
+        <state line="237" column="37" selection-start="12362" selection-end="12405" vertical-scroll-proportion="0.0" vertical-offset="3916" max-vertical-offset="12078">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="35" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-12.5" vertical-offset="2073" max-vertical-offset="3384">
+        <state line="117" column="52" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0" vertical-offset="1769" max-vertical-offset="3384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/10.30.178.252/SNMP Walk 2198.snmprec">
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/csv.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="737" selection-end="737" vertical-scroll-proportion="-16.56" vertical-offset="0" max-vertical-offset="1187280">
+        <state line="5" column="43" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="288">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/10.30.178.251/3263SNMP Walk.snmprec">
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="724" selection-end="724" vertical-scroll-proportion="0.7360595" vertical-offset="0" max-vertical-offset="20790">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="157" selection-end="157" vertical-scroll-proportion="0.087804876" vertical-offset="0" max-vertical-offset="820">
+        <state line="9" column="26" selection-start="160" selection-end="160" vertical-scroll-proportion="0.042168673" vertical-offset="141" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
