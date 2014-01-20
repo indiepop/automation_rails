@@ -55,8 +55,8 @@ class SnmpsController < ApplicationController
 
     end
 
-    `echo 1|sudo -S ifconfig eth0:#{@snmp.name} down`
-    `echo 1|sudo -S ifconfig eth0:#{@snmp.name} #{@snmp.simulated_ip} netmask 255.255.255.255 up`
+    `echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} down`
+    `echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} #{@snmp.simulated_ip} netmask 255.255.255.255 up`
 
   end
 
@@ -81,7 +81,7 @@ class SnmpsController < ApplicationController
   def destroy
     @snmp = Snmp.find(params[:id])
 
-   system('echo 1|sudo -S ifconfig eth0:#{@snmp.name} down')
+   system('echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} down')
     @snmp.destroy
 
     respond_to do |format|
@@ -119,12 +119,12 @@ class SnmpsController < ApplicationController
            end
        end
 
-    rec_file = File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,'public.snmprec'),'w')
+    rec_file = File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,"#{params[:community]}.snmprec"),'w')
     rec_file.print @txt
     rec_file.close
 
    # puts `whoami`
-    `echo 1 |sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:161 --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
+    `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
 
      puts "I wanna validate"
      @snmp = Snmp.find(session[:executed_snmp].id)

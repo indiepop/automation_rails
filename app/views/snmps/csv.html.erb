@@ -1,10 +1,15 @@
 <h1>Pleas import a CSV file </h1>
 <b>Simulator IP is : <%= @snmp.simulated_ip %></b>
 
+
 <%= form_tag upload_snmp_path ,:multipart=>true do %>
 
-   <%= text_field_tag "please upload you csv file here" %> <br>
-   <%= file_field_tag :attachment,:accept => 'txt/csv' %>  <br> <br><br>
+  please upload you csv file here :<br> <br>
+   <%= file_field_tag :attachment,:accept => 'txt/csv' %>  <br>   <br>
+   Port: <%= text_field_tag :port ,'161'%>
+   Community: <%= text_field_tag :community, 'public'%>  <br> <br>
+   <br>
+
    <%= submit_tag "Turn On!" %>
    <%=link_to "Back" ,snmps_path %>
 
