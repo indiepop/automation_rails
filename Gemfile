@@ -99,3 +99,4 @@ gem 'snmp'
 #如果你有非 Rails 的 script 需要執行
 # (也就是放在 Gemfile 檔案中的 Gem 所自行提供的執行檔)，使用 bundle exec 可以正確的載入 Bundler 的環境。
 # 例如 bundle exec rspec spec/
+gem 'therubyracer'
