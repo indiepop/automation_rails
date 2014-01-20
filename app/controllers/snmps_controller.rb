@@ -142,6 +142,9 @@ class SnmpsController < ApplicationController
     @snmp.save
     redirect_to snmp_path , notice: 'Simulator was successfully turned off.'
   end
+  def log
+    render :file => "#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log"
+  end
 
 
  private

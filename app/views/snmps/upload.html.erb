@@ -1,5 +1,7 @@
 <h1>Congratulations!</h1>
 <h2>The <%= session[:executed_snmp].simulated_ip %> is enable! </h2>
 <%= link_to "Go back", snmps_path %>  <br><br>
-
+(Not success? See log!)
+<%= link_to "log",log_snmp_path,:target => "_blank" %>
+<br><br>
 <%= raw @txt%>

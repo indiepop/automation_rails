@@ -8,6 +8,7 @@ AutomationRails::Application.routes.draw do
       get :csv
       post :upload
       post :off
+      get :log
     end
   end
 
