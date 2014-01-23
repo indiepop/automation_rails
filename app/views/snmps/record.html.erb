@@ -1,0 +1,15 @@
+<h1>Record a SNMP Agent</h1>
+<h6>Notice: It would take a long time,please wait until the download file begin!</h6>
+
+<%= form_tag :recording_snmps do %>
+    IP: <br>
+    <%= text_field_tag :ip %>   <br> <br>
+    Community: <br>
+    <%= text_field_tag :community, 'public' %><br>
+    <br>
+    <%= submit_tag 'Get Record'%>
+    <br>
+    <br>
+
+<% end%>
+<%= link_to "back",:back%>

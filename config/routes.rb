@@ -9,6 +9,12 @@ AutomationRails::Application.routes.draw do
       post :upload
       post :off
       get :log
+      get :rec
+      post :upload_rec
+    end
+    collection do
+      get :record
+      post :recording
     end
   end
 

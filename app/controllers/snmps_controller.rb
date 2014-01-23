@@ -146,6 +146,28 @@ class SnmpsController < ApplicationController
     render :file => "#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log"
   end
 
+  def record
+
+  end
+
+  def recording
+     `snmprec.py --agent-udpv4-endpoint=#{params[:ip]} --community=#{params[:community]} --output-file="./tmp/#{params[:ip]}.snmprec"`
+     send_file "./tmp/#{params[:ip]}.snmprec",:file_name=>"#{params[:ip]}.snmprec",:disposition => "attachment"
+     File.delete "./tmp/#{params[:ip]}.snmprec"
+  end
+
+  def rec
+    @snmp =Snmp.find(params[:id])
+    session[:executed_snmp]||= Snmp.new      #为今后生成报告，产生Session
+    session[:executed_snmp] = @snmp
+  end
+
+  def upload_rec
+    `ps -fe|grep #{session[:executed_snmp].simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
+    @uploadfile = params[:attachment]
+   #TODO `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
+  end
+
 
  private
   def parse_tag(val)

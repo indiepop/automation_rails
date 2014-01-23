@@ -21,6 +21,7 @@
     <td><%#= link_to 'Edit', edit_snmp_path(snmp) %></td>
     <td><%= link_to 'Destroy', snmp, confirm: 'Are you sure?', method: :delete %></td>
     <td><%= link_to 'Import a CSV file to simulate',csv_snmp_path(snmp)%></td>
+    <td><%= link_to 'Import a SNMPREC file to simulate',rec_snmp_path(snmp)%></td>
     <td><%= button_to 'Turn down',off_snmp_path(snmp),:confirm => 'Turn down the simulator when the status is "on". Are you Sure?'  %></td>
   </tr>
 <% end %>
@@ -29,3 +30,5 @@
 <br />
 
 <%= link_to 'New Simulator', new_snmp_path %>
+<br><br>
+<%= link_to 'Record a device', record_snmps_path %>

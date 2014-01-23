@@ -1,0 +1,16 @@
+<h1>Pleas import a SNMPREC file </h1>
+<b>Simulator IP is : <%= @snmp.simulated_ip %></b>
+
+
+<%= form_tag upload_rec_snmp_path ,:multipart=>true do %>
+
+please upload you SNMPREC file here :<br> <br>
+<%= file_field_tag :attachment,:accept => 'txt/snmprec' %>  <br>   <br>
+Port: <%= text_field_tag :port ,'161'%>
+Community: <%= text_field_tag :community, 'public'%>  <br> <br>
+<br>
+
+<%= submit_tag "Turn On!" %>
+<%=link_to "Back" ,snmps_path %>
+
+<% end %>
