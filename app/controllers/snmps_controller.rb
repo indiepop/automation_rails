@@ -159,7 +159,7 @@ class SnmpsController < ApplicationController
       when 'ObjectIdentifier' then
         6
       when 'IPAddress' then
-        64
+        '64x'
       when 'Counter32' then
         65
       when 'Gauge32' then
@@ -171,11 +171,11 @@ class SnmpsController < ApplicationController
       when 'Counter64' then
         70
       when 'OctetString:PhysicalAddress' then
-        '4x'
+        4
       when 'OctetString:UInteger32' then
-        2
+        5
       when 'RFC2578_Unsigned32' then
-        2
+        66
       else
         4
     end
