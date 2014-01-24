@@ -83,6 +83,7 @@ class SnmpsController < ApplicationController
 
    system('echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} down')
     @snmp.destroy
+    FileUtils.rm_r Dir.glob("#{Rails.root.join('public','uploads',@snmp.simulated_ip)}/*"),:force =>true
 
     respond_to do |format|
       format.html { redirect_to snmps_url }
@@ -100,16 +101,16 @@ class SnmpsController < ApplicationController
      `ps -fe|grep #{session[:executed_snmp].simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
 
      @uploadfile = params[:attachment]
+     working_path = Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)
 
-
-     unless File.directory?(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip))
-       FileUtils.mkdir_p(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip))
+     unless File.directory?(working_path)
+       FileUtils.mkdir_p(working_path)
      end       #建文件夹
-      File.open(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,@uploadfile.original_filename),'w+') do |file|
+      File.open("#{working_path}/#{@uploadfile.original_filename}",'w+') do |file|
         file.write(@uploadfile.read)
       end     #写文件，保存
      @txt = String.new
-    fs= File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,@uploadfile.original_filename))
+    fs= File.new("#{working_path}/#{@uploadfile.original_filename}")
 
         fs.each_line do |line|
           if fs.lineno == 1
@@ -119,12 +120,12 @@ class SnmpsController < ApplicationController
            end
        end
 
-    rec_file = File.new(Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip,"#{params[:community]}.snmprec"),'w')
+    rec_file = File.new("#{working_path}/#{params[:community]}.snmprec",'w')
     rec_file.print @txt
     rec_file.close
 
    # puts `whoami`
-    `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
+    `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{working_path} --process-user=josh --process-group=root >#{working_path}/snmp.log 2>&1 &`
 
      puts "I wanna validate"
      @snmp = Snmp.find(session[:executed_snmp].id)
@@ -165,7 +166,19 @@ class SnmpsController < ApplicationController
   def upload_rec
     `ps -fe|grep #{session[:executed_snmp].simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
     @uploadfile = params[:attachment]
-   #TODO `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)} --process-user=josh --process-group=root >#{Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)}/snmp.log 2>&1 &`
+    working_path= Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)
+    unless File.directory?(working_path)
+      FileUtils.mkdir_p(working_path)
+    end       #建文件夹
+    File.open("#{working_path}/#{params[:community]}.snmprec",'w+') do |file|
+      file.write(@uploadfile.read)
+    end
+
+     `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{working_path} --process-user=josh --process-group=root >#{working_path}/snmp.log 2>&1 &`
+    @snmp = Snmp.find(session[:executed_snmp].id)
+    @snmp.status= "on"
+    @snmp.save
+
   end
 
 
