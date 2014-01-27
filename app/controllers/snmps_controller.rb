@@ -54,10 +54,13 @@ class SnmpsController < ApplicationController
       end
 
     end
-
+    begin
     `echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} down`
     `echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} #{@snmp.simulated_ip} netmask 255.255.255.255 up`
+    rescue Exception
+     puts "interface creating error"
 
+    end
   end
 
   # PUT /snmps/1
@@ -80,11 +83,15 @@ class SnmpsController < ApplicationController
   # DELETE /snmps/1.json
   def destroy
     @snmp = Snmp.find(params[:id])
+    begin
+    system('echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} down')
 
-   system('echo 123456789|sudo -S ifconfig eth0:#{@snmp.name} down')
-    @snmp.destroy
-    FileUtils.rm_r Dir.glob("#{Rails.root.join('public','uploads',@snmp.simulated_ip)}/*"),:force =>true
-
+    rescue Exception
+    puts "deleting error"
+    ensure
+      @snmp.destroy
+      FileUtils.rm_r Dir.glob("#{Rails.root.join('public','uploads',@snmp.simulated_ip)}/*"),:force =>true
+    end
     respond_to do |format|
       format.html { redirect_to snmps_url }
       format.json { head :no_content }
@@ -98,7 +105,7 @@ class SnmpsController < ApplicationController
   end
 
   def upload
-     `ps -fe|grep #{session[:executed_snmp].simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill
+     `ps -fe|grep #{session[:executed_snmp].simulated_ip}|grep -v grep|awk '{print "kill -9 ",$2}'|sh` #make sure kill the process
 
      @uploadfile = params[:attachment]
      working_path = Rails.root.join('public','uploads',session[:executed_snmp].simulated_ip)
@@ -109,6 +116,7 @@ class SnmpsController < ApplicationController
       File.open("#{working_path}/#{@uploadfile.original_filename}",'w+') do |file|
         file.write(@uploadfile.read)
       end     #写文件，保存
+     begin
      @txt = String.new
     fs= File.new("#{working_path}/#{@uploadfile.original_filename}")
 
@@ -119,18 +127,21 @@ class SnmpsController < ApplicationController
           @txt << "#{ar[0].delete('"')}|#{parse_tag(ar[2])}|#{ar[1]}\n"
            end
        end
-
-    rec_file = File.new("#{working_path}/#{params[:community]}.snmprec",'w')
-    rec_file.print @txt
-    rec_file.close
-
-   # puts `whoami`
+     rescue Exception
+       puts "Reading line error!"
+     end
+     begin
+      rec_file = File.new("#{working_path}/#{params[:community]}.snmprec",'w')
+      rec_file.print @txt
+      rec_file.close
+     rescue Exception
+        puts "saving file error!"
+     end
     `echo 123456789|sudo -S snmpsimd.py  --agent-udpv4-endpoint=#{session[:executed_snmp].simulated_ip}:#{params[:port]} --device-dir=#{working_path} --process-user=josh --process-group=root >#{working_path}/snmp.log 2>&1 &`
 
-     puts "I wanna validate"
      @snmp = Snmp.find(session[:executed_snmp].id)
      @snmp.status= "on"
-     @snmp.save
+     @snmp.save          #保存数据库状态
 
   end
 
@@ -159,7 +170,7 @@ class SnmpsController < ApplicationController
 
   def rec
     @snmp =Snmp.find(params[:id])
-    session[:executed_snmp]||= Snmp.new      #为今后生成报告，产生Session
+    session[:executed_snmp]||= Snmp.new
     session[:executed_snmp] = @snmp
   end
 
