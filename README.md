@@ -167,6 +167,6 @@ PS: To use SNMP function , you should also install 'snmpsim':
 >
 > 性能测试： 利用开源框架Roadrunner, 本框架对其进行重构。免费，开源，可操作性强，报告详尽。
 >
-> SNMP 模拟： 现在这个功能牛逼了，用户可以通过导入csv文件或者snmprec文件的方式模拟出一台基于snmp协议到机器，当然用户也可以通过此工具录制任意一台具有snmp协议的物理机器。
+> SNMP 模拟： 现在这个功能牛逼了，用户可以通过导入csv文件或者snmprec文件的方式模拟出一台基于snmp协议的设备，当然用户也可以通过此工具录制任意一台具有snmp协议的物理网络设备。
 >
 
