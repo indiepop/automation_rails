@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00105dfe-1df5-456a-aaa5-fb422dd701bb" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/mutiple_machine_running.jpg" afterPath="$PROJECT_DIR$/app/assets/images/remote_machine_running.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -57,7 +58,7 @@
           <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="167" column="63" selection-start="5842" selection-end="5842" vertical-scroll-proportion="0.76400477" vertical-offset="2365" max-vertical-offset="3204">
+                <state line="49" column="24" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.50655544" vertical-offset="457" max-vertical-offset="3186">
                   <folding />
                 </state>
               </provider>
@@ -838,7 +839,11 @@
       <created>1392277543440</created>
       <updated>1392277543440</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="alter md file adding snmp simulating feature.&#10;">
+      <created>1392277636060</created>
+      <updated>1392277636060</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -930,7 +935,8 @@
     <MESSAGE value="change an color of text" />
     <MESSAGE value="Adding some exceptions&#10;" />
     <MESSAGE value="alter md file adding snmp simulating feature." />
-    <option name="LAST_COMMIT_MESSAGE" value="alter md file adding snmp simulating feature." />
+    <MESSAGE value="alter md file adding snmp simulating feature.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="alter md file adding snmp simulating feature.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1231,7 +1237,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="63" selection-start="5842" selection-end="5842" vertical-scroll-proportion="0.76400477" vertical-offset="2365" max-vertical-offset="3204">
+        <state line="49" column="24" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.50655544" vertical-offset="457" max-vertical-offset="3186">
           <folding />
         </state>
       </provider>

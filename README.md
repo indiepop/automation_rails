@@ -44,15 +44,14 @@ PS: To use SNMP function , you should also install 'snmpsim':
 >Running by cucumber tags.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/machine_management.jpg)
 >Machine management if you need to run remotely.
-![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/mutiple_machine_running.jpg)
->Multiple machine running settings.
+![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/remote_machine_running.jpg)
+>Remote machine running settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_execution.jpg)
 >RoadRunner scenario settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg)
 >RoadRunner Report.
->SNMP Demo(To simulate a device or create a record by snmp).
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/snmp.jpg)
->SNMP Report.
+>SNMP Demo(To simulate a device or create a record by snmp)
 
 
 >### Debugging Rails
