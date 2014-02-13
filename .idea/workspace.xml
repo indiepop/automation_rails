@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00105dfe-1df5-456a-aaa5-fb422dd701bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/snmps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/snmp.jpg" afterPath="$PROJECT_DIR$/app/assets/images/snmp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automation_rails.iws" />
@@ -15,9 +16,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/automation_rails@testss.coverage" NAME="testss Coverage Results" MODIFIED="1389692404861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_testing_with_github" MODULE_NAME="automation_rails" />
     <SUITE FILE_PATH="coverage/automation_rails@snmptesting.coverage" NAME="snmptesting Coverage Results" MODIFIED="1389585301799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_testing_with_github" />
-    <SUITE FILE_PATH="coverage/automation_rails@development_server.coverage" NAME="development server Coverage Results" MODIFIED="1390704153335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation_rails" />
+    <SUITE FILE_PATH="coverage/automation_rails@testss.coverage" NAME="testss Coverage Results" MODIFIED="1389692404861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_testing_with_github" MODULE_NAME="automation_rails" />
+    <SUITE FILE_PATH="coverage/automation_rails@development_server.coverage" NAME="development server Coverage Results" MODIFIED="1392258297179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation_rails" />
     <SUITE FILE_PATH="coverage/automation_rails@IRB_console__automation_rails.coverage" NAME="IRB console: automation_rails Coverage Results" MODIFIED="1389693819323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation_rails" />
     <SUITE FILE_PATH="coverage/automation_rails@testfile.coverage" NAME="testfile Coverage Results" MODIFIED="1389693643613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_testing_with_github" MODULE_NAME="automation_rails" />
     <SUITE FILE_PATH="coverage/automation_rails@db_migrate__automation_rails.coverage" NAME="db:migrate: automation_rails Coverage Results" MODIFIED="1389320988145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -45,10 +46,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="snmps_controller.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="snmps_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="231" column="61" selection-start="6377" selection-end="6377" vertical-scroll-proportion="0.8101933" vertical-offset="3697" max-vertical-offset="4266">
+                <state line="15" column="21" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="4266">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="33" column="23" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.7079857" vertical-offset="0" max-vertical-offset="3204">
                   <folding />
                 </state>
               </provider>
@@ -57,7 +67,7 @@
           <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/database.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="28" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="900">
+                <state line="41" column="17" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="900">
                   <folding />
                 </state>
               </provider>
@@ -75,16 +85,7 @@
           <file leaf-file-name="rec.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/snmps/rec.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="39" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="data_streaming.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.2/lib/action_controller/metal/data_streaming.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="16" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.0" vertical-offset="991" max-vertical-offset="2934">
+                <state line="15" column="9" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
                   <folding />
                 </state>
               </provider>
@@ -93,7 +94,7 @@
           <file leaf-file-name="record.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/snmps/record.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="360">
+                <state line="7" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="360">
                   <folding />
                 </state>
               </provider>
@@ -102,7 +103,7 @@
           <file leaf-file-name="machine.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/features/machine.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
                   <folding />
                 </state>
               </provider>
@@ -111,7 +112,7 @@
           <file leaf-file-name="machines_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/machines_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="54" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
+                <state line="24" column="26" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1728">
                   <folding />
                 </state>
               </provider>
@@ -120,7 +121,7 @@
           <file leaf-file-name="features_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="124" column="66" selection-start="4197" selection-end="4197" vertical-scroll-proportion="0.0" vertical-offset="1677" max-vertical-offset="3132">
+                <state line="124" column="0" selection-start="4197" selection-end="4197" vertical-scroll-proportion="0.0" vertical-offset="1677" max-vertical-offset="3132">
                   <folding />
                 </state>
               </provider>
@@ -133,7 +134,7 @@
           <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="21" selection-start="241" selection-end="241" vertical-scroll-proportion="0.5873016" vertical-offset="9" max-vertical-offset="576">
+                <state line="19" column="21" selection-start="241" selection-end="241" vertical-scroll-proportion="0.40860215" vertical-offset="0" max-vertical-offset="837">
                   <folding />
                 </state>
               </provider>
@@ -155,7 +156,7 @@
           <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="30" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2934">
+                <state line="15" column="17" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2934">
                   <folding />
                 </state>
               </provider>
@@ -214,6 +215,7 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/snmps/record.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/snmps_controller.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -256,6 +258,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -415,9 +418,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -789,7 +831,11 @@
       <created>1390704210731</created>
       <updated>1390704210731</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding some exceptions&#10;">
+      <created>1390813482762</created>
+      <updated>1390813482762</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -816,25 +862,25 @@
     <frame x="64" y="-7" width="1857" height="1087" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32815966" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5354077" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23991156" sideWeight="0.6541275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15754561" sideWeight="0.6541275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28969958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2886266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5354077" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -853,9 +899,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23438364" sideWeight="0.6541275" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.54077256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.54077256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -879,7 +925,8 @@
     <MESSAGE value="Finish SNMP recording, need snmpsim by rec.&#10;" />
     <MESSAGE value="mend some var value, add the fuction of snmprec simd&#10;" />
     <MESSAGE value="change an color of text" />
-    <option name="LAST_COMMIT_MESSAGE" value="change an color of text" />
+    <MESSAGE value="Adding some exceptions&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some exceptions&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,11 +934,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="63" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="144" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.2/lib/rails/generators/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="282" column="17" selection-start="10280" selection-end="10280" vertical-scroll-proportion="0.0" vertical-offset="5076" max-vertical-offset="6876" />
@@ -1092,9 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/snmps/upload.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="244" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="216">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="244" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="216" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/uploads/10.30.178.250/snmp.log">
@@ -1112,7 +1152,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+        <state line="41" column="17" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
@@ -1124,7 +1164,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/snmps/rec.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+        <state line="15" column="9" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
@@ -1138,35 +1178,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/snmps/record.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="360">
+        <state line="7" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2934">
+        <state line="15" column="17" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2934">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/machines_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="241" selection-end="241" vertical-scroll-proportion="0.5873016" vertical-offset="9" max-vertical-offset="576">
+        <state line="24" column="26" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1728">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/features_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="66" selection-start="4197" selection-end="4197" vertical-scroll-proportion="0.0" vertical-offset="1677" max-vertical-offset="3132">
+        <state line="124" column="0" selection-start="4197" selection-end="4197" vertical-scroll-proportion="0.0" vertical-offset="1677" max-vertical-offset="3132">
           <folding />
         </state>
       </provider>
@@ -1178,9 +1211,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/snmps/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="241" selection-end="241" vertical-scroll-proportion="0.40860215" vertical-offset="0" max-vertical-offset="837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/snmps_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="61" selection-start="6377" selection-end="6377" vertical-scroll-proportion="0.8101933" vertical-offset="3697" max-vertical-offset="4266">
+        <state line="15" column="21" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="4266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="23" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.7079857" vertical-offset="0" max-vertical-offset="3204">
           <folding />
         </state>
       </provider>

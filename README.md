@@ -17,6 +17,12 @@ In Automation-Rails, you can do both web-automation testing and performance test
 6. rake db:seed
 7. rails server
 
+PS: To use SNMP function , you should also install 'snmpsim':
+
+1. python -V (install python)
+2. sudo apt-get install python-setuptools
+3. sudo easy_install snmpsim
+
 
 >### Introduction
 
@@ -26,7 +32,7 @@ In Automation-Rails, you can do both web-automation testing and performance test
 >
 > Performance testing: using an open-source Roadrunner module to do load test, which is integrated, and has great performance report.
 >
->SNMP Walk: This is just a demo snmp function to get basic information.You can use SNMP to monitor the device.
+> SNMP Simulating: with snmp simulator , users can simulate a new device with snmp.
 >
 >### Screenshot
 
@@ -44,7 +50,7 @@ In Automation-Rails, you can do both web-automation testing and performance test
 >RoadRunner scenario settings.
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/roadrunner_report.jpg)
 >RoadRunner Report.
->SNMP Demo.
+>SNMP Demo(To simulate a device or create a record by snmp).
 ![Josh](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/snmp.jpg)
 >SNMP Report.
 
@@ -145,6 +151,13 @@ Rails 是一个web框架，相当牛逼。
 6. rake db:seed                                （加载原始数据）
 7. rails server                              （启动）
 
+PS: To use SNMP function , you should also install 'snmpsim':
+
+1. python -V (install python)
+2. sudo apt-get install python-setuptools
+3. sudo easy_install snmpsim
+
+
 
 >### 介绍
 
@@ -154,6 +167,6 @@ Rails 是一个web框架，相当牛逼。
 >
 > 性能测试： 利用开源框架Roadrunner, 本框架对其进行重构。免费，开源，可操作性强，报告详尽。
 >
-> SNMP 监控： 通过SNMP协议，拉取设备的基本数据，这仅仅是个demo，因为SNMP Mib对厂商到支持实在是凌乱了，所以以后要扩展的话，需要跟据需求进行开发，这里只是证明SNMP完全能被此框架胜任。
+> SNMP 模拟： 现在这个功能牛逼了，用户可以通过导入csv文件或者snmprec文件的方式模拟出一台基于snmp协议到机器，当然用户也可以通过此工具录制任意一台具有snmp协议的物理机器。
 >
 
