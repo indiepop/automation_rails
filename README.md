@@ -35,7 +35,7 @@ PS: To use SNMP function , you should also install 'snmpsim':
 > SNMP Simulating: with snmp simulator , users can simulate a new device with snmp.
 >
 >### Cucumber Summary
-![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/main_page.jpg)
+![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/cucumber.jpg)
 >This is the construction of Cucumber.
 
 >### Screenshot
