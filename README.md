@@ -3,8 +3,8 @@
 Rails is a web-application framework that includes everything needed to create
 database-backed web applications according to the Model-View-Control pattern.
 
-Automation-Rails integrated rails + mysql + selenium-webdriver + cucumber + roadrunner.
-In Automation-Rails, you can do both web-automation testing and performance testing.
+Automation-Rails integrated rails + mysql + selenium-webdriver + cucumber + roadrunner + SNMPSIM.
+In Automation-Rails, you can do both web-automation testing , performance testing and SNMP simulation .
 
 
 >### Getting Started
@@ -36,6 +36,7 @@ PS: To use SNMP function , you should also install 'snmpsim':
 >
 >### Cucumber Summary
 ![Main](https://raw.github.com/indiepop/automation_rails/master/app/assets/images/cucumber.jpg)
+>
 >This is the construction of Cucumber.
 
 >### Screenshot
@@ -67,8 +68,8 @@ PS: To use SNMP function , you should also install 'snmpsim':
 
 Rails 是一个web框架，相当牛逼。
 
-我们的 Automation-Rails 集成了 rails + mysql + selenium-webdriver + cucumber + roadrunner 这些组件。
-通过此框架，你可以轻松进行web自动化和性能测试。
+我们的 Automation-Rails 集成了 rails + mysql + selenium-webdriver + cucumber + roadrunner +snmpsim 这些组件。
+通过此框架，你可以轻松进行web自动化,性能测试和SNMP设备模拟。
 
 
 
