@@ -9,9 +9,10 @@ In Automation-Rails, you can do both web-automation testing , performance testin
 
 >### Getting Started
 
-1. install mysql server
-2. git clone https://github.com/indiepop/automation_rails.git
-3. bundle install
+
+1. git clone https://github.com/indiepop/automation_rails.git
+2. sudo apt-get install bundler mysql-server rake
+3. bundle update/bundle install 
 4. edit your own config/database.yml
 5. rake db:migrate
 6. rake db:seed

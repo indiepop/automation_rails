@@ -6,8 +6,8 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # 不指定版本则会使用最新版
-gem 'mysql2'
-
+gem 'mysql2','0.3.20'
+#gem 'activerecord-mysql2-adapter'
 
 # Gems used only for assets and not required
 # in production environments by default.
