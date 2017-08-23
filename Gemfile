@@ -5,7 +5,7 @@ gem 'rails', '3.2.2'
 # Bundle edge Rails instead:    可以用 Git 當做來源(根目錄要有 .gemspec 檔案)，甚至可以指定 branch, tag 或 ref。
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# 不指定版本则会使用最新版
+# 不指定版本则会使用最新版, 必须使用0.3.20版本，不然升级会带来问题，毕竟此应用支持的是rails3.2.2
 gem 'mysql2','0.3.20'
 #gem 'activerecord-mysql2-adapter'
 

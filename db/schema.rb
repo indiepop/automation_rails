@@ -52,15 +52,6 @@ ActiveRecord::Schema.define(:version => 20140114085254) do
     t.datetime "updated_at",   :null => false
   end
 
-  create_table "records", :force => true do |t|
-    t.string  "cost",           :limit => 32
-    t.string  "ts",             :limit => 32
-    t.integer "seq"
-    t.integer "stats"
-    t.string  "transaction_id", :limit => 256
-    t.string  "create_at",      :limit => 32
-  end
-
   create_table "roadrunners", :force => true do |t|
     t.text     "name"
     t.text     "script"
@@ -70,18 +61,9 @@ ActiveRecord::Schema.define(:version => 20140114085254) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "scenarios", :force => true do |t|
-    t.string  "name"
-    t.string  "create_at"
-    t.string  "script"
-    t.string  "author"
-    t.integer "tps"
-    t.string  "desc"
-  end
-
   create_table "snmps", :force => true do |t|
-    t.text     "simulated_ip"
-    t.text     "name"
+    t.string   "simulated_ip"
+    t.string   "name"
     t.text     "description"
     t.datetime "created_at",                      :null => false
     t.datetime "updated_at",                      :null => false
@@ -98,13 +80,6 @@ ActiveRecord::Schema.define(:version => 20140114085254) do
     t.text     "remark"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "transactions", :force => true do |t|
-    t.string "name",         :limit => 256
-    t.string "scenario_id",  :limit => 256
-    t.string "success_rate", :limit => 8
-    t.string "create_at",    :limit => 32
   end
 
 end
